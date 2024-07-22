@@ -1,0 +1,3414 @@
+
+                     Version 2023.03.18
+                                                                     
+@@@@@@@  @@@@@@@     @@@  @@@  @@@   @@@@@@   @@@  @@@  @@@@@@@@     
+@@@@@@@  @@@@@@@     @@@  @@@  @@@  @@@@@@@@  @@@  @@@  @@@@@@@@     
+  @@!    !@@         @@!  @@!  @@!  @@!  @@@  @@!  @@@  @@!          
+  !@!    !@!         !@!  !@!  !@!  !@!  @!@  !@!  @!@  !@!          
+  @!!    !!@@!!      @!!  !!@  @!@  @!@!@!@!  @!@  !@!  @!!!:!       
+  !!!    @!!@!!!     !@!  !!!  !@!  !!!@!!!!  !@!  !!!  !!!!!:       
+  !!:        !:!     !!:  !!:  !!:  !!:  !!!  :!:  !!:  !!:          
+  :!:        !:!     :!:  :!:  :!:  :!:  !:!   ::!!:!   :!:          
+   ::    :::: ::      :::: :: :::   ::   :::    ::::     :: ::::     
+   :     :: : :        :: :  : :     :   : :     :      : :: ::      
+                                                                     
+                                                                     
+@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@   @@@@@@@  @@@@@@@   @@@@@@   
+@@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@@  @@@@@@@  @@@@@@@   
+@@!       @@!       @@!       @@!       !@@         @@!    !@@       
+!@!       !@!       !@!       !@!       !@!         !@!    !@!       
+@!!!:!    @!!!:!    @!!!:!    @!!!:!    !@!         @!!    !!@@!!    
+!!!!!:    !!!!!:    !!!!!:    !!!!!:    !!!         !!!     !!@!!!   
+!!:       !!:       !!:       !!:       :!!         !!:         !:!  
+:!:       :!:       :!:       :!:       :!:         :!:        !:!   
+ :: ::::   ::        ::        :: ::::   ::: :::     ::    :::: ::   
+: :: ::    :         :        : :: ::    :: :: :     :     :: : :    
+                                                                     
+   This script models the destruction caused by the Wave.
+
+Sector	SS	Hex	Name	UWP	Bases	Remarks	Zone	PBG	Allegiance	Stars	{Ix}	(Ex)	[Cx]	Nobility	W	RU
+Input     0108	New Ramma	D565504-6	S	Ag Ni Pr	A	703	Wild	G6 V K6 V M6 V	{ -2 }	(742-5)	[1311]	BcC	8	-280
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0108	New Ramma	D565000-0	S	Ag Ni Pr Da 	-	003	Wild	G6 V K6 V M6 V	{ -2 }	(200-3)	[1311]	BcC	8	-6
+Wave+100  0108	New Ramma	D565000-0	S	Ag Ni Pr Da 	-	003	Wild	G6 V K6 V M6 V	{ -2 }	(200-3)	[1311]	BcC	8	-6
+Wave+300  0108	New Ramma	D565000-0	S	Ag Ni Pr Da 	-	003	Wild	G6 V K6 V M6 V	{ -2 }	(200-3)	[1311]	BcC	8	-6
+Wave+600  0108	New Ramma	D565000-0	S	Ag Ni Pr Da 	-	003	Wild	G6 V K6 V M6 V	{ -2 }	(200-3)	[1311]	BcC	8	-6
+
+
+Input     0113	Saarinen	B566221-8		Lo RsE	A	513	Wild	K6 V M6 V	{ -1 }	(810-5)	[1114]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   0113	Saarinen	D566000-0		Lo Da RsE	-	013	Wild	K6 V M6 V	{ -3 }	(200+4)	[1114]	B	10	8
+Wave+100  0113	Saarinen	D566000-0		Lo Da RsE	-	013	Wild	K6 V M6 V	{ -3 }	(200+4)	[1114]	B	10	8
+Wave+300  0113	Saarinen	D566000-0		Lo Da RsE	-	013	Wild	K6 V M6 V	{ -3 }	(200+4)	[1114]	B	10	8
+Wave+600  0113	Saarinen	D566000-0		Lo Da RsE	-	013	Wild	K6 V M6 V	{ -3 }	(200+4)	[1114]	B	10	8
+
+
+Input     0123	Rena	D596211-7	S	Lo	A	403	DuMo	G4 V	{ -3 }	(410-5)	[1113]	B	12	0
+DIEBACK:
+Check Lo
+Wave+10   0123	Rena	D596000-0	S	Lo Da 	-	003	DuMo	G4 V	{ -3 }	(200-2)	[1113]	B	12	-4
+Wave+100  0123	Rena	D596000-0	S	Lo Da 	-	003	DuMo	G4 V	{ -3 }	(200-2)	[1113]	B	12	-4
+Wave+300  0123	Rena	D596000-0	S	Lo Da 	-	003	DuMo	G4 V	{ -3 }	(200-2)	[1113]	B	12	-4
+Wave+600  0123	Rena	D596000-0	S	Lo Da 	-	003	DuMo	G4 V	{ -3 }	(200-2)	[1113]	B	12	-4
+
+
+Input     0124	Gulistan	XAB5000-0	 	Fl Lo	A	820	DuMo	K6 III	{ -2 }	(200-5)	[0000]	B	12	0
+Wave+10   0124	Gulistan	XAB5000-0	  	Ba Fl Da 	-	020	DuMo	K6 III	{ -3 }	(200+4)	[0000]	B	12	8
+Wave+100  0124	Gulistan	XAB5000-0	  	Ba Fl Da 	-	020	DuMo	K6 III	{ -3 }	(200+4)	[0000]	B	12	8
+Wave+300  0124	Gulistan	XAB5000-0	  	Ba Fl Da 	-	020	DuMo	K6 III	{ -3 }	(200+4)	[0000]	B	12	8
+Wave+600  0124	Gulistan	XAB5000-0	  	Ba Fl Da 	-	020	DuMo	K6 III	{ -3 }	(200+4)	[0000]	B	12	8
+
+
+Input     0130	Chaosheo	E87A788-5		Wa Pi Pz (Shi'awei)	A	625	Wild	K8 V	{ -2 }	(965-2)	[7555]	BD	10	-540
+Wave+10   0130	Chaosheo	E87A7AA-3	  	Pi Wa Pz (Shi'awei)	-	325	Wild	K8 V	{ -2 }	(260+1)	[7555]	BD	10	12
+Wave+100  0130	Chaosheo	E87A779-4	  	Pi Wa Pz (Shi'awei)	-	425	Wild	K8 V	{ -2 }	(260+4)	[7555]	BD	10	48
+Wave+300  0130	Chaosheo	E87A783-5	  	Pi Wa Pz (Shi'awei)	-	525	Wild	K8 V	{ -2 }	(260-5)	[7555]	BD	10	-60
+Wave+600  0130	Chaosheo	E87A746-6	  	Pi Wa Pz (Shi'awei)	-	625	Wild	K8 V	{ -2 }	(260+5)	[7555]	BD	10	60
+
+
+Input     0138	Iruku	B3104A8-9		Ni	A	501	Wild	F1 V M2 V	{ 0 }	(733+2)	[647B]	B	13	126
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0138	Iruku	D310000-0		Ni Da 	-	001	Wild	F1 V M2 V	{ -3 }	(200-5)	[647B]	B	13	-10
+Wave+100  0138	Iruku	D310000-0		Ni Da 	-	001	Wild	F1 V M2 V	{ -3 }	(200-5)	[647B]	B	13	-10
+Wave+300  0138	Iruku	D310000-0		Ni Da 	-	001	Wild	F1 V M2 V	{ -3 }	(200-5)	[647B]	B	13	-10
+Wave+600  0138	Iruku	D310000-0		Ni Da 	-	001	Wild	F1 V M2 V	{ -3 }	(200-5)	[647B]	B	13	-10
+
+
+Input     0201	Marz	A584958-A	S	Hi Pr (Marzians)	A	101	Wild	G4 V G6 V	{ 3 }	(C8D+1)	[7C38]	BcE	10	1,248
+Wave+10   0201	Marz	A584895-5	S	Hi Pr Pz (Marzians)	-	501	Wild	G4 V G6 V	{ 1 }	(273+1)	[7C38]	BcE	10	42
+Wave+100  0201	Marz	A584854-6	S	Pa Ph Ri Pz (Marzians)	-	601	Wild	G4 V G6 V	{ 1 }	(273+2)	[7C38]	BcE	10	84
+Wave+300  0201	Marz	A584866-7	S	Pa Ph Ri Pz (Marzians)	-	701	Wild	G4 V G6 V	{ 1 }	(273+3)	[7C38]	BcE	10	126
+Wave+600  0201	Marz	A5848B8-8	S	Pa Ph Ri Pz (Marzians)	-	801	Wild	G4 V G6 V	{ 1 }	(373+1)	[7C38]	BcE	10	63
+
+
+Input     0202	Carthage	B31079B-C		Na Pi Pz	A	724	Wild	M2 V	{ 2 }	(F6C+3)	[896D]	BD	13	3,240
+Wave+10   0202	Carthage	B310756-B		Na Pi Pz 	-	324	Wild	M2 V	{ 2 }	(864-2)	[896D]	BD	13	-384
+Wave+100  0202	Carthage	B310754-C		Na Pi Pz 	-	424	Wild	M2 V	{ 2 }	(864+2)	[896D]	BD	13	384
+Wave+300  0202	Carthage	B310777-D		Na Pi Pz 	-	524	Wild	M2 V	{ 2 }	(864+1)	[896D]	BD	13	192
+Wave+600  0202	Carthage	B3107AB-E		Na Pi Pz 	-	624	Wild	M2 V	{ 2 }	(864+3)	[896D]	BD	13	576
+
+
+Input     0203	Enaaka	B777768-6		Ag An Pi	A	922	Wild	F5 V	{ 1 }	(968+1)	[6845]	BCD	10	432
+Wave+10   0203	Enaaka	B7777BE-4		Ag Pi Pz An	-	422	Wild	F5 V	{ 1 }	(263+1)	[6845]	BCD	10	36
+Wave+100  0203	Enaaka	B777774-5		Ag Pi Pz An	-	522	Wild	F5 V	{ 1 }	(263+1)	[6845]	BCD	10	36
+Wave+300  0203	Enaaka	B777754-6		Ag Pi Pz An	-	622	Wild	F5 V	{ 1 }	(263+1)	[6845]	BCD	10	36
+Wave+600  0203	Enaaka	B777796-7		Ag Pi Pz An	-	722	Wild	F5 V	{ 1 }	(263+2)	[6845]	BCD	10	72
+
+
+Input     0207	Rubarka	C554511-7	S	Ag Ni	A	701	Wild	K3 V M7 V	{ -1 }	(743-5)	[1413]	BC	12	-420
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0207	Rubarka	D554000-0	S	Ag Ni Da 	-	001	Wild	K3 V M7 V	{ -2 }	(200+2)	[1413]	BC	12	4
+Wave+100  0207	Rubarka	D554000-0	S	Ag Ni Da 	-	001	Wild	K3 V M7 V	{ -2 }	(200+2)	[1413]	BC	12	4
+Wave+300  0207	Rubarka	D554000-0	S	Ag Ni Da 	-	001	Wild	K3 V M7 V	{ -2 }	(200+2)	[1413]	BC	12	4
+Wave+600  0207	Rubarka	D554000-0	S	Ag Ni Da 	-	001	Wild	K3 V M7 V	{ -2 }	(200+2)	[1413]	BC	12	4
+
+
+Input     0208	Tehan	D563163-5	S	Lo	A	802	Wild	M2 V	{ -3 }	(300-4)	[1144]	B	7	0
+DIEBACK:
+Check Lo
+Wave+10   0208	Tehan	D563000-0	S	Lo Da 	-	002	Wild	M2 V	{ -3 }	(200+2)	[1144]	B	7	4
+Wave+100  0208	Tehan	D563000-0	S	Lo Da 	-	002	Wild	M2 V	{ -3 }	(200+2)	[1144]	B	7	4
+Wave+300  0208	Tehan	D563000-0	S	Lo Da 	-	002	Wild	M2 V	{ -3 }	(200+2)	[1144]	B	7	4
+Wave+600  0208	Tehan	D563000-0	S	Lo Da 	-	002	Wild	M2 V	{ -3 }	(200+2)	[1144]	B	7	4
+
+
+Input     0209	Kretika	B2005B7-C		Ni Va	A	623	Wild	K2 V	{ 1 }	(C45+3)	[767E]	B	8	720
+Check Ni
+Wave+10   0209	Kretika	D200000-0		Ni Va Da 	-	023	Wild	K2 V	{ -3 }	(200-3)	[767E]	B	8	-6
+Wave+100  0209	Kretika	D200000-0		Ni Va Da 	-	023	Wild	K2 V	{ -3 }	(200-3)	[767E]	B	8	-6
+Wave+300  0209	Kretika	D200000-0		Ni Va Da 	-	023	Wild	K2 V	{ -3 }	(200-3)	[767E]	B	8	-6
+Wave+600  0209	Kretika	D200000-0		Ni Va Da 	-	023	Wild	K2 V	{ -3 }	(200-3)	[767E]	B	8	-6
+
+
+Input     0211	Swift	D9548A8-6	S	Pa Ph	A	304	Wild	K6 V	{ -2 }	(A75+1)	[A678]	Bce	7	350
+Wave+10   0211	Swift	D95489B-4	S	Pa Ph Pz 	-	104	Wild	K6 V	{ -2 }	(270-3)	[A678]	Bce	7	-42
+Wave+100  0211	Swift	D954865-5	S	Pa Ph Pz 	-	204	Wild	K6 V	{ -2 }	(270-1)	[A678]	Bce	7	-14
+Wave+300  0211	Swift	D954876-6	S	Pa Ph Pz 	-	304	Wild	K6 V	{ -2 }	(270-1)	[A678]	Bce	7	-14
+Wave+600  0211	Swift	D95489B-7	S	Pa Ph Pz 	-	404	Wild	K6 V	{ -2 }	(270+3)	[A678]	Bce	7	42
+
+
+Input     0214	Musayid	E5448EA-5		Pa Ph Pi Pz	A	514	Wild	K5 V	{ -2 }	(A75+2)	[C699]	BcDe	18	700
+Wave+10   0214	Musayid	E5448CG-3	  	Pa Ph Pi Pz 	-	214	Wild	K5 V	{ -2 }	(270+2)	[C699]	BcDe	18	28
+Wave+100  0214	Musayid	E5448B9-4	  	Pa Ph Pi Pz 	-	314	Wild	K5 V	{ -2 }	(270-1)	[C699]	BcDe	18	-14
+Wave+300  0214	Musayid	E54487A-5	  	Pa Ph Pi Pz 	-	414	Wild	K5 V	{ -2 }	(270+3)	[C699]	BcDe	18	42
+Wave+600  0214	Musayid	E5448B8-6	  	Pa Ph Pi Pz 	-	514	Wild	K5 V	{ -2 }	(270+1)	[C699]	BcDe	18	14
+
+
+Input     0217	Umiikam	DAA6300-8		Fl Lo	A	401	Wild	M0 V M1 V	{ -3 }	(620-5)	[1113]	B	14	0
+DIEBACK:
+Check Lo
+Wave+10   0217	Umiikam	DAA6000-0		Fl Lo Da 	-	001	Wild	M0 V M1 V	{ -3 }	(200-1)	[1113]	B	14	-2
+Wave+100  0217	Umiikam	DAA6000-0		Fl Lo Da 	-	001	Wild	M0 V M1 V	{ -3 }	(200-1)	[1113]	B	14	-2
+Wave+300  0217	Umiikam	DAA6000-0		Fl Lo Da 	-	001	Wild	M0 V M1 V	{ -3 }	(200-1)	[1113]	B	14	-2
+Wave+600  0217	Umiikam	DAA6000-0		Fl Lo Da 	-	001	Wild	M0 V M1 V	{ -3 }	(200-1)	[1113]	B	14	-2
+
+
+Input     0218	Vanzeti	C52A513-C	S	Ni	A	401	Wild	M3 V M7 V	{ 0 }	(844-4)	[1518]	B	14	-512
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0218	Vanzeti	D52A000-0	S	Ni Da 	-	001	Wild	M3 V M7 V	{ -3 }	(200+1)	[1518]	B	14	2
+Wave+100  0218	Vanzeti	D52A000-0	S	Ni Da 	-	001	Wild	M3 V M7 V	{ -3 }	(200+1)	[1518]	B	14	2
+Wave+300  0218	Vanzeti	D52A000-0	S	Ni Da 	-	001	Wild	M3 V M7 V	{ -3 }	(200+1)	[1518]	B	14	2
+Wave+600  0218	Vanzeti	D52A000-0	S	Ni Da 	-	001	Wild	M3 V M7 V	{ -3 }	(200+1)	[1518]	B	14	2
+
+
+Input     0221	Mater Nova	B575744-9		Ag Pi	A	314	DuMo	G8 V M6 V	{ 2 }	(E6B+1)	[5937]	BCD	10	924
+Wave+10   0221	Mater Nova	B57575A-8		Ag Pi Pz 	-	114	DuMo	G8 V M6 V	{ 1 }	(763+1)	[5937]	BCD	10	126
+Wave+100  0221	Mater Nova	B575778-9		Ag Pi Pz 	-	214	DuMo	G8 V M6 V	{ 2 }	(764+5)	[5937]	BCD	10	840
+Wave+300  0221	Mater Nova	B575776-A		Ag Pi Pz 	-	314	DuMo	G8 V M6 V	{ 3 }	(765+1)	[5937]	BCD	10	210
+Wave+600  0221	Mater Nova	B575779-B		Ag Pi Pz 	-	414	DuMo	G8 V M6 V	{ 3 }	(765+5)	[5937]	BCD	10	1050
+
+
+Input     0222	Breslow	X540501-5		De He Ni Po Fo	A	902	DuMo	K8 V M4 V	{ -3 }	(741-5)	[1211]		11	-140
+REDUCED:
+DIEBACK:
+Check Ni
+Check He
+Wave+10   0222	Breslow	X540000-0	  	De He Ni Po Da 	-	002	DuMo	K8 V M4 V	{ -3 }	(200+1)	[1211]		11	2
+Wave+100  0222	Breslow	X540000-0	  	De He Ni Po Da 	-	002	DuMo	K8 V M4 V	{ -3 }	(200+1)	[1211]		11	2
+Wave+300  0222	Breslow	X540000-0	  	De He Ni Po Da 	-	002	DuMo	K8 V M4 V	{ -3 }	(200+1)	[1211]		11	2
+Wave+600  0222	Breslow	X540000-0	  	De He Ni Po Da 	-	002	DuMo	K8 V M4 V	{ -3 }	(200+1)	[1211]		11	2
+
+
+Input     0223	Daumier	B88A425-E		Ni Wa	A	510	DuMo	K7 V M9 V	{ 1 }	(734-3)	[151A]	B	10	-252
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0223	Daumier	D88A000-0		Ni Wa Da 	-	010	DuMo	K7 V M9 V	{ -3 }	(200+1)	[151A]	B	10	2
+Wave+100  0223	Daumier	D88A000-0		Ni Wa Da 	-	010	DuMo	K7 V M9 V	{ -3 }	(200+1)	[151A]	B	10	2
+Wave+300  0223	Daumier	D88A000-0		Ni Wa Da 	-	010	DuMo	K7 V M9 V	{ -3 }	(200+1)	[151A]	B	10	2
+Wave+600  0223	Daumier	D88A000-0		Ni Wa Da 	-	010	DuMo	K7 V M9 V	{ -3 }	(200+1)	[151A]	B	10	2
+
+
+Input     0224	Adapam	E796424-7		Ni Pa	A	822	DuMo	K8 V	{ -3 }	(631-5)	[1113]	Bc	7	-90
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0224	Adapam	E796000-0	  	Ni Pa Da 	-	022	DuMo	K8 V	{ -3 }	(200-1)	[1113]	Bc	7	-2
+Wave+100  0224	Adapam	E796000-0	  	Ni Pa Da 	-	022	DuMo	K8 V	{ -3 }	(200-1)	[1113]	Bc	7	-2
+Wave+300  0224	Adapam	E796000-0	  	Ni Pa Da 	-	022	DuMo	K8 V	{ -3 }	(200-1)	[1113]	Bc	7	-2
+Wave+600  0224	Adapam	E796000-0	  	Ni Pa Da 	-	022	DuMo	K8 V	{ -3 }	(200-1)	[1113]	Bc	7	-2
+
+
+Input     0226	Wroclaw	C5667FB-7		Ag Ri Pz	A	823	Wild	G8 V K2 V	{ 1 }	(969+5)	[C8AC]	BC	12	2,430
+Wave+10   0226	Wroclaw	C566763-5		Ag Ri Pz 	-	423	Wild	G8 V K2 V	{ 1 }	(263-3)	[C8AC]	BC	12	-108
+Wave+100  0226	Wroclaw	C566766-6		Ag Cy Ri Pz 	-	523	Wild	G8 V K2 V	{ 1 }	(263+1)	[C8AC]	BC	12	36
+Wave+300  0226	Wroclaw	C566778-7		Ag Ri Pz 	-	623	Wild	G8 V K2 V	{ 1 }	(263-4)	[C8AC]	BC	12	-144
+Wave+600  0226	Wroclaw	C5667A7-8		Ag Ri Pz 	-	723	Wild	G8 V K2 V	{ 1 }	(763+1)	[C8AC]	BC	12	126
+
+
+Input     0228	Rimkuku	D9A8827-8	S	Fl Ph	A	324	Wild	G1 V M3 V	{ -2 }	(G76-5)	[4614]	Be	15	-3,360
+Wave+10   0228	Rimkuku	D9A88BB-6	S	Fl Ph Pz 	-	124	Wild	G1 V M3 V	{ -2 }	(270+2)	[4614]	Be	15	28
+Wave+100  0228	Rimkuku	D9A88AA-7	S	Fl Ph Pz 	-	224	Wild	G1 V M3 V	{ -2 }	(270-2)	[4614]	Be	15	-28
+Wave+300  0228	Rimkuku	D9A888A-8	S	Fl Ph Pz 	-	324	Wild	G1 V M3 V	{ -2 }	(870+1)	[4614]	Be	15	56
+Wave+600  0228	Rimkuku	D9A88A8-9	S	Fl Ph Pz 	-	424	Wild	G1 V M3 V	{ -1 }	(871-2)	[4614]	Be	15	-112
+
+
+Input     0229	Aziziyah	C86A457-B		Ni Wa	A	624	Wild	G3 V	{ 0 }	(C33-2)	[2439]	B	9	-216
+REDUCED:
+Check Ni
+Wave+10   0229	Aziziyah	C86A443-8		Ni Wa Da 	-	624	Wild	G3 V	{ -2 }	(830-1)	[2439]	B	9	-24
+Wave+100  0229	Aziziyah	C86A442-9		Ni Wa Da 	-	724	Wild	G3 V	{ -1 }	(830+1)	[2439]	B	9	24
+Wave+300  0229	Aziziyah	C86A403-A		Ni Wa Da 	-	824	Wild	G3 V	{ 0 }	(831+4)	[2439]	B	9	96
+Wave+600  0229	Aziziyah	C86A447-B		Ni Wa Da 	-	924	Wild	G3 V	{ 0 }	(831+2)	[2439]	B	9	48
+
+
+Input     0233	Inkekush	A540584-D	N	De He Ni Po	A	631	Wild	F9 V M2 V	{ 1 }	(B45+1)	[565D]	B	14	220
+REDUCED:
+Check Ni
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   0233	Inkekush	D540000-0	 	De He Ni Po Da 	-	031	Wild	F9 V M2 V	{ -3 }	(200+2)	[565D]	B	14	4
+Wave+100  0233	Inkekush	D540000-0	 	De He Ni Po Da 	-	031	Wild	F9 V M2 V	{ -3 }	(200+2)	[565D]	B	14	4
+Wave+300  0233	Inkekush	D540000-0	 	De He Ni Po Da 	-	031	Wild	F9 V M2 V	{ -3 }	(200+2)	[565D]	B	14	4
+Wave+600  0233	Inkekush	D540000-0	 	De He Ni Po Da 	-	031	Wild	F9 V M2 V	{ -3 }	(200+2)	[565D]	B	14	4
+
+
+Input     0235	Saguenay	B438265-E	N	Lo	A	324	Wild	M0 V	{ 1 }	(A11+1)	[134D]	B	9	10
+DIEBACK:
+Check Lo
+Wave+10   0235	Saguenay	D438000-0	 	Lo Re Da 	-	024	Wild	M0 V	{ -3 }	(200-5)	[134D]	B	9	-10
+Wave+100  0235	Saguenay	D438000-0	 	Lo Re Da 	-	024	Wild	M0 V	{ -3 }	(200-5)	[134D]	B	9	-10
+Wave+300  0235	Saguenay	D438000-0	 	Lo Re Da 	-	024	Wild	M0 V	{ -3 }	(200-5)	[134D]	B	9	-10
+Wave+600  0235	Saguenay	D438000-0	 	Lo Re Da 	-	024	Wild	M0 V	{ -3 }	(200-5)	[134D]	B	9	-10
+
+
+Input     0237	Taman	E874300-5		Lo	A	810	Wild	G7 V M3 V	{ -3 }	(520-5)	[1111]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   0237	Taman	E874000-0	  	Lo Da 	-	010	Wild	G7 V M3 V	{ -3 }	(200-4)	[1111]	B	11	-8
+Wave+100  0237	Taman	E874000-0	  	Lo Da 	-	010	Wild	G7 V M3 V	{ -3 }	(200-4)	[1111]	B	11	-8
+Wave+300  0237	Taman	E874000-0	  	Lo Da 	-	010	Wild	G7 V M3 V	{ -3 }	(200-4)	[1111]	B	11	-8
+Wave+600  0237	Taman	E874000-0	  	Lo Da 	-	010	Wild	G7 V M3 V	{ -3 }	(200-4)	[1111]	B	11	-8
+
+
+Input     0238	Nouakchat	C532141-6	S	Lo Po	A	103	Wild	M4 V	{ -2 }	(300-4)	[1134]	B	14	0
+DIEBACK:
+Check Lo
+Wave+10   0238	Nouakchat	D532000-0	S	Lo Po Da 	-	003	Wild	M4 V	{ -3 }	(200-1)	[1134]	B	14	-2
+Wave+100  0238	Nouakchat	D532000-0	S	Lo Po Da 	-	003	Wild	M4 V	{ -3 }	(200-1)	[1134]	B	14	-2
+Wave+300  0238	Nouakchat	D532000-0	S	Lo Po Da 	-	003	Wild	M4 V	{ -3 }	(200-1)	[1134]	B	14	-2
+Wave+600  0238	Nouakchat	D532000-0	S	Lo Po Da 	-	003	Wild	M4 V	{ -3 }	(200-1)	[1134]	B	14	-2
+
+
+Input     0303	Kiiga	D530642-7		De Na Ni Po Da	A	201	Wild	M0 V M7 V	{ -3 }	(851-5)	[4335]	B	11	-200
+REDUCED:
+Check Ni
+Wave+10   0303	Kiiga	D530533-6		De Na Ni Po Da 	-	201	Wild	M0 V M7 V	{ -3 }	(240-3)	[4335]	B	11	-24
+Wave+100  0303	Kiiga	D530550-7		De Ni Po Da 	-	301	Wild	M0 V M7 V	{ -3 }	(240+3)	[4335]	B	11	24
+Wave+300  0303	Kiiga	D530567-8		De Ni Po Da 	-	401	Wild	M0 V M7 V	{ -3 }	(340-2)	[4335]	B	11	-24
+Wave+600  0303	Kiiga	D530574-9		De Ni Po Da 	-	501	Wild	M0 V M7 V	{ -2 }	(340+1)	[4335]	B	11	12
+
+
+Input     0304	Riacon	B666414-8	N	Ni Ga Pa	A	301	Wild	G6 V M8 V	{ -1 }	(732-5)	[1314]	Bc	11	-210
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0304	Riacon	D666000-0	 	Ga Ni Pa Da 	-	001	Wild	G6 V M8 V	{ -3 }	(200-2)	[1314]	Bc	11	-4
+Wave+100  0304	Riacon	D666000-0	 	Ga Ni Pa Da 	-	001	Wild	G6 V M8 V	{ -3 }	(200-2)	[1314]	Bc	11	-4
+Wave+300  0304	Riacon	D666000-0	 	Ga Ni Pa Da 	-	001	Wild	G6 V M8 V	{ -3 }	(200-2)	[1314]	Bc	11	-4
+Wave+600  0304	Riacon	D666000-0	 	Ga Ni Pa Da 	-	001	Wild	G6 V M8 V	{ -3 }	(200-2)	[1314]	Bc	11	-4
+
+
+Input     0306	Saki	D576624-6		Ag Ni	A	701	Wild	K8 V	{ -2 }	(852-5)	[2412]	BC	8	-400
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0306	Saki	D576000-0		Ag Ni Da 	-	001	Wild	K8 V	{ -2 }	(200-2)	[2412]	BC	8	-4
+Wave+100  0306	Saki	D576000-0		Ag Ni Da 	-	001	Wild	K8 V	{ -2 }	(200-2)	[2412]	BC	8	-4
+Wave+300  0306	Saki	D576000-0		Ag Ni Da 	-	001	Wild	K8 V	{ -2 }	(200-2)	[2412]	BC	8	-4
+Wave+600  0306	Saki	D576000-0		Ag Ni Da 	-	001	Wild	K8 V	{ -2 }	(200-2)	[2412]	BC	8	-4
+
+
+Input     0310	Horizon	E310752-8		Na Pi	A	324	Wild	F2 V K0 V	{ -2 }	(F66-4)	[5536]	BD	13	-2,160
+Wave+10   0310	Horizon	E310765-5	  	Na Pi Pz 	-	124	Wild	F2 V K0 V	{ -2 }	(260+1)	[5536]	BD	13	12
+Wave+100  0310	Horizon	E3107AB-6	  	Na Pi Pz 	-	224	Wild	F2 V K0 V	{ -2 }	(260-3)	[5536]	BD	13	-36
+Wave+300  0310	Horizon	E3107AE-7	  	Na Pi Pz 	-	324	Wild	F2 V K0 V	{ -2 }	(260+2)	[5536]	BD	13	24
+Wave+600  0310	Horizon	E3107BD-8	  	Na Pi Pz 	-	424	Wild	F2 V K0 V	{ -2 }	(860+1)	[5536]	BD	13	48
+
+
+Input     0311	Fennec	C556833-8	S	Pa Ph	A	520	Wild	K7 V	{ -1 }	(C77-4)	[5725]	Bce	7	-2,352
+Wave+10   0311	Fennec	C556897-6	S	Pa Ph Pz 	-	220	Wild	K7 V	{ -1 }	(271+3)	[5725]	Bce	7	42
+Wave+100  0311	Fennec	C556876-7	S	Pa Ph Pz 	-	320	Wild	K7 V	{ -1 }	(271+4)	[5725]	Bce	7	56
+Wave+300  0311	Fennec	C55687B-8	S	Pa Ph Pz 	-	420	Wild	K7 V	{ -1 }	(471-3)	[5725]	Bce	7	-84
+Wave+600  0311	Fennec	C556878-9	S	Pa Ph Pz 	-	520	Wild	K7 V	{ 0 }	(472+1)	[5725]	Bce	7	56
+
+
+Input     0316	Magash	A400967-F	S	Hi In Na Va Cp	A	824	Wild	F8 V K7 V	{ 4 }	(H8G+3)	[8D4E]	BEF	10	6,528
+Wave+10   0316	Magash	A40097B-D	S	Hi In Na Va Pz Cp	-	424	Wild	F8 V K7 V	{ 4 }	(886+1)	[8D4E]	BEF	10	384
+Wave+100  0316	Magash	A400945-E	S	Hi In Na Va Pz Cp	-	524	Wild	F8 V K7 V	{ 4 }	(886+5)	[8D4E]	BEF	10	1920
+Wave+300  0316	Magash	A4009A8-F	S	Hi In Na Va Pz Cp	-	624	Wild	F8 V K7 V	{ 4 }	(886-1)	[8D4E]	BEF	10	-384
+Wave+600  0316	Magash	A400997-G	S	Hi In Na Va Pz Cp	-	724	Wild	F8 V K7 V	{ 5 }	(887+1)	[8D4E]	BEF	10	448
+
+
+Input     0319	Cabrini	C565501-6	S	Ag Ni Pr	A	123	Wild	G9 V	{ -1 }	(743-5)	[1411]	BcC	10	-420
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0319	Cabrini	D565000-0	S	Ag Ni Pr Da 	-	023	Wild	G9 V	{ -2 }	(200-3)	[1411]	BcC	10	-6
+Wave+100  0319	Cabrini	D565000-0	S	Ag Ni Pr Da 	-	023	Wild	G9 V	{ -2 }	(200-3)	[1411]	BcC	10	-6
+Wave+300  0319	Cabrini	D565000-0	S	Ag Ni Pr Da 	-	023	Wild	G9 V	{ -2 }	(200-3)	[1411]	BcC	10	-6
+Wave+600  0319	Cabrini	D565000-0	S	Ag Ni Pr Da 	-	023	Wild	G9 V	{ -2 }	(200-3)	[1411]	BcC	10	-6
+
+
+Input     0327	Barbary	C5717FC-5	S	He Pi Pz	A	813	Wild	F5 V M4 V	{ -1 }	(966+4)	[C6AA]	BD	7	1,296
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   0327	Barbary	D571000-0	S	He Pi Pz 	-	013	Wild	F5 V M4 V	{ -3 }	(200-1)	[C6AA]	BD	7	-2
+Wave+100  0327	Barbary	D571000-0	S	He Pi Pz 	-	013	Wild	F5 V M4 V	{ -3 }	(200-1)	[C6AA]	BD	7	-2
+Wave+300  0327	Barbary	D571000-0	S	He Pi Pz 	-	013	Wild	F5 V M4 V	{ -3 }	(200-1)	[C6AA]	BD	7	-2
+Wave+600  0327	Barbary	D571000-0	S	He Pi Pz 	-	013	Wild	F5 V M4 V	{ -3 }	(200-1)	[C6AA]	BD	7	-2
+
+
+Input     0328	Dunstan	C649202-8		Lo	A	523	Wild	G4 V	{ -2 }	(910-5)	[1113]	B	8	0
+DIEBACK:
+Check Lo
+Wave+10   0328	Dunstan	D649000-0		Lo Da 	-	023	Wild	G4 V	{ -3 }	(200+1)	[1113]	B	8	2
+Wave+100  0328	Dunstan	D649000-0		Lo Da 	-	023	Wild	G4 V	{ -3 }	(200+1)	[1113]	B	8	2
+Wave+300  0328	Dunstan	D649000-0		Lo Da 	-	023	Wild	G4 V	{ -3 }	(200+1)	[1113]	B	8	2
+Wave+600  0328	Dunstan	D649000-0		Lo Da 	-	023	Wild	G4 V	{ -3 }	(200+1)	[1113]	B	8	2
+
+
+Input     0330	Canisus	C4317AB-8	S	Na Po Pz	A	901	Wild	G4 V M9 V M2 V	{ -1 }	(A67+1)	[967A]	B	10	420
+Wave+10   0330	Canisus	C431789-6	S	Na Po Pz 	-	401	Wild	G4 V M9 V M2 V	{ -1 }	(261+2)	[967A]	B	10	24
+Wave+100  0330	Canisus	C431764-7	S	Na Po Pz 	-	501	Wild	G4 V M9 V M2 V	{ -1 }	(261+4)	[967A]	B	10	48
+Wave+300  0330	Canisus	C431738-8	S	Na Po Pz 	-	601	Wild	G4 V M9 V M2 V	{ -1 }	(361+3)	[967A]	B	10	54
+Wave+600  0330	Canisus	C431787-9	S	Na Po Pz 	-	701	Wild	G4 V M9 V M2 V	{ 0 }	(362+5)	[967A]	B	10	180
+
+
+Input     0332	Aosta	A669263-C		Lo	A	412	Wild	M1 V	{ 1 }	(711+1)	[134B]	B	12	7
+DIEBACK:
+Check Lo
+Wave+10   0332	Aosta	D669000-0		Lo Da 	-	012	Wild	M1 V	{ -3 }	(200-1)	[134B]	B	12	-2
+Wave+100  0332	Aosta	D669000-0		Lo Da 	-	012	Wild	M1 V	{ -3 }	(200-1)	[134B]	B	12	-2
+Wave+300  0332	Aosta	D669000-0		Lo Da 	-	012	Wild	M1 V	{ -3 }	(200-1)	[134B]	B	12	-2
+Wave+600  0332	Aosta	D669000-0		Lo Da 	-	012	Wild	M1 V	{ -3 }	(200-1)	[134B]	B	12	-2
+
+
+Input     0334	Furens	C8A9689-A		Fl Ni	A	603	Wild	M2 V M7 V	{ 0 }	(B54+1)	[665A]	B	8	220
+REDUCED:
+Check Ni
+Wave+10   0334	Furens	C8A9661-8		Fl Ni Da 	-	603	Wild	M2 V M7 V	{ -2 }	(550-2)	[665A]	B	8	-50
+Wave+100  0334	Furens	C8A9614-9		Cy Fl Ni Da 	-	703	Wild	M2 V M7 V	{ -1 }	(550+2)	[665A]	B	8	50
+Wave+300  0334	Furens	C8A9662-A		Fl Ni Da 	-	803	Wild	M2 V M7 V	{ 0 }	(551-1)	[665A]	B	8	-25
+Wave+600  0334	Furens	C8A9655-B		Cy Fl Ni Da 	-	903	Wild	M2 V M7 V	{ 0 }	(551-5)	[665A]	B	8	-125
+
+
+Input     0336	Upuraku	B584545-9	W	Ag Ni Pr	A	301	Wild	G2 V	{ 2 }	(846+1)	[3737]	BcC	6	192
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0336	Upuraku	D584000-0	 	Ag Ni Pr Da 	-	001	Wild	G2 V	{ -2 }	(200+1)	[3737]	BcC	6	2
+Wave+100  0336	Upuraku	D584000-0	 	Ag Ni Pr Da 	-	001	Wild	G2 V	{ -2 }	(200+1)	[3737]	BcC	6	2
+Wave+300  0336	Upuraku	D584000-0	 	Ag Ni Pr Da 	-	001	Wild	G2 V	{ -2 }	(200+1)	[3737]	BcC	6	2
+Wave+600  0336	Upuraku	D584000-0	 	Ag Ni Pr Da 	-	001	Wild	G2 V	{ -2 }	(200+1)	[3737]	BcC	6	2
+
+
+Input     0339	Tuwayk	B672834-A		He Ph Pi	A	501	Wild	G8 V	{ 2 }	(B7B-1)	[5A27]	BDe	14	-847
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   0339	Tuwayk	D672000-0		He Ph Pi Pz 	-	001	Wild	G8 V	{ -3 }	(200+1)	[5A27]	BDe	14	2
+Wave+100  0339	Tuwayk	D672000-0		He Ph Pi Pz 	-	001	Wild	G8 V	{ -3 }	(200+1)	[5A27]	BDe	14	2
+Wave+300  0339	Tuwayk	D672000-0		He Ph Pi Pz 	-	001	Wild	G8 V	{ -3 }	(200+1)	[5A27]	BDe	14	2
+Wave+600  0339	Tuwayk	D672000-0		He Ph Pi Pz 	-	001	Wild	G8 V	{ -3 }	(200+1)	[5A27]	BDe	14	2
+
+
+Input     0403	Gessert	C554351-9		Lo	A	320	Wild	A2 V G0 V	{ -1 }	(720-3)	[1237]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   0403	Gessert	D554000-0		Lo Da 	-	020	Wild	A2 V G0 V	{ -3 }	(200-2)	[1237]	B	10	-4
+Wave+100  0403	Gessert	D554000-0		Lo Da 	-	020	Wild	A2 V G0 V	{ -3 }	(200-2)	[1237]	B	10	-4
+Wave+300  0403	Gessert	D554000-0		Lo Da 	-	020	Wild	A2 V G0 V	{ -3 }	(200-2)	[1237]	B	10	-4
+Wave+600  0403	Gessert	D554000-0		Lo Da 	-	020	Wild	A2 V G0 V	{ -3 }	(200-2)	[1237]	B	10	-4
+
+
+Input     0404	Miwald	C5334B9-A	S	Ni Po Da	A	602	Wild	M0 V M5 V	{ 0 }	(833+2)	[647C]	B	10	144
+REDUCED:
+Check Ni
+Wave+10   0404	Miwald	C533421-8	S	Ni Po Px Da 	-	602	Wild	M0 V M5 V	{ -2 }	(430+3)	[647C]	B	10	36
+Wave+100  0404	Miwald	C533433-9	S	Ni Po Da 	-	702	Wild	M0 V M5 V	{ -1 }	(430-3)	[647C]	B	10	-36
+Wave+300  0404	Miwald	C533466-A	S	Ni Po Da 	-	802	Wild	M0 V M5 V	{ 0 }	(431-2)	[647C]	B	10	-24
+Wave+600  0404	Miwald	C533426-B	S	Ni Po Px Da 	-	902	Wild	M0 V M5 V	{ 0 }	(431+1)	[647C]	B	10	12
+
+
+Input     0406	Pretoria	B656976-C	NS	Hi Ga Cp Mr	A	720	CsRr	G5 IV	{ 4 }	(D8F+4)	[9D5C]	BEF	13	6,240
+Wave+10   0406	Pretoria	B656966-A	NS	Ga Hi Pz Cp Mr	-	320	CsRr	G5 IV	{ 3 }	(485-2)	[9D5C]	BEF	13	-320
+Wave+100  0406	Pretoria	B656999-B	NS	Ga Hi Pz Cp Mr	-	420	CsRr	G5 IV	{ 3 }	(485-3)	[9D5C]	BEF	13	-480
+Wave+300  0406	Pretoria	B656994-C	NS	Ga Hi Pz Cp Mr	-	520	CsRr	G5 IV	{ 3 }	(485-1)	[9D5C]	BEF	13	-160
+Wave+600  0406	Pretoria	B6569DE-D	NS	Ga Hi Pz Cp Mr	-	620	CsRr	G5 IV	{ 3 }	(485+1)	[9D5C]	BEF	13	160
+
+
+Input     0409	Elsis	A764869-8	N	Ri Pa Ph	A	101	Wild	F6 V	{ 1 }	(B79+1)	[7947]	BcCe	13	693
+Wave+10   0409	Elsis	A76477B-6	N	Pa Ph Ri Pz 	-	501	Wild	F6 V	{ 1 }	(263+2)	[7947]	BcCe	13	72
+Wave+100  0409	Elsis	A764777-7	N	Ag Ri Pz 	-	601	Wild	F6 V	{ 2 }	(264+2)	[7947]	BcCe	13	96
+Wave+300  0409	Elsis	A764788-8	N	Ag Ri Pz 	-	701	Wild	F6 V	{ 2 }	(364+3)	[7947]	BcCe	13	216
+Wave+600  0409	Elsis	A76478A-9	N	Ag Ri Pz 	-	801	Wild	F6 V	{ 3 }	(365-2)	[7947]	BcCe	13	-180
+
+
+Input     0412	Dhapura	E579785-7		Pi	A	512	Wild	F4 V	{ -2 }	(966-2)	[7557]	BD	13	-648
+Wave+10   0412	Dhapura	E579767-5	  	Pi Pz 	-	212	Wild	F4 V	{ -2 }	(260-2)	[7557]	BD	13	-24
+Wave+100  0412	Dhapura	E579778-6	  	Pi Pz 	-	312	Wild	F4 V	{ -2 }	(260-1)	[7557]	BD	13	-12
+Wave+300  0412	Dhapura	E579736-7	  	Pi Pz 	-	412	Wild	F4 V	{ -2 }	(260+1)	[7557]	BD	13	12
+Wave+600  0412	Dhapura	E579746-8	  	Pi Pz 	-	512	Wild	F4 V	{ -2 }	(560+5)	[7557]	BD	13	150
+
+
+Input     0415	Pharos	B593477-8		Ni	A	612	Wild	M2 V	{ -1 }	(932-1)	[4358]	B	12	-54
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0415	Pharos	D593000-0		Ni Da 	-	012	Wild	M2 V	{ -3 }	(200+1)	[4358]	B	12	2
+Wave+100  0415	Pharos	D593000-0		Ni Da 	-	012	Wild	M2 V	{ -3 }	(200+1)	[4358]	B	12	2
+Wave+300  0415	Pharos	D593000-0		Ni Da 	-	012	Wild	M2 V	{ -3 }	(200+1)	[4358]	B	12	2
+Wave+600  0415	Pharos	D593000-0		Ni Da 	-	012	Wild	M2 V	{ -3 }	(200+1)	[4358]	B	12	2
+
+
+Input     0417	Suitang	B552846-A		Po Ph O:0316	A	415	Wild	G4 V K3 V	{ 2 }	(G7B+1)	[6A38]	Be	13	1,232
+Wave+10   0417	Suitang	B552868-8		Ph Po Pz O:0316	-	215	Wild	G4 V K3 V	{ 0 }	(872-1)	[6A38]	Be	13	-112
+Wave+100  0417	Suitang	B552856-9		Ph Po Pz O:0316	-	315	Wild	G4 V K3 V	{ 1 }	(873+1)	[6A38]	Be	13	168
+Wave+300  0417	Suitang	B5528AB-A		Ph Po Pz O:0316	-	415	Wild	G4 V K3 V	{ 2 }	(874+1)	[6A38]	Be	13	224
+Wave+600  0417	Suitang	B552886-B		Ph Po Pz O:0316	-	515	Wild	G4 V K3 V	{ 2 }	(874+1)	[6A38]	Be	13	224
+
+
+Input     0419	Ara Pacis	A437687-B		Ni	A	601	Wild	M3 V	{ 1 }	(955+1)	[675B]	B	4	225
+REDUCED:
+Check Ni
+Wave+10   0419	Ara Pacis	A437540-A		Ni Da 	-	601	Wild	M3 V	{ 1 }	(342+3)	[675B]	B	4	72
+Wave+100  0419	Ara Pacis	A437548-B		Ni Da 	-	701	Wild	M3 V	{ 1 }	(342+4)	[675B]	B	4	96
+Wave+300  0419	Ara Pacis	A437536-C		Ni Da 	-	801	Wild	M3 V	{ 1 }	(342-1)	[675B]	B	4	-24
+Wave+600  0419	Ara Pacis	A43759B-D		Ni Da 	-	901	Wild	M3 V	{ 1 }	(342+3)	[675B]	B	4	72
+
+
+Input     0422	Rouenet	C562210-A		Lo	A	705	Wild	K0 V	{ 0 }	(910-4)	[1216]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   0422	Rouenet	D562000-0		Lo Da 	-	005	Wild	K0 V	{ -3 }	(200+1)	[1216]	B	11	2
+Wave+100  0422	Rouenet	D562000-0		Lo Da 	-	005	Wild	K0 V	{ -3 }	(200+1)	[1216]	B	11	2
+Wave+300  0422	Rouenet	D562000-0		Lo Da 	-	005	Wild	K0 V	{ -3 }	(200+1)	[1216]	B	11	2
+Wave+600  0422	Rouenet	D562000-0		Lo Da 	-	005	Wild	K0 V	{ -3 }	(200+1)	[1216]	B	11	2
+
+
+Input     0431	Zyedl	E551434-5		Ni Po	A	501	Wild	K3 V	{ -3 }	(631-5)	[1122]	B	5	-90
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0431	Zyedl	E551000-0	  	Ni Po Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[1122]	B	5	2
+Wave+100  0431	Zyedl	E551000-0	  	Ni Po Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[1122]	B	5	2
+Wave+300  0431	Zyedl	E551000-0	  	Ni Po Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[1122]	B	5	2
+Wave+600  0431	Zyedl	E551000-0	  	Ni Po Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[1122]	B	5	2
+
+
+Input     0436	Endup	D6939GE-8		Hi In Pz	A	104	Wild	F6 V M4 V	{ 0 }	(F89+5)	[E9AD]	BE	7	5,400
+Wave+10   0436	Endup	D6938A6-4		Hi In Pz 	-	504	Wild	F6 V M4 V	{ 0 }	(272+1)	[E9AD]	BE	7	28
+Wave+100  0436	Endup	D6938DF-5		Ph Pi Pz 	-	604	Wild	F6 V M4 V	{ -2 }	(270+1)	[E9AD]	BE	7	14
+Wave+300  0436	Endup	D6938DH-6		Ph Pi Pz 	-	704	Wild	F6 V M4 V	{ -2 }	(270+3)	[E9AD]	BE	7	42
+Wave+600  0436	Endup	D69388A-7		Ph Pi Pz 	-	804	Wild	F6 V M4 V	{ -2 }	(270-4)	[E9AD]	BE	7	-56
+
+
+Input     0439	Beaxon	D88AA99-C		Hi Wa Pz	A	923	Wild	M1 V	{ 1 }	(H9C+2)	[BB6D]	BE	8	3,672
+Wave+10   0439	Beaxon	D88AACC-A		Hi Wa Pz 	-	423	Wild	M1 V	{ 1 }	(793+2)	[BB6D]	BE	8	378
+Wave+100  0439	Beaxon	D88AA68-B		Hi Wa Pz 	-	523	Wild	M1 V	{ 1 }	(793+1)	[BB6D]	BE	8	189
+Wave+300  0439	Beaxon	D88AABD-C		Hi Wa Pz 	-	623	Wild	M1 V	{ 1 }	(793+1)	[BB6D]	BE	8	189
+Wave+600  0439	Beaxon	D88AAA9-D		Hi Wa Pz 	-	723	Wild	M1 V	{ 1 }	(793-1)	[BB6D]	BE	8	-189
+
+
+Input     0440	Noghon	D7979B8-8		Hi In	A	521	Wild	F5 V G8 V	{ 0 }	(E89+2)	[B97A]	BE	7	2,016
+Wave+10   0440	Noghon	D79797B-6		Hi In Pz 	-	221	Wild	F5 V G8 V	{ 0 }	(282+1)	[B97A]	BE	7	32
+Wave+100  0440	Noghon	D7979EE-7		Hi In Pz 	-	321	Wild	F5 V G8 V	{ 0 }	(282-1)	[B97A]	BE	7	-32
+Wave+300  0440	Noghon	D797975-8		Hi In Pz 	-	421	Wild	F5 V G8 V	{ 0 }	(582+4)	[B97A]	BE	7	320
+Wave+600  0440	Noghon	D7979BA-9		Hi In Pz 	-	521	Wild	F5 V G8 V	{ 1 }	(583+2)	[B97A]	BE	7	240
+
+
+Input     0502	El D'Nah	C549465-B		Ni	A	502	Wild	K6 V	{ 0 }	(833-1)	[344A]	B	8	-72
+REDUCED:
+Check Ni
+Wave+10   0502	El D'Nah	C549420-9		Ni Re Da 	-	502	Wild	K6 V	{ -1 }	(430-3)	[344A]	B	8	-36
+Wave+100  0502	El D'Nah	C549488-A		Ni Da 	-	602	Wild	K6 V	{ 0 }	(431+2)	[344A]	B	8	24
+Wave+300  0502	El D'Nah	C549433-B		Ni Da 	-	702	Wild	K6 V	{ 0 }	(431-4)	[344A]	B	8	-48
+Wave+600  0502	El D'Nah	C549473-C		Ni Da 	-	802	Wild	K6 V	{ 0 }	(431-1)	[344A]	B	8	-12
+
+
+Input     0503	Spectre	B100645-A		Na Ni Va Da	A	802	Wild	M8 V	{ 1 }	(A55-1)	[4738]	B	9	-250
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0503	Spectre	D100000-0		Na Ni Va Da 	-	002	Wild	M8 V	{ -3 }	(200+1)	[4738]	B	9	2
+Wave+100  0503	Spectre	D100000-0		Na Ni Va Da 	-	002	Wild	M8 V	{ -3 }	(200+1)	[4738]	B	9	2
+Wave+300  0503	Spectre	D100000-0		Na Ni Va Da 	-	002	Wild	M8 V	{ -3 }	(200+1)	[4738]	B	9	2
+Wave+600  0503	Spectre	D100000-0		Na Ni Va Da 	-	002	Wild	M8 V	{ -3 }	(200+1)	[4738]	B	9	2
+
+
+Input     0504	Ash	A540878-8	S	De He Po Ph Pi	A	201	Wild	M4 V M9 V	{ 0 }	(B78+1)	[8858]	BDe	14	616
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   0504	Ash	D540000-0	S	De He Ph Pi Po Pz 	-	001	Wild	M4 V M9 V	{ -3 }	(200-2)	[8858]	BDe	14	-4
+Wave+100  0504	Ash	D540000-0	S	De He Ph Pi Po Pz 	-	001	Wild	M4 V M9 V	{ -3 }	(200-2)	[8858]	BDe	14	-4
+Wave+300  0504	Ash	D540000-0	S	De He Ph Pi Po Pz 	-	001	Wild	M4 V M9 V	{ -3 }	(200-2)	[8858]	BDe	14	-4
+Wave+600  0504	Ash	D540000-0	S	De He Ph Pi Po Pz 	-	001	Wild	M4 V M9 V	{ -3 }	(200-2)	[8858]	BDe	14	-4
+
+
+Input     0508	Caladib	B697222-9	N	Lo	A	301	Wild	M2 V	{ 0 }	(510-4)	[1215]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   0508	Caladib	D697000-0	 	Lo Da 	-	001	Wild	M2 V	{ -3 }	(200+1)	[1215]	B	11	2
+Wave+100  0508	Caladib	D697000-0	 	Lo Da 	-	001	Wild	M2 V	{ -3 }	(200+1)	[1215]	B	11	2
+Wave+300  0508	Caladib	D697000-0	 	Lo Da 	-	001	Wild	M2 V	{ -3 }	(200+1)	[1215]	B	11	2
+Wave+600  0508	Caladib	D697000-0	 	Lo Da 	-	001	Wild	M2 V	{ -3 }	(200+1)	[1215]	B	11	2
+
+
+Input     0509	Redi	E575556-5		Ag Ni An Chir4 Mr	A	712	Wild	F3 V M3 V	{ -2 }	(742-4)	[3333]	BC	10	-224
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0509	Redi	E575000-0	  	Ag Ni Da An Chir4 Mr	-	012	Wild	F3 V M3 V	{ -2 }	(200+1)	[3333]	BC	10	2
+Wave+100  0509	Redi	E575000-0	  	Ag Ni Da An Chir4 Mr	-	012	Wild	F3 V M3 V	{ -2 }	(200+1)	[3333]	BC	10	2
+Wave+300  0509	Redi	E575000-0	  	Ag Ni Da An Chir4 Mr	-	012	Wild	F3 V M3 V	{ -2 }	(200+1)	[3333]	BC	10	2
+Wave+600  0509	Redi	E575000-0	  	Ag Ni Da An Chir4 Mr	-	012	Wild	F3 V M3 V	{ -2 }	(200+1)	[3333]	BC	10	2
+
+
+Input     0510	Grabe  	C4302B7-9		De Lo Po Jonk8	A	120	Wild	G7 V	{ -1 }	(610+1)	[417B]	B	12	0
+DIEBACK:
+Check Lo
+Wave+10   0510	Grabe  	D430000-0		De Lo Po Da Jonk8	-	020	Wild	G7 V	{ -3 }	(200+1)	[417B]	B	12	2
+Wave+100  0510	Grabe  	D430000-0		De Lo Po Da Jonk8	-	020	Wild	G7 V	{ -3 }	(200+1)	[417B]	B	12	2
+Wave+300  0510	Grabe  	D430000-0		De Lo Po Da Jonk8	-	020	Wild	G7 V	{ -3 }	(200+1)	[417B]	B	12	2
+Wave+600  0510	Grabe  	D430000-0		De Lo Po Da Jonk8	-	020	Wild	G7 V	{ -3 }	(200+1)	[417B]	B	12	2
+
+
+Input     0514	Marnie's World	AA9A342-B	N	Lo Oc	A	510	Wild	G3 V	{ 1 }	(621-1)	[1439]	B	12	-12
+DIEBACK:
+Check Lo
+Wave+10   0514	Marnie's World	DA9A000-0	 	Lo Oc Da 	-	010	Wild	G3 V	{ -3 }	(200+1)	[1439]	B	12	2
+Wave+100  0514	Marnie's World	DA9A000-0	 	Lo Oc Da 	-	010	Wild	G3 V	{ -3 }	(200+1)	[1439]	B	12	2
+Wave+300  0514	Marnie's World	DA9A000-0	 	Lo Oc Da 	-	010	Wild	G3 V	{ -3 }	(200+1)	[1439]	B	12	2
+Wave+600  0514	Marnie's World	DA9A000-0	 	Lo Oc Da 	-	010	Wild	G3 V	{ -3 }	(200+1)	[1439]	B	12	2
+
+
+Input     0516	Endimyon	X555443-3		Ni Pa Fo	A	523	Wild	M1 V M3 V	{ -3 }	(631-5)	[2131]		14	-90
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0516	Endimyon	X555000-0	  	Ni Pa Da 	-	023	Wild	M1 V M3 V	{ -3 }	(200+1)	[2131]		14	2
+Wave+100  0516	Endimyon	X555000-0	  	Ni Pa Da 	-	023	Wild	M1 V M3 V	{ -3 }	(200+1)	[2131]		14	2
+Wave+300  0516	Endimyon	X555000-0	  	Ni Pa Da 	-	023	Wild	M1 V M3 V	{ -3 }	(200+1)	[2131]		14	2
+Wave+600  0516	Endimyon	X555000-0	  	Ni Pa Da 	-	023	Wild	M1 V M3 V	{ -3 }	(200+1)	[2131]		14	2
+
+
+Input     0517	Seleen	A310476-E		Ni O:0316	A	704	Wild	M6 V	{ 1 }	(A34+1)	[455E]	B	15	120
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0517	Seleen	D310000-0		Ni Da O:0316	-	004	Wild	M6 V	{ -3 }	(200+2)	[455E]	B	15	4
+Wave+100  0517	Seleen	D310000-0		Ni Da O:0316	-	004	Wild	M6 V	{ -3 }	(200+2)	[455E]	B	15	4
+Wave+300  0517	Seleen	D310000-0		Ni Da O:0316	-	004	Wild	M6 V	{ -3 }	(200+2)	[455E]	B	15	4
+Wave+600  0517	Seleen	D310000-0		Ni Da O:0316	-	004	Wild	M6 V	{ -3 }	(200+2)	[455E]	B	15	4
+
+
+Input     0518	Thingen	B567989-C	N	Hi Pr	A	305	Wild	G9 V	{ 3 }	(G8E+3)	[9C5C]	BcE	10	5,376
+Wave+10   0518	Thingen	B5679CC-A	N	Hi Pr Pz 	-	105	Wild	G9 V	{ 3 }	(785-2)	[9C5C]	BcE	10	-560
+Wave+100  0518	Thingen	B56798C-B	N	Hi Pr Pz 	-	205	Wild	G9 V	{ 3 }	(785+1)	[9C5C]	BcE	10	280
+Wave+300  0518	Thingen	B5679DE-C	N	Hi Pr Pz 	-	305	Wild	G9 V	{ 3 }	(785+2)	[9C5C]	BcE	10	560
+Wave+600  0518	Thingen	B56799E-D	N	Hi Pr Pz 	-	405	Wild	G9 V	{ 3 }	(785+1)	[9C5C]	BcE	10	280
+
+
+Input     0524	Isurkun	A541343-A		He Lo Po	A	721	Wild	G4 IV	{ 1 }	(821-1)	[1438]	B	11	-16
+Check He
+Check Lo
+Wave+10   0524	Isurkun	D541000-0		He Lo Po Da 	-	021	Wild	G4 IV	{ -3 }	(200+1)	[1438]	B	11	2
+Wave+100  0524	Isurkun	D541000-0		He Lo Po Da 	-	021	Wild	G4 IV	{ -3 }	(200+1)	[1438]	B	11	2
+Wave+300  0524	Isurkun	D541000-0		He Lo Po Da 	-	021	Wild	G4 IV	{ -3 }	(200+1)	[1438]	B	11	2
+Wave+600  0524	Isurkun	D541000-0		He Lo Po Da 	-	021	Wild	G4 IV	{ -3 }	(200+1)	[1438]	B	11	2
+
+
+Input     0525	Sejmal	C310634-A		Na Ni	A	534	Wild	K4 V	{ 0 }	(F54-3)	[3627]	B	10	-900
+REDUCED:
+Check Ni
+Wave+10   0525	Sejmal	C31057C-9		Na Ni Da 	-	534	Wild	K4 V	{ -1 }	(940+3)	[3627]	B	10	108
+Wave+100  0525	Sejmal	C310541-A		Ni Da 	-	634	Wild	K4 V	{ 0 }	(941+1)	[3627]	B	10	36
+Wave+300  0525	Sejmal	C310531-B		Ni Da 	-	734	Wild	K4 V	{ 0 }	(941-4)	[3627]	B	10	-144
+Wave+600  0525	Sejmal	C310566-C		Ni Da 	-	834	Wild	K4 V	{ 0 }	(941-3)	[3627]	B	10	-108
+
+
+Input     0529	Moltke	C646101-8	S	Lo	A	204	Wild	G6 V K6 V	{ -2 }	(700-5)	[1113]	B	8	0
+DIEBACK:
+Check Lo
+Wave+10   0529	Moltke	D646000-0	S	Lo Da 	-	004	Wild	G6 V K6 V	{ -3 }	(200-1)	[1113]	B	8	-2
+Wave+100  0529	Moltke	D646000-0	S	Lo Da 	-	004	Wild	G6 V K6 V	{ -3 }	(200-1)	[1113]	B	8	-2
+Wave+300  0529	Moltke	D646000-0	S	Lo Da 	-	004	Wild	G6 V K6 V	{ -3 }	(200-1)	[1113]	B	8	-2
+Wave+600  0529	Moltke	D646000-0	S	Lo Da 	-	004	Wild	G6 V K6 V	{ -3 }	(200-1)	[1113]	B	8	-2
+
+
+Input     0531	Briaxis	C420454-B		De He Ni Po	A	901	Wild	M1 V M9 V	{ 0 }	(733-2)	[2439]	B	11	-126
+Check Ni
+Check He
+Wave+10   0531	Briaxis	D420000-0		De He Ni Po Da 	-	001	Wild	M1 V M9 V	{ -3 }	(200+2)	[2439]	B	11	4
+Wave+100  0531	Briaxis	D420000-0		De He Ni Po Da 	-	001	Wild	M1 V M9 V	{ -3 }	(200+2)	[2439]	B	11	4
+Wave+300  0531	Briaxis	D420000-0		De He Ni Po Da 	-	001	Wild	M1 V M9 V	{ -3 }	(200+2)	[2439]	B	11	4
+Wave+600  0531	Briaxis	D420000-0		De He Ni Po Da 	-	001	Wild	M1 V M9 V	{ -3 }	(200+2)	[2439]	B	11	4
+
+
+Input     0534	Maricutin	B764120-A	N	Lo	A	213	Wild	F9 V K5 V	{ 1 }	(701-3)	[1216]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   0534	Maricutin	D764000-0	 	Lo Da 	-	013	Wild	F9 V K5 V	{ -3 }	(200-2)	[1216]	B	11	-4
+Wave+100  0534	Maricutin	D764000-0	 	Lo Da 	-	013	Wild	F9 V K5 V	{ -3 }	(200-2)	[1216]	B	11	-4
+Wave+300  0534	Maricutin	D764000-0	 	Lo Da 	-	013	Wild	F9 V K5 V	{ -3 }	(200-2)	[1216]	B	11	-4
+Wave+600  0534	Maricutin	D764000-0	 	Lo Da 	-	013	Wild	F9 V K5 V	{ -3 }	(200-2)	[1216]	B	11	-4
+
+
+Input     0602	Kirklend	A668434-A	N	Ni Pa	A	423	Wild	F4 V	{ 1 }	(B34-2)	[1527]	Bc	12	-264
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0602	Kirklend	D668000-0	 	Ni Pa Da 	-	023	Wild	F4 V	{ -3 }	(200-3)	[1527]	Bc	12	-6
+Wave+100  0602	Kirklend	D668000-0	 	Ni Pa Da 	-	023	Wild	F4 V	{ -3 }	(200-3)	[1527]	Bc	12	-6
+Wave+300  0602	Kirklend	D668000-0	 	Ni Pa Da 	-	023	Wild	F4 V	{ -3 }	(200-3)	[1527]	Bc	12	-6
+Wave+600  0602	Kirklend	D668000-0	 	Ni Pa Da 	-	023	Wild	F4 V	{ -3 }	(200-3)	[1527]	Bc	12	-6
+
+
+Input     0604	Carmel	B546414-9		Ni Pa	A	302	Wild	K0 V M0 V	{ 0 }	(833-4)	[1415]	Bc	9	-288
+Check Ni
+Wave+10   0604	Carmel	D546000-0		Ni Pa Da 	-	002	Wild	K0 V M0 V	{ -3 }	(200+4)	[1415]	Bc	9	8
+Wave+100  0604	Carmel	D546000-0		Ni Pa Da 	-	002	Wild	K0 V M0 V	{ -3 }	(200+4)	[1415]	Bc	9	8
+Wave+300  0604	Carmel	D546000-0		Ni Pa Da 	-	002	Wild	K0 V M0 V	{ -3 }	(200+4)	[1415]	Bc	9	8
+Wave+600  0604	Carmel	D546000-0		Ni Pa Da 	-	002	Wild	K0 V M0 V	{ -3 }	(200+4)	[1415]	Bc	9	8
+
+
+Input     0609	Urnas	D420947-A	S	De He Hi In Na Po Pz Jonk2	A	210	Wild	K7 V	{ 2 }	(C8C+1)	[7B38]	BE	12	1,152
+REDUCED:
+Check He
+Wave+10   0609	Urnas	D420899-6	S	De He Hi In Na Po Pz Jonk2	-	210	Wild	K7 V	{ 0 }	(272+1)	[7B38]	BE	12	28
+Wave+100  0609	Urnas	D4208AA-7	S	De He Na Ph Pi Po Pz Jonk2	-	310	Wild	K7 V	{ -2 }	(270+5)	[7B38]	BE	12	70
+Wave+300  0609	Urnas	D420849-8	S	De He Na Ph Pi Po Pz Jonk2	-	410	Wild	K7 V	{ -2 }	(370+1)	[7B38]	BE	12	21
+Wave+600  0609	Urnas	D420844-9	S	De He Na Ph Pi Po Pz Jonk2	-	510	Wild	K7 V	{ -1 }	(371-2)	[7B38]	BE	12	-42
+
+
+Input     0615	Anomaly Five	X100000-0		Ba Va Fo	A	023	Wild	M9 V	{ -3 }	(200-5)	[0000]		11	0
+Wave+10   0615	Anomaly Five	X100000-0	  	Ba Va Da 	-	023	Wild	M9 V	{ -3 }	(200-5)	[0000]		11	-10
+Wave+100  0615	Anomaly Five	X100000-0	  	Ba Va Da 	-	023	Wild	M9 V	{ -3 }	(200-5)	[0000]		11	-10
+Wave+300  0615	Anomaly Five	X100000-0	  	Ba Va Da 	-	023	Wild	M9 V	{ -3 }	(200-5)	[0000]		11	-10
+Wave+600  0615	Anomaly Five	X100000-0	  	Ba Va Da 	-	023	Wild	M9 V	{ -3 }	(200-5)	[0000]		11	-10
+
+
+Input     0619	Topol	D9C4265-9		Fl Lo	A	923	Wild	M2 V	{ -2 }	(910-3)	[1148]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   0619	Topol	D9C4000-0		Fl Lo Re Da 	-	023	Wild	M2 V	{ -3 }	(200+1)	[1148]	B	9	2
+Wave+100  0619	Topol	D9C4000-0		Fl Lo Re Da 	-	023	Wild	M2 V	{ -3 }	(200+1)	[1148]	B	9	2
+Wave+300  0619	Topol	D9C4000-0		Fl Lo Re Da 	-	023	Wild	M2 V	{ -3 }	(200+1)	[1148]	B	9	2
+Wave+600  0619	Topol	D9C4000-0		Fl Lo Re Da 	-	023	Wild	M2 V	{ -3 }	(200+1)	[1148]	B	9	2
+
+
+Input     0622	Mushinag	D575565-8	S	Ag Ni	A	520	Wild	F6 V	{ -2 }	(942-3)	[4347]	BC	14	-216
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0622	Mushinag	D575000-0	S	Ag Ni Da 	-	020	Wild	F6 V	{ -2 }	(200-1)	[4347]	BC	14	-2
+Wave+100  0622	Mushinag	D575000-0	S	Ag Ni Da 	-	020	Wild	F6 V	{ -2 }	(200-1)	[4347]	BC	14	-2
+Wave+300  0622	Mushinag	D575000-0	S	Ag Ni Da 	-	020	Wild	F6 V	{ -2 }	(200-1)	[4347]	BC	14	-2
+Wave+600  0622	Mushinag	D575000-0	S	Ag Ni Da 	-	020	Wild	F6 V	{ -2 }	(200-1)	[4347]	BC	14	-2
+
+
+Input     0623	Araa	C566245-A	S	Lo	A	522	Wild	F7 V K9 V	{ 0 }	(810-2)	[1238]	B	12	0
+DIEBACK:
+Check Lo
+Wave+10   0623	Araa	D566000-0	S	Lo Da 	-	022	Wild	F7 V K9 V	{ -3 }	(200-2)	[1238]	B	12	-4
+Wave+100  0623	Araa	D566000-0	S	Lo Da 	-	022	Wild	F7 V K9 V	{ -3 }	(200-2)	[1238]	B	12	-4
+Wave+300  0623	Araa	D566000-0	S	Lo Da 	-	022	Wild	F7 V K9 V	{ -3 }	(200-2)	[1238]	B	12	-4
+Wave+600  0623	Araa	D566000-0	S	Lo Da 	-	022	Wild	F7 V K9 V	{ -3 }	(200-2)	[1238]	B	12	-4
+
+
+Input     0624	Helmuth	C846230-8	S	Lo	A	922	Wild	K9 V	{ -2 }	(810-5)	[1125]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   0624	Helmuth	D846000-0	S	Lo Da 	-	022	Wild	K9 V	{ -3 }	(200+2)	[1125]	B	9	4
+Wave+100  0624	Helmuth	D846000-0	S	Lo Da 	-	022	Wild	K9 V	{ -3 }	(200+2)	[1125]	B	9	4
+Wave+300  0624	Helmuth	D846000-0	S	Lo Da 	-	022	Wild	K9 V	{ -3 }	(200+2)	[1125]	B	9	4
+Wave+600  0624	Helmuth	D846000-0	S	Lo Da 	-	022	Wild	K9 V	{ -3 }	(200+2)	[1125]	B	9	4
+
+
+Input     0626	Kernal	B566768-7		Ag Ri (Yafizethe)	A	323	Wild	G3 V	{ 2 }	(96A+1)	[6946]	BC	9	540
+Wave+10   0626	Kernal	B566788-5		Ag Ri Pz (Yafizethe)	-	123	Wild	G3 V	{ 2 }	(264+2)	[6946]	BC	9	96
+Wave+100  0626	Kernal	B566756-6		Ag Ri Pz (Yafizethe)	-	223	Wild	G3 V	{ 2 }	(264+1)	[6946]	BC	9	48
+Wave+300  0626	Kernal	B566767-7		Ag Ri Pz (Yafizethe)	-	323	Wild	G3 V	{ 2 }	(264+3)	[6946]	BC	9	144
+Wave+600  0626	Kernal	B56679A-8		Ag Ri Pz (Yafizethe)	-	423	Wild	G3 V	{ 2 }	(764+5)	[6946]	BC	9	840
+
+
+Input     0629	Askigaak	E549A8A-B		Hi In (Sigka)	A	901	Wild	M1 V	{ 2 }	(D9D+2)	[AC5B]	BE	9	3,042
+Wave+10   0629	Askigaak	E549AB7-9	  	Hi In Pz (Sigka)	-	401	Wild	M1 V	{ 1 }	(393-1)	[AC5B]	BE	9	-81
+Wave+100  0629	Askigaak	E549AA8-A	  	Hi In Pz (Sigka)	-	501	Wild	M1 V	{ 2 }	(394+1)	[AC5B]	BE	9	108
+Wave+300  0629	Askigaak	E549AC9-B	  	Hi In Pz (Sigka)	-	601	Wild	M1 V	{ 2 }	(394-2)	[AC5B]	BE	9	-216
+Wave+600  0629	Askigaak	E549A86-C	  	Hi In Pz (Sigka)	-	701	Wild	M1 V	{ 2 }	(394+2)	[AC5B]	BE	9	216
+
+
+Input     0633	Preslin	B430697-C	N	De Na Ni Po Jonk9	A	310	Wild	M2 V	{ 1 }	(955+2)	[776D]	B	11	450
+REDUCED:
+Check Ni
+Wave+10   0633	Preslin	B430552-C	N	De Na Ni Po Da Jonk9	-	310	Wild	M2 V	{ 1 }	(342+1)	[776D]	B	11	24
+Wave+100  0633	Preslin	B430549-D	N	De Ni Po Da Jonk9	-	410	Wild	M2 V	{ 1 }	(342+1)	[776D]	B	11	24
+Wave+300  0633	Preslin	B430588-E	N	De Ni Po Da Jonk9	-	510	Wild	M2 V	{ 1 }	(342-4)	[776D]	B	11	-96
+Wave+600  0633	Preslin	B430579-F	N	De Ni Po Da Jonk9	-	610	Wild	M2 V	{ 1 }	(342+1)	[776D]	B	11	24
+
+
+Input     0638	Brufort	C669624-6		Ni Ri	A	420	Wild	F5 V G5 V	{ -1 }	(853-5)	[2512]	BC	7	-600
+REDUCED:
+Check Ni
+Wave+10   0638	Brufort	C669511-5		Ni Ri Da 	-	420	Wild	F5 V G5 V	{ -1 }	(240-3)	[2512]	BC	7	-24
+Wave+100  0638	Brufort	C669559-6		Ni Pr Da 	-	520	Wild	F5 V G5 V	{ -2 }	(240-1)	[2512]	BC	7	-8
+Wave+300  0638	Brufort	C669555-7		Ni Pr Da 	-	620	Wild	F5 V G5 V	{ -2 }	(240-1)	[2512]	BC	7	-8
+Wave+600  0638	Brufort	C669542-8		Ni Pr Da 	-	720	Wild	F5 V G5 V	{ -2 }	(440+1)	[2512]	BC	7	16
+
+
+Input     0701	Taa	A651634-9		Ni Po	A	330	Wild	G7 V	{ 0 }	(B54-3)	[3626]		12	-660
+REDUCED:
+Check Ni
+Wave+10   0701	Taa	A651559-9		Ni Po Da 	-	330	Wild	G7 V	{ 0 }	(541+1)	[3626]		12	20
+Wave+100  0701	Taa	A651572-A		Ni Po Da 	-	430	Wild	G7 V	{ 1 }	(542+1)	[3626]		12	40
+Wave+300  0701	Taa	A651548-B		Ni Po Da 	-	530	Wild	G7 V	{ 1 }	(542+2)	[3626]		12	80
+Wave+600  0701	Taa	A651575-C		Ni Po Da 	-	630	Wild	G7 V	{ 1 }	(542+3)	[3626]		12	120
+
+
+Input     0702	Dilex	D626888-7		Ph Pi	A	902	Wild	M1 V	{ -2 }	(A76-2)	[8657]		5	-840
+Wave+10   0702	Dilex	D62689A-5		Ph Pi Pz 	-	402	Wild	M1 V	{ -2 }	(270+1)	[8657]		5	14
+Wave+100  0702	Dilex	D6268AB-6		Ph Pi Pz 	-	502	Wild	M1 V	{ -2 }	(270+2)	[8657]		5	28
+Wave+300  0702	Dilex	D6268CF-7		Ph Pi Pz 	-	602	Wild	M1 V	{ -2 }	(270-2)	[8657]		5	-28
+Wave+600  0702	Dilex	D6268AD-8		Ph Pi Pz 	-	702	Wild	M1 V	{ -2 }	(470-3)	[8657]		5	-84
+
+
+Input     0709	Hylaxis	B7B2345-A		Fl He Lo	A	522	Wild	K7 V	{ 1 }	(921-1)	[1438]	B	9	-18
+REDUCED:
+DIEBACK:
+Check He
+Check Lo
+Wave+10   0709	Hylaxis	D7B2000-0		Fl He Lo Da 	-	022	Wild	K7 V	{ -3 }	(200+1)	[1438]	B	9	2
+Wave+100  0709	Hylaxis	D7B2000-0		Fl He Lo Da 	-	022	Wild	K7 V	{ -3 }	(200+1)	[1438]	B	9	2
+Wave+300  0709	Hylaxis	D7B2000-0		Fl He Lo Da 	-	022	Wild	K7 V	{ -3 }	(200+1)	[1438]	B	9	2
+Wave+600  0709	Hylaxis	D7B2000-0		Fl He Lo Da 	-	022	Wild	K7 V	{ -3 }	(200+1)	[1438]	B	9	2
+
+
+Input     0710	Naali	C6165A7-8	S	Ic Ni	A	324	Wild	M4 V	{ -2 }	(D42+1)	[737A]	B	9	104
+Check Ni
+Wave+10   0710	Naali	D616000-0	S	Ic Ni Da 	-	024	Wild	M4 V	{ -3 }	(200+1)	[737A]	B	9	2
+Wave+100  0710	Naali	D616000-0	S	Ic Ni Da 	-	024	Wild	M4 V	{ -3 }	(200+1)	[737A]	B	9	2
+Wave+300  0710	Naali	D616000-0	S	Ic Ni Da 	-	024	Wild	M4 V	{ -3 }	(200+1)	[737A]	B	9	2
+Wave+600  0710	Naali	D616000-0	S	Ic Ni Da 	-	024	Wild	M4 V	{ -3 }	(200+1)	[737A]	B	9	2
+
+
+Input     0713	Amirante	D310899-7	S	Na Ph Pi	A	602	Wild	K5 V	{ -2 }	(A76-1)	[9668]	BDe	11	-420
+Wave+10   0713	Amirante	D310889-5	S	Na Ph Pi Pz 	-	302	Wild	K5 V	{ -2 }	(270-1)	[9668]	BDe	11	-14
+Wave+100  0713	Amirante	D310841-6	S	Na Ph Pi Pz 	-	402	Wild	K5 V	{ -2 }	(270+3)	[9668]	BDe	11	42
+Wave+300  0713	Amirante	D310854-7	S	Na Ph Pi Pz 	-	502	Wild	K5 V	{ -2 }	(270-4)	[9668]	BDe	11	-56
+Wave+600  0713	Amirante	D3108CC-8	S	Na Ph Pi Pz 	-	602	Wild	K5 V	{ -2 }	(470-2)	[9668]	BDe	11	-56
+
+
+Input     0715	Bahadur	A426203-E	N	Lo	A	102	Wild	M5 V	{ 1 }	(611-3)	[1319]	B	12	-18
+DIEBACK:
+Check Lo
+Wave+10   0715	Bahadur	D426000-0	 	Lo Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[1319]	B	12	2
+Wave+100  0715	Bahadur	D426000-0	 	Lo Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[1319]	B	12	2
+Wave+300  0715	Bahadur	D426000-0	 	Lo Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[1319]	B	12	2
+Wave+600  0715	Bahadur	D426000-0	 	Lo Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[1319]	B	12	2
+
+
+Input     0717	Rhinom	B7768BA-8	N	Pa Ph Pi Pz	A	601	Wild	G9 V	{ 0 }	(B78+2)	[A87A]	BcDe	6	1,232
+Wave+10   0717	Rhinom	B776888-6	N	Pa Ph Pi Pz 	-	301	Wild	G9 V	{ 0 }	(272+4)	[A87A]	BcDe	6	112
+Wave+100  0717	Rhinom	B7768AA-7	N	Pa Ph Pi Pz 	-	401	Wild	G9 V	{ 0 }	(272+1)	[A87A]	BcDe	6	28
+Wave+300  0717	Rhinom	B7768BA-8	N	Pa Ph Pi Pz 	-	501	Wild	G9 V	{ 0 }	(372+1)	[A87A]	BcDe	6	42
+Wave+600  0717	Rhinom	B776886-9	N	Pa Ph Pi Pz 	-	601	Wild	G9 V	{ 1 }	(373-1)	[A87A]	BcDe	6	-63
+
+
+Input     0727	Shenganay	C665502-5	S	Ag Ni Ga Pr	A	502	Wild	F7 V K1 V	{ -1 }	(743-5)	[1411]	BcC	14	-420
+REDUCED:
+Check Ni
+Wave+10   0727	Shenganay	C665454-3	S	Ag Ga Ni Pr Da 	-	502	Wild	F7 V K1 V	{ -1 }	(230+1)	[1411]	BcC	14	6
+Wave+100  0727	Shenganay	C665457-4	S	Ga Ni Pa Da 	-	602	Wild	F7 V K1 V	{ -2 }	(230+2)	[1411]	BcC	14	12
+Wave+300  0727	Shenganay	C665435-5	S	Ga Ni Pa Da 	-	702	Wild	F7 V K1 V	{ -2 }	(230-1)	[1411]	BcC	14	-6
+Wave+600  0727	Shenganay	C665444-6	S	Ga Ni Pa Da 	-	802	Wild	F7 V K1 V	{ -2 }	(230-1)	[1411]	BcC	14	-6
+
+
+Input     0729	Norga	A000141-D	N	As Lo Va	A	710	Wild	M7 V	{ 1 }	(401-1)	[123B]	B	4	0
+DIEBACK:
+Check Lo
+Wave+10   0729	Norga	D000000-0	 	As Lo Va Da 	-	010	Wild	M7 V	{ -3 }	(200+3)	[123B]	B	4	6
+Wave+100  0729	Norga	D000000-0	 	As Lo Va Da 	-	010	Wild	M7 V	{ -3 }	(200+3)	[123B]	B	4	6
+Wave+300  0729	Norga	D000000-0	 	As Lo Va Da 	-	010	Wild	M7 V	{ -3 }	(200+3)	[123B]	B	4	6
+Wave+600  0729	Norga	D000000-0	 	As Lo Va Da 	-	010	Wild	M7 V	{ -3 }	(200+3)	[123B]	B	4	6
+
+
+Input     0730	Sultana	B649441-9		Ni	A	521	Wild	M4 V	{ 0 }	(933-2)	[2437]	B	6	-162
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0730	Sultana	D649000-0		Ni Da 	-	021	Wild	M4 V	{ -3 }	(200-1)	[2437]	B	6	-2
+Wave+100  0730	Sultana	D649000-0		Ni Da 	-	021	Wild	M4 V	{ -3 }	(200-1)	[2437]	B	6	-2
+Wave+300  0730	Sultana	D649000-0		Ni Da 	-	021	Wild	M4 V	{ -3 }	(200-1)	[2437]	B	6	-2
+Wave+600  0730	Sultana	D649000-0		Ni Da 	-	021	Wild	M4 V	{ -3 }	(200-1)	[2437]	B	6	-2
+
+
+Input     0731	Qevar	A4326EA-E	NS	Na Ni Po Da	A	403	Wild	M6 V	{ 2 }	(B56+5)	[A89J]	B	6	1,650
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0731	Qevar	D432000-0	 S	Na Ni Po Da 	-	003	Wild	M6 V	{ -3 }	(200+4)	[A89J]	B	6	8
+Wave+100  0731	Qevar	D432000-0	 S	Na Ni Po Da 	-	003	Wild	M6 V	{ -3 }	(200+4)	[A89J]	B	6	8
+Wave+300  0731	Qevar	D432000-0	 S	Na Ni Po Da 	-	003	Wild	M6 V	{ -3 }	(200+4)	[A89J]	B	6	8
+Wave+600  0731	Qevar	D432000-0	 S	Na Ni Po Da 	-	003	Wild	M6 V	{ -3 }	(200+4)	[A89J]	B	6	8
+
+
+Input     0734	Raguseppe	B410555-B		Ni	A	710	Wild	M0 V M0 V	{ 1 }	(845-1)	[3639]	B	14	-160
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0734	Raguseppe	D410000-0		Ni Da 	-	010	Wild	M0 V M0 V	{ -3 }	(200+1)	[3639]	B	14	2
+Wave+100  0734	Raguseppe	D410000-0		Ni Da 	-	010	Wild	M0 V M0 V	{ -3 }	(200+1)	[3639]	B	14	2
+Wave+300  0734	Raguseppe	D410000-0		Ni Da 	-	010	Wild	M0 V M0 V	{ -3 }	(200+1)	[3639]	B	14	2
+Wave+600  0734	Raguseppe	D410000-0		Ni Da 	-	010	Wild	M0 V M0 V	{ -3 }	(200+1)	[3639]	B	14	2
+
+
+Input     0735	Kiangya	C7C2200-B	S	Fl He Lo	A	714	Wild	M3 V	{ 0 }	(910-4)	[1216]	B	14	0
+Check He
+Check Lo
+Wave+10   0735	Kiangya	D7C2000-0	S	Fl He Lo Da 	-	014	Wild	M3 V	{ -3 }	(200-1)	[1216]	B	14	-2
+Wave+100  0735	Kiangya	D7C2000-0	S	Fl He Lo Da 	-	014	Wild	M3 V	{ -3 }	(200-1)	[1216]	B	14	-2
+Wave+300  0735	Kiangya	D7C2000-0	S	Fl He Lo Da 	-	014	Wild	M3 V	{ -3 }	(200-1)	[1216]	B	14	-2
+Wave+600  0735	Kiangya	D7C2000-0	S	Fl He Lo Da 	-	014	Wild	M3 V	{ -3 }	(200-1)	[1216]	B	14	-2
+
+
+Input     0737	Taomina	D4216EA-7		He Na Ni Po Da	A	834	Wild	G8 V	{ -3 }	(851+1)	[A39B]	B	10	40
+REDUCED:
+DIEBACK:
+Check Ni
+Check He
+Wave+10   0737	Taomina	D421000-0		He Na Ni Po Da 	-	034	Wild	G8 V	{ -3 }	(200-1)	[A39B]	B	10	-2
+Wave+100  0737	Taomina	D421000-0		He Na Ni Po Da 	-	034	Wild	G8 V	{ -3 }	(200-1)	[A39B]	B	10	-2
+Wave+300  0737	Taomina	D421000-0		He Na Ni Po Da 	-	034	Wild	G8 V	{ -3 }	(200-1)	[A39B]	B	10	-2
+Wave+600  0737	Taomina	D421000-0		He Na Ni Po Da 	-	034	Wild	G8 V	{ -3 }	(200-1)	[A39B]	B	10	-2
+
+
+Input     0740	Mtensc	D551445-8		Ni Po	A	123	Wild	M0 V	{ -3 }	(B31-5)	[2136]	B	13	-165
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0740	Mtensc	D551000-0		Ni Po Da 	-	023	Wild	M0 V	{ -3 }	(200+3)	[2136]	B	13	6
+Wave+100  0740	Mtensc	D551000-0		Ni Po Da 	-	023	Wild	M0 V	{ -3 }	(200+3)	[2136]	B	13	6
+Wave+300  0740	Mtensc	D551000-0		Ni Po Da 	-	023	Wild	M0 V	{ -3 }	(200+3)	[2136]	B	13	6
+Wave+600  0740	Mtensc	D551000-0		Ni Po Da 	-	023	Wild	M0 V	{ -3 }	(200+3)	[2136]	B	13	6
+
+
+Input     0803	Retion	C558454-5		Ni Pa	A	601	Wild	K7 V M4 V	{ -2 }	(631-4)	[2233]		12	-72
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0803	Retion	D558000-0		Ni Pa Da 	-	001	Wild	K7 V M4 V	{ -3 }	(200+1)	[2233]		12	2
+Wave+100  0803	Retion	D558000-0		Ni Pa Da 	-	001	Wild	K7 V M4 V	{ -3 }	(200+1)	[2233]		12	2
+Wave+300  0803	Retion	D558000-0		Ni Pa Da 	-	001	Wild	K7 V M4 V	{ -3 }	(200+1)	[2233]		12	2
+Wave+600  0803	Retion	D558000-0		Ni Pa Da 	-	001	Wild	K7 V M4 V	{ -3 }	(200+1)	[2233]		12	2
+
+
+Input     0805	Jode	A9A6638-B		Fl Ni Varg1 Di(Serpents)	A	410	Wild	F3 IV	{ 1 }	(955-2)	[3728]	B	14	-450
+REDUCED:
+Check Ni
+Wave+10   0805	Jode	A9A6588-A		Fl Ni Da Varg1 (Serpents)	-	410	Wild	F3 IV	{ 1 }	(342+4)	[3728]	B	14	96
+Wave+100  0805	Jode	A9A6555-B		Fl Ni Da Varg1 (Serpents)	-	510	Wild	F3 IV	{ 1 }	(342-3)	[3728]	B	14	-72
+Wave+300  0805	Jode	A9A6543-C		Fl Ni Da Varg1 (Serpents)	-	610	Wild	F3 IV	{ 1 }	(342+2)	[3728]	B	14	48
+Wave+600  0805	Jode	A9A6514-D		Fl Ni Da Varg1 (Serpents)	-	710	Wild	F3 IV	{ 1 }	(342-3)	[3728]	B	14	-72
+
+
+Input     0809	Therim	D9B4498-8	S	Fl Ni	A	313	Wild	M9 V	{ -3 }	(A31-2)	[5169]	B	7	-60
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0809	Therim	D9B4000-0	S	Fl Ni Px Da 	-	013	Wild	M9 V	{ -3 }	(200+4)	[5169]	B	7	8
+Wave+100  0809	Therim	D9B4000-0	S	Fl Ni Px Da 	-	013	Wild	M9 V	{ -3 }	(200+4)	[5169]	B	7	8
+Wave+300  0809	Therim	D9B4000-0	S	Fl Ni Px Da 	-	013	Wild	M9 V	{ -3 }	(200+4)	[5169]	B	7	8
+Wave+600  0809	Therim	D9B4000-0	S	Fl Ni Px Da 	-	013	Wild	M9 V	{ -3 }	(200+4)	[5169]	B	7	8
+
+
+Input     0812	Cicus	E310303-7		Lo	A	621	Wild	G0 V K0 V M4 V	{ -3 }	(520-5)	[1112]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   0812	Cicus	E310000-0	  	Lo Da 	-	021	Wild	G0 V K0 V M4 V	{ -3 }	(200-3)	[1112]	B	10	-6
+Wave+100  0812	Cicus	E310000-0	  	Lo Da 	-	021	Wild	G0 V K0 V M4 V	{ -3 }	(200-3)	[1112]	B	10	-6
+Wave+300  0812	Cicus	E310000-0	  	Lo Da 	-	021	Wild	G0 V K0 V M4 V	{ -3 }	(200-3)	[1112]	B	10	-6
+Wave+600  0812	Cicus	E310000-0	  	Lo Da 	-	021	Wild	G0 V K0 V M4 V	{ -3 }	(200-3)	[1112]	B	10	-6
+
+
+Input     0813	Makeni	E100524-8		Ni Va	A	302	Wild	M1 V	{ -3 }	(941-5)	[1214]	B	9	-180
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0813	Makeni	E100000-0	  	Ni Va Da 	-	002	Wild	M1 V	{ -3 }	(200+1)	[1214]	B	9	2
+Wave+100  0813	Makeni	E100000-0	  	Ni Va Da 	-	002	Wild	M1 V	{ -3 }	(200+1)	[1214]	B	9	2
+Wave+300  0813	Makeni	E100000-0	  	Ni Va Da 	-	002	Wild	M1 V	{ -3 }	(200+1)	[1214]	B	9	2
+Wave+600  0813	Makeni	E100000-0	  	Ni Va Da 	-	002	Wild	M1 V	{ -3 }	(200+1)	[1214]	B	9	2
+
+
+Input     0814	Amritsar	C897553-8		Ag Ni An	A	413	Wild	F3 V	{ -1 }	(B43-3)	[3436]	BC	12	-396
+REDUCED:
+Check Ni
+Wave+10   0814	Amritsar	C897456-6		Ag Ni Da An	-	413	Wild	F3 V	{ -1 }	(230+1)	[3436]	BC	12	6
+Wave+100  0814	Amritsar	C897401-7		Ni Pa Da An	-	513	Wild	F3 V	{ -2 }	(230+1)	[3436]	BC	12	6
+Wave+300  0814	Amritsar	C897438-8		Ni Pa Da An	-	613	Wild	F3 V	{ -2 }	(630-4)	[3436]	BC	12	-72
+Wave+600  0814	Amritsar	C897464-9		Ni Pa Da An	-	713	Wild	F3 V	{ -1 }	(630-2)	[3436]	BC	12	-36
+
+
+Input     0815	Pangumo	C5525B9-9		Ni Po Da	A	301	Wild	K0 V M8 V	{ -1 }	(843+1)	[747B]	B	8	96
+REDUCED:
+Check Ni
+Wave+10   0815	Pangumo	C552540-7		Ni Po Da 	-	301	Wild	K0 V M8 V	{ -2 }	(240-2)	[747B]	B	8	-16
+Wave+100  0815	Pangumo	C552585-8		Ni Po Da 	-	401	Wild	K0 V M8 V	{ -2 }	(340+1)	[747B]	B	8	12
+Wave+300  0815	Pangumo	C552510-9		Ni Po Da 	-	501	Wild	K0 V M8 V	{ -1 }	(340+3)	[747B]	B	8	36
+Wave+600  0815	Pangumo	C552573-A		Ni Po Da 	-	601	Wild	K0 V M8 V	{ 0 }	(341+2)	[747B]	B	8	24
+
+
+Input     0816	Coshecawat	X100614-7		Na Ni Va Fo	A	313	Wild	M3 V M6 V	{ -3 }	(851-5)	[2313]		9	-200
+REDUCED:
+Check Ni
+Wave+10   0816	Coshecawat	X100665-4	  	Na Ni Va Da 	-	313	Wild	M3 V M6 V	{ -3 }	(250+1)	[2313]		9	10
+Wave+100  0816	Coshecawat	X100675-5	  	Na Ni Va Da 	-	413	Wild	M3 V M6 V	{ -3 }	(250+1)	[2313]		9	10
+Wave+300  0816	Coshecawat	X100666-6	  	Na Ni Va Da 	-	513	Wild	M3 V M6 V	{ -3 }	(250+1)	[2313]		9	10
+Wave+600  0816	Coshecawat	X100664-7	  	Na Ni Va Da 	-	613	Wild	M3 V M6 V	{ -3 }	(250-1)	[2313]		9	-10
+
+
+Input     0819	Jehun	E6676A6-6		Ag Ni Ga Ri O:0917	A	901	Wild	K2 V M4 V	{ -1 }	(853+1)	[8578]	BC	10	120
+REDUCED:
+Check Ni
+Wave+10   0819	Jehun	E66758D-5	  	Ag Ga Ni Ri Da O:0917	-	901	Wild	K2 V M4 V	{ -1 }	(240+1)	[8578]	BC	10	8
+Wave+100  0819	Jehun	E6676AA-6	  	Ag Ga Ni Pr Da O:0917	-	101	Wild	K2 V M4 V	{ -2 }	(250-1)	[8578]	BC	10	-10
+Wave+300  0819	Jehun	E6676A8-7	  	Ag Ga Ni Ri Da O:0917	-	201	Wild	K2 V M4 V	{ -1 }	(250-1)	[8578]	BC	10	-10
+Wave+600  0819	Jehun	E66766B-8	  	Ag Ga Ni Ri Da O:0917	-	301	Wild	K2 V M4 V	{ -1 }	(350-1)	[8578]	BC	10	-15
+
+
+Input     0824	Tlaza	C303100-A		Ic Lo Va	A	913	Wild	M6 V	{ 0 }	(700-4)	[1115]	B	12	0
+DIEBACK:
+Check Lo
+Wave+10   0824	Tlaza	D303000-0		Ic Lo Va Da 	-	013	Wild	M6 V	{ -3 }	(200+2)	[1115]	B	12	4
+Wave+100  0824	Tlaza	D303000-0		Ic Lo Va Da 	-	013	Wild	M6 V	{ -3 }	(200+2)	[1115]	B	12	4
+Wave+300  0824	Tlaza	D303000-0		Ic Lo Va Da 	-	013	Wild	M6 V	{ -3 }	(200+2)	[1115]	B	12	4
+Wave+600  0824	Tlaza	D303000-0		Ic Lo Va Da 	-	013	Wild	M6 V	{ -3 }	(200+2)	[1115]	B	12	4
+
+
+Input     0826	Imone	A9C4555-F	N	Fl Ni	A	613	Wild	M0 V	{ 1 }	(B45-1)	[363D]	B	8	-220
+REDUCED:
+Check Ni
+Wave+10   0826	Imone	A9C4474-C	N	Fl Ni Da 	-	613	Wild	M0 V	{ 1 }	(632-3)	[363D]	B	8	-108
+Wave+100  0826	Imone	A9C4431-D	N	Fl Ni Da 	-	713	Wild	M0 V	{ 1 }	(632-2)	[363D]	B	8	-72
+Wave+300  0826	Imone	A9C4487-E	N	Fl Ni Da 	-	813	Wild	M0 V	{ 1 }	(632-3)	[363D]	B	8	-108
+Wave+600  0826	Imone	A9C4461-F	N	Fl Ni Da 	-	913	Wild	M0 V	{ 1 }	(632+3)	[363D]	B	8	108
+
+
+Input     0827	Skopyeh	B500543-C		Ni Va	A	902	Wild	F9 V K3 V	{ 1 }	(945-1)	[363A]	B	12	-180
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0827	Skopyeh	D500000-0		Ni Va Da 	-	002	Wild	F9 V K3 V	{ -3 }	(200-1)	[363A]	B	12	-2
+Wave+100  0827	Skopyeh	D500000-0		Ni Va Da 	-	002	Wild	F9 V K3 V	{ -3 }	(200-1)	[363A]	B	12	-2
+Wave+300  0827	Skopyeh	D500000-0		Ni Va Da 	-	002	Wild	F9 V K3 V	{ -3 }	(200-1)	[363A]	B	12	-2
+Wave+600  0827	Skopyeh	D500000-0		Ni Va Da 	-	002	Wild	F9 V K3 V	{ -3 }	(200-1)	[363A]	B	12	-2
+
+
+Input     0828	Burnham	B664397-8	N	Lo	A	501	Wild	K3 V	{ -1 }	(620+1)	[4269]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   0828	Burnham	D664000-0	 	Lo Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[4269]	B	9	2
+Wave+100  0828	Burnham	D664000-0	 	Lo Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[4269]	B	9	2
+Wave+300  0828	Burnham	D664000-0	 	Lo Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[4269]	B	9	2
+Wave+600  0828	Burnham	D664000-0	 	Lo Da 	-	001	Wild	K3 V	{ -3 }	(200+1)	[4269]	B	9	2
+
+
+Input     0830	Bukit Seng	C542343-8		He Lo Po	A	404	Wild	M4 V	{ -2 }	(920-4)	[1136]	B	7	0
+REDUCED:
+DIEBACK:
+Check He
+Check Lo
+Wave+10   0830	Bukit Seng	D542000-0		He Lo Po Da 	-	004	Wild	M4 V	{ -3 }	(200+1)	[1136]	B	7	2
+Wave+100  0830	Bukit Seng	D542000-0		He Lo Po Da 	-	004	Wild	M4 V	{ -3 }	(200+1)	[1136]	B	7	2
+Wave+300  0830	Bukit Seng	D542000-0		He Lo Po Da 	-	004	Wild	M4 V	{ -3 }	(200+1)	[1136]	B	7	2
+Wave+600  0830	Bukit Seng	D542000-0		He Lo Po Da 	-	004	Wild	M4 V	{ -3 }	(200+1)	[1136]	B	7	2
+
+
+Input     0833	Mephit	C9B8463-8	S	Fl Ni	A	302	Wild	G6 V K4 V	{ -2 }	(831-3)	[3247]	B	8	-72
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0833	Mephit	D9B8000-0	S	Fl Ni Da 	-	002	Wild	G6 V K4 V	{ -3 }	(200-3)	[3247]	B	8	-6
+Wave+100  0833	Mephit	D9B8000-0	S	Fl Ni Da 	-	002	Wild	G6 V K4 V	{ -3 }	(200-3)	[3247]	B	8	-6
+Wave+300  0833	Mephit	D9B8000-0	S	Fl Ni Da 	-	002	Wild	G6 V K4 V	{ -3 }	(200-3)	[3247]	B	8	-6
+Wave+600  0833	Mephit	D9B8000-0	S	Fl Ni Da 	-	002	Wild	G6 V K4 V	{ -3 }	(200-3)	[3247]	B	8	-6
+
+
+Input     0902	Ghatsokie	BA866D9-8		Ag Ni Ri Da (Crenduthaar)8 Varg2	A	304	Wild	K7 V	{ 1 }	(C55+5)	[A79C]		7	1,500
+Wave+10   0902	Ghatsokie	BA86675-8		Ag Ni Ri Da (Crenduthaar)8 Varg2	-	104	Wild	K7 V	{ 1 }	(652+1)	[A79C]		7	60
+Wave+100  0902	Ghatsokie	BA86620-9		Ag Ni Ri Da (Crenduthaar)8 Varg2	-	204	Wild	K7 V	{ 2 }	(653-2)	[A79C]		7	-180
+Wave+300  0902	Ghatsokie	BA86697-A		Ag Ni Ri Da (Crenduthaar)8 Varg2	-	304	Wild	K7 V	{ 3 }	(654+5)	[A79C]		7	600
+Wave+600  0902	Ghatsokie	BA86689-B		Ag Ni Ri Da (Crenduthaar)8 Varg2	-	404	Wild	K7 V	{ 3 }	(654+4)	[A79C]		7	480
+
+
+Input     0903	Matsa	A434435-E		Ni	A	102	Wild	G3 IV M5 V	{ 1 }	(834-2)	[152B]		5	-192
+REDUCED:
+Check Ni
+Wave+10   0903	Matsa	A434445-C		Ni Da 	-	102	Wild	G3 IV M5 V	{ 1 }	(432+1)	[152B]		5	24
+Wave+100  0903	Matsa	A434468-D		Ni Da 	-	202	Wild	G3 IV M5 V	{ 1 }	(432-2)	[152B]		5	-48
+Wave+300  0903	Matsa	A434486-E		Ni Px Da 	-	302	Wild	G3 IV M5 V	{ 1 }	(432+2)	[152B]		5	48
+Wave+600  0903	Matsa	A434455-F		Ni Px Da 	-	402	Wild	G3 IV M5 V	{ 1 }	(432-2)	[152B]		5	-48
+
+
+Input     0905	Aksofouta	D5567A7-4		Ag	A	612	Wild	G6 V	{ -1 }	(965+1)	[9676]		13	270
+Wave+10   0905	Aksofouta	D556797-2		Ag Pz 	-	312	Wild	G6 V	{ -1 }	(261-1)	[9676]		13	-12
+Wave+100  0905	Aksofouta	D55678A-3		Ag Pz 	-	412	Wild	G6 V	{ -1 }	(261-1)	[9676]		13	-12
+Wave+300  0905	Aksofouta	D556765-4		Ag Pz 	-	512	Wild	G6 V	{ -1 }	(261-4)	[9676]		13	-48
+Wave+600  0905	Aksofouta	D556720-5		Ag Pz 	-	612	Wild	G6 V	{ -1 }	(261-4)	[9676]		13	-48
+
+
+Input     0906	Waalikii	B525568-B	N	Ni	A	834	Wild	F8 V	{ 1 }	(E45+1)	[464A]	B	11	280
+REDUCED:
+Check Ni
+Wave+10   0906	Waalikii	B525564-9	N	Ni Px Da 	-	834	Wild	F8 V	{ 0 }	(941+1)	[464A]	B	11	36
+Wave+100  0906	Waalikii	B525568-A	N	Ni Da 	-	934	Wild	F8 V	{ 1 }	(942+2)	[464A]	B	11	144
+Wave+300  0906	Waalikii	B525642-B	N	Ni Px Da 	-	134	Wild	F8 V	{ 1 }	(952-3)	[464A]	B	11	-270
+Wave+600  0906	Waalikii	B5256AB-C	N	Ni Da 	-	234	Wild	F8 V	{ 1 }	(952+2)	[464A]	B	11	180
+
+
+Input     0907	Malkei	B659866-8		Ph O:0805	A	610	Wild	M1 V	{ 0 }	(B78-1)	[7847]	Be	10	-616
+Wave+10   0907	Malkei	B6598A9-6		Ph Pz O:0805	-	310	Wild	M1 V	{ 0 }	(272+1)	[7847]	Be	10	28
+Wave+100  0907	Malkei	B6598C9-7		Ph Pz O:0805	-	410	Wild	M1 V	{ 0 }	(272-2)	[7847]	Be	10	-56
+Wave+300  0907	Malkei	B6598BB-8		Ph Pz O:0805	-	510	Wild	M1 V	{ 0 }	(372+1)	[7847]	Be	10	42
+Wave+600  0907	Malkei	B6598CF-9		Ph Pz O:0805	-	610	Wild	M1 V	{ 1 }	(373-5)	[7847]	Be	10	-315
+
+
+Input     0910	Gryphon	C8B6554-9		Fl Ni	A	103	Wild	M8 V	{ -1 }	(A43-3)	[3437]	B	14	-360
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0910	Gryphon	D8B6000-0		Fl Ni Da 	-	003	Wild	M8 V	{ -3 }	(200-1)	[3437]	B	14	-2
+Wave+100  0910	Gryphon	D8B6000-0		Fl Ni Da 	-	003	Wild	M8 V	{ -3 }	(200-1)	[3437]	B	14	-2
+Wave+300  0910	Gryphon	D8B6000-0		Fl Ni Da 	-	003	Wild	M8 V	{ -3 }	(200-1)	[3437]	B	14	-2
+Wave+600  0910	Gryphon	D8B6000-0		Fl Ni Da 	-	003	Wild	M8 V	{ -3 }	(200-1)	[3437]	B	14	-2
+
+
+Input     0912	Kayu	E9B758A-8		Fl Ni	A	412	Wild	M2 V	{ -3 }	(A41-3)	[5258]	B	6	-120
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0912	Kayu	E9B7000-0	  	Fl Ni Da 	-	012	Wild	M2 V	{ -3 }	(200-4)	[5258]	B	6	-8
+Wave+100  0912	Kayu	E9B7000-0	  	Fl Ni Da 	-	012	Wild	M2 V	{ -3 }	(200-4)	[5258]	B	6	-8
+Wave+300  0912	Kayu	E9B7000-0	  	Fl Ni Da 	-	012	Wild	M2 V	{ -3 }	(200-4)	[5258]	B	6	-8
+Wave+600  0912	Kayu	E9B7000-0	  	Fl Ni Da 	-	012	Wild	M2 V	{ -3 }	(200-4)	[5258]	B	6	-8
+
+
+Input     0913	Amarkimi	B546401-A	W	Ni Pa	A	902	Wild	K8 V	{ 2 }	(835-2)	[1615]	Bc	8	-240
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0913	Amarkimi	D546000-0	 	Ni Pa Da 	-	002	Wild	K8 V	{ -3 }	(200-2)	[1615]	Bc	8	-4
+Wave+100  0913	Amarkimi	D546000-0	 	Ni Pa Da 	-	002	Wild	K8 V	{ -3 }	(200-2)	[1615]	Bc	8	-4
+Wave+300  0913	Amarkimi	D546000-0	 	Ni Pa Da 	-	002	Wild	K8 V	{ -3 }	(200-2)	[1615]	Bc	8	-4
+Wave+600  0913	Amarkimi	D546000-0	 	Ni Pa Da 	-	002	Wild	K8 V	{ -3 }	(200-2)	[1615]	Bc	8	-4
+
+
+Input     0914	Otomisi	B5A5577-C	S	Fl Ni	A	403	Wild	G6 V M9 V	{ 1 }	(A45+1)	[565C]	B	11	200
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0914	Otomisi	D5A5000-0	S	Fl Ni Px Da 	-	003	Wild	G6 V M9 V	{ -3 }	(200+1)	[565C]	B	11	2
+Wave+100  0914	Otomisi	D5A5000-0	S	Fl Ni Px Da 	-	003	Wild	G6 V M9 V	{ -3 }	(200+1)	[565C]	B	11	2
+Wave+300  0914	Otomisi	D5A5000-0	S	Fl Ni Px Da 	-	003	Wild	G6 V M9 V	{ -3 }	(200+1)	[565C]	B	11	2
+Wave+600  0914	Otomisi	D5A5000-0	S	Fl Ni Px Da 	-	003	Wild	G6 V M9 V	{ -3 }	(200+1)	[565C]	B	11	2
+
+
+Input     0915	Skold	B764332-A		Lo	A	124	Wild	K0 V	{ 1 }	(B21-2)	[1427]	B	15	-44
+DIEBACK:
+Check Lo
+Wave+10   0915	Skold	D764000-0		Lo Da 	-	024	Wild	K0 V	{ -3 }	(200+3)	[1427]	B	15	6
+Wave+100  0915	Skold	D764000-0		Lo Da 	-	024	Wild	K0 V	{ -3 }	(200+3)	[1427]	B	15	6
+Wave+300  0915	Skold	D764000-0		Lo Da 	-	024	Wild	K0 V	{ -3 }	(200+3)	[1427]	B	15	6
+Wave+600  0915	Skold	D764000-0		Lo Da 	-	024	Wild	K0 V	{ -3 }	(200+3)	[1427]	B	15	6
+
+
+Input     0917	Kubishush	B8B69AA-D		Fl Hi In Pz (Gl'lu)	A	901	Wild	M3 V M8 V	{ 4 }	(C8G+5)	[BD7F]	BEf	9	7,680
+Wave+10   0917	Kubishush	B8B6988-B		Fl Hi In Pz (Gl'lu)	-	401	Wild	M3 V M8 V	{ 4 }	(386+3)	[BD7F]	BEf	9	432
+Wave+100  0917	Kubishush	B8B69BB-C		Fl Hi In Pz (Gl'lu)	-	501	Wild	M3 V M8 V	{ 4 }	(386+1)	[BD7F]	BEf	9	144
+Wave+300  0917	Kubishush	B8B69BB-D		Fl Hi In Pz (Gl'lu)	-	601	Wild	M3 V M8 V	{ 4 }	(386-3)	[BD7F]	BEf	9	-432
+Wave+600  0917	Kubishush	B8B6985-E		Fl Hi In Pz (Gl'lu)	-	701	Wild	M3 V M8 V	{ 4 }	(386-1)	[BD7F]	BEf	9	-144
+
+
+Input     0921	Northammon	B764676-A	NS	Ag Ni Ri Mr	A	620	Wild	K5 V	{ 4 }	(A58+4)	[6A5A]	BCf	9	1,600
+REDUCED:
+Check Ni
+Wave+10   0921	Northammon	B764548-9	NS	Ag Ni Ri Da Mr	-	620	Wild	K5 V	{ 2 }	(443-3)	[6A5A]	BCf	9	-144
+Wave+100  0921	Northammon	B764597-A	NS	Ag Ni Pr Da Mr	-	720	Wild	K5 V	{ 2 }	(443-2)	[6A5A]	BCf	9	-96
+Wave+300  0921	Northammon	B764553-B	NS	Ag Ni Pr Da Mr	-	820	Wild	K5 V	{ 2 }	(443-1)	[6A5A]	BCf	9	-48
+Wave+600  0921	Northammon	B764522-C	NS	Ag Ni Pr Da Mr	-	920	Wild	K5 V	{ 2 }	(443+2)	[6A5A]	BCf	9	96
+
+
+Input     0922	Teyobald	B8B3554-C		Fl Ni	A	822	Wild	M4 V M4 V	{ 1 }	(B45-1)	[363A]	B	15	-220
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   0922	Teyobald	D8B3000-0		Fl Ni Da 	-	022	Wild	M4 V M4 V	{ -3 }	(200+1)	[363A]	B	15	2
+Wave+100  0922	Teyobald	D8B3000-0		Fl Ni Da 	-	022	Wild	M4 V M4 V	{ -3 }	(200+1)	[363A]	B	15	2
+Wave+300  0922	Teyobald	D8B3000-0		Fl Ni Da 	-	022	Wild	M4 V M4 V	{ -3 }	(200+1)	[363A]	B	15	2
+Wave+600  0922	Teyobald	D8B3000-0		Fl Ni Da 	-	022	Wild	M4 V M4 V	{ -3 }	(200+1)	[363A]	B	15	2
+
+
+Input     0925	Ibix Donora	C432254-9		Lo Po	A	901	Wild	K1 V M3 V	{ -1 }	(510-3)	[1137]	B	7	0
+DIEBACK:
+Check Lo
+Wave+10   0925	Ibix Donora	D432000-0		Lo Po Da 	-	001	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	7	-6
+Wave+100  0925	Ibix Donora	D432000-0		Lo Po Da 	-	001	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	7	-6
+Wave+300  0925	Ibix Donora	D432000-0		Lo Po Da 	-	001	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	7	-6
+Wave+600  0925	Ibix Donora	D432000-0		Lo Po Da 	-	001	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	7	-6
+
+
+Input     0929	Sipedon	E5536BA-6		Ni Po Da	A	902	Wild	M2 V M4 V	{ -3 }	(851-1)	[8378]	B	14	-40
+REDUCED:
+Check Ni
+Wave+10   0929	Sipedon	E553644-4	  	Ni Po Da 	-	902	Wild	M2 V M4 V	{ -3 }	(250+1)	[8378]	B	14	10
+Wave+100  0929	Sipedon	E553768-5	  	Ni Po Da 	-	102	Wild	M2 V M4 V	{ -2 }	(260+1)	[8378]	B	14	12
+Wave+300  0929	Sipedon	E553765-6	  	Po Pz 	-	202	Wild	M2 V M4 V	{ -2 }	(260-3)	[8378]	B	14	-36
+Wave+600  0929	Sipedon	E55379B-7	  	Po Pz 	-	302	Wild	M2 V M4 V	{ -2 }	(260+1)	[8378]	B	14	12
+
+
+Input     0930	Arnyl	B683679-8	NS	Ni Ri	A	723	Wild	G2 V	{ 1 }	(D55+1)	[6758]	BC	10	325
+REDUCED:
+Check Ni
+Wave+10   0930	Arnyl	B683413-7	NS	Ni Ri Da 	-	723	Wild	G2 V	{ 0 }	(231+3)	[6758]	BC	10	18
+Wave+100  0930	Arnyl	B683443-8	NS	Ni Da 	-	823	Wild	G2 V	{ -1 }	(730+3)	[6758]	BC	10	63
+Wave+300  0930	Arnyl	B683465-9	NS	Ni Da 	-	923	Wild	G2 V	{ 0 }	(731-1)	[6758]	BC	10	-21
+Wave+600  0930	Arnyl	B683555-A	NS	Ni Re Da 	-	123	Wild	G2 V	{ 1 }	(742-3)	[6758]	BC	10	-168
+
+
+Input     0933	Echura	C6837BA-8		Ri Pz	A	603	Wild	M1 V	{ 0 }	(C68+2)	[977A]	BC	7	1,152
+Wave+10   0933	Echura	C683747-6		Ri Pz 	-	303	Wild	M1 V	{ 0 }	(262+3)	[977A]	BC	7	72
+Wave+100  0933	Echura	C683753-7		Ri Pz 	-	403	Wild	M1 V	{ 0 }	(262+2)	[977A]	BC	7	48
+Wave+300  0933	Echura	C6837AC-8		Ri Pz 	-	503	Wild	M1 V	{ 0 }	(562+5)	[977A]	BC	7	300
+Wave+600  0933	Echura	C68378B-9		Ri Pz 	-	603	Wild	M1 V	{ 1 }	(563+3)	[977A]	BC	7	270
+
+
+Input     0935	Inquar	B8B5745-B	S	Fl	A	723	Wild	M6 III	{ 2 }	(E6C+1)	[5939]	B	13	1,008
+Wave+10   0935	Inquar	B8B5745-9	S	Fl Pz 	-	323	Wild	M6 III	{ 1 }	(763+1)	[5939]	B	13	126
+Wave+100  0935	Inquar	B8B57A6-A	S	Fl Pz 	-	423	Wild	M6 III	{ 2 }	(764-3)	[5939]	B	13	-504
+Wave+300  0935	Inquar	B8B57CD-B	S	Fl Pz 	-	523	Wild	M6 III	{ 2 }	(764+1)	[5939]	B	13	168
+Wave+600  0935	Inquar	B8B577B-C	S	Fl Pz 	-	623	Wild	M6 III	{ 2 }	(764-2)	[5939]	B	13	-336
+
+
+Input     0936	Tullyhome	D6697A7-5		Ri	A	401	Wild	K2 V M1 V	{ -1 }	(966+1)	[9677]	BC	14	324
+Wave+10   0936	Tullyhome	D669746-3		Ri Pz 	-	201	Wild	K2 V M1 V	{ -1 }	(261+1)	[9677]	BC	14	12
+Wave+100  0936	Tullyhome	D669799-4		Ri Pz 	-	301	Wild	K2 V M1 V	{ -1 }	(261+1)	[9677]	BC	14	12
+Wave+300  0936	Tullyhome	D669789-5		Ri Pz 	-	401	Wild	K2 V M1 V	{ -1 }	(261-2)	[9677]	BC	14	-24
+Wave+600  0936	Tullyhome	D669765-6		Ri Pz 	-	501	Wild	K2 V M1 V	{ -1 }	(261+1)	[9677]	BC	14	12
+
+
+Input     0939	Sestos	D5A6887-8		Fl Ph	A	803	Wild	K6 V M6 V	{ -2 }	(D76-2)	[8658]	Be	11	-1,092
+Wave+10   0939	Sestos	D5A68CA-6		Fl Ph Pz 	-	403	Wild	K6 V M6 V	{ -2 }	(270-1)	[8658]	Be	11	-14
+Wave+100  0939	Sestos	D5A688B-7		Fl Ph Pz 	-	503	Wild	K6 V M6 V	{ -2 }	(270+1)	[8658]	Be	11	14
+Wave+300  0939	Sestos	D5A6888-8		Fl Ph Pz 	-	603	Wild	K6 V M6 V	{ -2 }	(570+1)	[8658]	Be	11	35
+Wave+600  0939	Sestos	D5A6863-9		Fl Ph Pz 	-	703	Wild	K6 V M6 V	{ -1 }	(571+1)	[8658]	Be	11	35
+
+
+Input     1001	Kfathvaedal	B000611-C		As Na Ni Va	A	224	Wild	G5 V	{ 1 }	(E55-3)	[2718]		12	-1,050
+REDUCED:
+Check Ni
+Wave+10   1001	Kfathvaedal	B000576-B		As Na Ni Va Da 	-	224	Wild	G5 V	{ 1 }	(842-3)	[2718]		12	-192
+Wave+100  1001	Kfathvaedal	B000554-C		As Ni Va Da 	-	324	Wild	G5 V	{ 1 }	(842-5)	[2718]		12	-320
+Wave+300  1001	Kfathvaedal	B000547-D		As Ni Va Da 	-	424	Wild	G5 V	{ 1 }	(842+1)	[2718]		12	64
+Wave+600  1001	Kfathvaedal	B000565-E		As Ni Va Da 	-	524	Wild	G5 V	{ 1 }	(842-1)	[2718]		12	-64
+
+
+Input     1004	Sisi	B8D3616-8		Ni O:1001	A	624	Wild	M4 V	{ -1 }	(E53-5)	[2514]		14	-1,050
+REDUCED:
+Check Ni
+Wave+10   1004	Sisi	B8D3557-8		Ni Da O:1001	-	624	Wild	M4 V	{ -1 }	(840-2)	[2514]		14	-64
+Wave+100  1004	Sisi	B8D3536-9		Ni Da O:1001	-	724	Wild	M4 V	{ 0 }	(841+1)	[2514]		14	32
+Wave+300  1004	Sisi	B8D3556-A		Ni Da O:1001	-	824	Wild	M4 V	{ 1 }	(842+2)	[2514]		14	128
+Wave+600  1004	Sisi	B8D3500-B		Ni Da O:1001	-	924	Wild	M4 V	{ 1 }	(842+1)	[2514]		14	64
+
+
+Input     1006	Kamisaraki	C554476-9	S	Ni Pa O:0805	A	703	Wild	G1 V K1 V	{ -1 }	(932-1)	[4359]	Bc	6	-54
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1006	Kamisaraki	D554000-0	S	Ni Pa Da O:0805	-	003	Wild	G1 V K1 V	{ -3 }	(200-2)	[4359]	Bc	6	-4
+Wave+100  1006	Kamisaraki	D554000-0	S	Ni Pa Da O:0805	-	003	Wild	G1 V K1 V	{ -3 }	(200-2)	[4359]	Bc	6	-4
+Wave+300  1006	Kamisaraki	D554000-0	S	Ni Pa Da O:0805	-	003	Wild	G1 V K1 V	{ -3 }	(200-2)	[4359]	Bc	6	-4
+Wave+600  1006	Kamisaraki	D554000-0	S	Ni Pa Da O:0805	-	003	Wild	G1 V K1 V	{ -3 }	(200-2)	[4359]	Bc	6	-4
+
+
+Input     1011	Jessok	C623501-A		Ni Po	A	920	Wild	G0 V G8 V	{ 0 }	(944-4)	[1515]	B	7	-576
+REDUCED:
+Check Ni
+Wave+10   1011	Jessok	C623487-7		Ni Po Da 	-	920	Wild	G0 V G8 V	{ -2 }	(230+3)	[1515]	B	7	18
+Wave+100  1011	Jessok	C62358B-8		Ni Po Px Da 	-	120	Wild	G0 V G8 V	{ -2 }	(440-2)	[1515]	B	7	-32
+Wave+300  1011	Jessok	C623543-9		Ni Po Da 	-	220	Wild	G0 V G8 V	{ -1 }	(440-1)	[1515]	B	7	-16
+Wave+600  1011	Jessok	C623578-A		Ni Po Da 	-	320	Wild	G0 V G8 V	{ 0 }	(441+1)	[1515]	B	7	16
+
+
+Input     1014	Mowebe	C748515-A		Ag Ni	A	601	Wild	K9 V M2 V	{ 1 }	(845-3)	[1616]	BC	7	-480
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1014	Mowebe	D748000-0		Ag Ni Da 	-	001	Wild	K9 V M2 V	{ -2 }	(200+1)	[1616]	BC	7	2
+Wave+100  1014	Mowebe	D748000-0		Ag Ni Da 	-	001	Wild	K9 V M2 V	{ -2 }	(200+1)	[1616]	BC	7	2
+Wave+300  1014	Mowebe	D748000-0		Ag Ni Da 	-	001	Wild	K9 V M2 V	{ -2 }	(200+1)	[1616]	BC	7	2
+Wave+600  1014	Mowebe	D748000-0		Ag Ni Da 	-	001	Wild	K9 V M2 V	{ -2 }	(200+1)	[1616]	BC	7	2
+
+
+Input     1016	Liiri	B542989-C		He Hi In Po	A	401	Wild	M1 V M4 V	{ 4 }	(C8F+4)	[9D5C]	BEf	14	5,760
+REDUCED:
+Check He
+Wave+10   1016	Liiri	B542897-8		He Hi In Po Pz 	-	401	Wild	M1 V M4 V	{ 2 }	(374+1)	[9D5C]	BEf	14	84
+Wave+100  1016	Liiri	B5428DC-9		He Ph Pi Po Pz 	-	501	Wild	M1 V M4 V	{ 1 }	(373+1)	[9D5C]	BEf	14	63
+Wave+300  1016	Liiri	B5428B9-A		He Ph Pi Po Pz 	-	601	Wild	M1 V M4 V	{ 2 }	(374-2)	[9D5C]	BEf	14	-168
+Wave+600  1016	Liiri	B542886-B		He Ph Pi Po Pz 	-	701	Wild	M1 V M4 V	{ 2 }	(374+1)	[9D5C]	BEf	14	84
+
+
+Input     1018	Hessel	B658100-C	N	Lo	A	801	Wild	F4 V K4 V	{ 1 }	(401-3)	[1217]	B	12	0
+DIEBACK:
+Check Lo
+Wave+10   1018	Hessel	D658000-0	 	Lo Da 	-	001	Wild	F4 V K4 V	{ -3 }	(200-2)	[1217]	B	12	-4
+Wave+100  1018	Hessel	D658000-0	 	Lo Da 	-	001	Wild	F4 V K4 V	{ -3 }	(200-2)	[1217]	B	12	-4
+Wave+300  1018	Hessel	D658000-0	 	Lo Da 	-	001	Wild	F4 V K4 V	{ -3 }	(200-2)	[1217]	B	12	-4
+Wave+600  1018	Hessel	D658000-0	 	Lo Da 	-	001	Wild	F4 V K4 V	{ -3 }	(200-2)	[1217]	B	12	-4
+
+
+Input     1023	Irumunu	B7B3602-B	W	Fl Ni	A	101	Wild	M6 V M6 V	{ 2 }	(956-2)	[1816]	B	14	-540
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1023	Irumunu	D7B3000-0	 	Fl Ni Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200+1)	[1816]	B	14	2
+Wave+100  1023	Irumunu	D7B3000-0	 	Fl Ni Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200+1)	[1816]	B	14	2
+Wave+300  1023	Irumunu	D7B3000-0	 	Fl Ni Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200+1)	[1816]	B	14	2
+Wave+600  1023	Irumunu	D7B3000-0	 	Fl Ni Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200+1)	[1816]	B	14	2
+
+
+Input     1025	Frisgar	E424725-9		Pi	A	401	Wild	K7 V K7 V M1 V	{ -1 }	(A68-5)	[3615]	BD	9	-2,400
+Wave+10   1025	Frisgar	E424787-7	  	Pi Pz 	-	201	Wild	K7 V K7 V M1 V	{ -2 }	(260+5)	[3615]	BD	9	60
+Wave+100  1025	Frisgar	E4247BB-8	  	Pi Pz 	-	301	Wild	K7 V K7 V M1 V	{ -2 }	(360-1)	[3615]	BD	9	-18
+Wave+300  1025	Frisgar	E424740-9	  	Pi Pz 	-	401	Wild	K7 V K7 V M1 V	{ -1 }	(361-2)	[3615]	BD	9	-36
+Wave+600  1025	Frisgar	E424768-A	  	Pi Pz 	-	501	Wild	K7 V K7 V M1 V	{ 0 }	(362+1)	[3615]	BD	9	36
+
+
+Input     1026	Burtrum	C53879A-8			A	501	Wild	M0 V M3 V	{ -1 }	(A67+1)	[8669]	B	14	420
+Wave+10   1026	Burtrum	C5387AE-6		Pz 	-	201	Wild	M0 V M3 V	{ -1 }	(261-1)	[8669]	B	14	-12
+Wave+100  1026	Burtrum	C538761-7		Pz 	-	301	Wild	M0 V M3 V	{ -1 }	(261-1)	[8669]	B	14	-12
+Wave+300  1026	Burtrum	C538789-8		Cy Pz 	-	401	Wild	M0 V M3 V	{ -1 }	(361-5)	[8669]	B	14	-90
+Wave+600  1026	Burtrum	C53879B-9		Pz 	-	501	Wild	M0 V M3 V	{ 0 }	(362+1)	[8669]	B	14	36
+
+
+Input     1030	Prege	B79A687-9		Ni Wa	A	702	Wild	M2 V	{ 0 }	(A54+1)	[6659]	B	9	200
+REDUCED:
+Check Ni
+Wave+10   1030	Prege	B79A523-8		Ni Wa Da 	-	702	Wild	M2 V	{ -1 }	(440+1)	[6659]	B	9	16
+Wave+100  1030	Prege	B79A5AD-9		Ni Wa Da 	-	802	Wild	M2 V	{ 0 }	(441+3)	[6659]	B	9	48
+Wave+300  1030	Prege	B79A545-A		Ni Wa Da 	-	902	Wild	M2 V	{ 1 }	(442+1)	[6659]	B	9	32
+Wave+600  1030	Prege	B79A686-B		Ni Wa Da 	-	102	Wild	M2 V	{ 1 }	(452-1)	[6659]	B	9	-40
+
+
+Input     1032	Quinthept	C521557-A		He Ni Po	A	521	Wild	G0 V	{ 0 }	(A44-2)	[3538]	B	11	-320
+REDUCED:
+DIEBACK:
+Check Ni
+Check He
+Wave+10   1032	Quinthept	D521000-0		He Ni Po Px Da 	-	021	Wild	G0 V	{ -3 }	(200-5)	[3538]	B	11	-10
+Wave+100  1032	Quinthept	D521000-0		He Ni Po Px Da 	-	021	Wild	G0 V	{ -3 }	(200-5)	[3538]	B	11	-10
+Wave+300  1032	Quinthept	D521000-0		He Ni Po Px Da 	-	021	Wild	G0 V	{ -3 }	(200-5)	[3538]	B	11	-10
+Wave+600  1032	Quinthept	D521000-0		He Ni Po Px Da 	-	021	Wild	G0 V	{ -3 }	(200-5)	[3538]	B	11	-10
+
+
+Input     1035	Storm	CAD6232-A		Lo	A	614	Wild	M0 V	{ 0 }	(910-3)	[1227]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   1035	Storm	DAD6000-0		Lo Da 	-	014	Wild	M0 V	{ -3 }	(200+2)	[1227]	B	11	4
+Wave+100  1035	Storm	DAD6000-0		Lo Da 	-	014	Wild	M0 V	{ -3 }	(200+2)	[1227]	B	11	4
+Wave+300  1035	Storm	DAD6000-0		Lo Da 	-	014	Wild	M0 V	{ -3 }	(200+2)	[1227]	B	11	4
+Wave+600  1035	Storm	DAD6000-0		Lo Da 	-	014	Wild	M0 V	{ -3 }	(200+2)	[1227]	B	11	4
+
+
+Input     1038	Timmer	C562625-8	S	Ni Ri	A	214	Wild	G6 V K3 V	{ -1 }	(D53-5)	[2514]	BC	8	-975
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1038	Timmer	D562000-0	S	Ni Ri Da 	-	014	Wild	G6 V K3 V	{ -2 }	(200+3)	[2514]	BC	8	6
+Wave+100  1038	Timmer	D562000-0	S	Ni Ri Da 	-	014	Wild	G6 V K3 V	{ -2 }	(200+3)	[2514]	BC	8	6
+Wave+300  1038	Timmer	D562000-0	S	Ni Ri Da 	-	014	Wild	G6 V K3 V	{ -2 }	(200+3)	[2514]	BC	8	6
+Wave+600  1038	Timmer	D562000-0	S	Ni Ri Da 	-	014	Wild	G6 V K3 V	{ -2 }	(200+3)	[2514]	BC	8	6
+
+
+Input     1111	Zeen	D65366B-6	S	Ni Po DroyW	A	301	Wild	K6 V	{ -3 }	(851-4)	[5345]	B	7	-160
+REDUCED:
+Check Ni
+Wave+10   1111	Zeen	D653554-6	S	Ni Po Da DroyW	-	301	Wild	K6 V	{ -3 }	(240+1)	[5345]	B	7	8
+Wave+100  1111	Zeen	D653541-7	S	Ni Po Da DroyW	-	401	Wild	K6 V	{ -3 }	(240+2)	[5345]	B	7	16
+Wave+300  1111	Zeen	D653550-8	S	Ni Po Da DroyW	-	501	Wild	K6 V	{ -3 }	(340+1)	[5345]	B	7	12
+Wave+600  1111	Zeen	D653564-9	S	Ni Po Da DroyW	-	601	Wild	K6 V	{ -2 }	(340-1)	[5345]	B	7	-12
+
+
+Input     1115	Pecena	B547341-A	NS	Lo	A	722	Wild	M4 V	{ 2 }	(922+1)	[1538]	B	11	36
+DIEBACK:
+Check Lo
+Wave+10   1115	Pecena	D547000-0	 S	Lo Da 	-	022	Wild	M4 V	{ -3 }	(200+1)	[1538]	B	11	2
+Wave+100  1115	Pecena	D547000-0	 S	Lo Da 	-	022	Wild	M4 V	{ -3 }	(200+1)	[1538]	B	11	2
+Wave+300  1115	Pecena	D547000-0	 S	Lo Da 	-	022	Wild	M4 V	{ -3 }	(200+1)	[1538]	B	11	2
+Wave+600  1115	Pecena	D547000-0	 S	Lo Da 	-	022	Wild	M4 V	{ -3 }	(200+1)	[1538]	B	11	2
+
+
+Input     1116	Abydos	D435666-8	S	Ni O:1016	A	410	Wild	M5 V	{ -3 }	(951-4)	[5347]	B	14	-180
+REDUCED:
+Check Ni
+Wave+10   1116	Abydos	D435442-7	S	Ni Px Da O:1016	-	410	Wild	M5 V	{ -3 }	(230+1)	[5347]	B	14	6
+Wave+100  1116	Abydos	D435456-8	S	Ni Da O:1016	-	510	Wild	M5 V	{ -3 }	(330+1)	[5347]	B	14	9
+Wave+300  1116	Abydos	D435437-9	S	Ni Px Da O:1016	-	610	Wild	M5 V	{ -2 }	(330+3)	[5347]	B	14	27
+Wave+600  1116	Abydos	D435432-A	S	Ni Px Da O:1016	-	710	Wild	M5 V	{ -1 }	(330-2)	[5347]	B	14	-18
+
+
+Input     1118	Karabeth	E663486-7		Ni O:1016	A	102	Wild	K9 V M3 V	{ -3 }	(631-3)	[4157]	B	14	-54
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1118	Karabeth	E663000-0	  	Ni Da O:1016	-	002	Wild	K9 V M3 V	{ -3 }	(200-5)	[4157]	B	14	-10
+Wave+100  1118	Karabeth	E663000-0	  	Ni Da O:1016	-	002	Wild	K9 V M3 V	{ -3 }	(200-5)	[4157]	B	14	-10
+Wave+300  1118	Karabeth	E663000-0	  	Ni Da O:1016	-	002	Wild	K9 V M3 V	{ -3 }	(200-5)	[4157]	B	14	-10
+Wave+600  1118	Karabeth	E663000-0	  	Ni Da O:1016	-	002	Wild	K9 V M3 V	{ -3 }	(200-5)	[4157]	B	14	-10
+
+
+Input     1122	Vincennes	A899A6A-G		Hi In Cp	A	113	Wild	G1 V K7 V K1 V	{ 5 }	(G9G+3)	[9F4F]	BEF	14	6,912
+Wave+10   1122	Vincennes	A8999AA-C		Hi In Pz Cp	-	513	Wild	G1 V K7 V K1 V	{ 4 }	(686-1)	[9F4F]	BEF	14	-288
+Wave+100  1122	Vincennes	A8999BB-D		Hi In Pz Cp	-	613	Wild	G1 V K7 V K1 V	{ 4 }	(686-5)	[9F4F]	BEF	14	-1440
+Wave+300  1122	Vincennes	A899997-E		Hi In Pz Cp	-	713	Wild	G1 V K7 V K1 V	{ 4 }	(686+1)	[9F4F]	BEF	14	288
+Wave+600  1122	Vincennes	A89999B-F		Hi In Pz Cp	-	813	Wild	G1 V K7 V K1 V	{ 4 }	(686+1)	[9F4F]	BEF	14	288
+
+
+Input     1123	Erisis	D679434-7		Ni	A	913	Wild	M1 V	{ -3 }	(631-5)	[1124]	B	11	-90
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1123	Erisis	D679000-0		Ni Da 	-	013	Wild	M1 V	{ -3 }	(200-4)	[1124]	B	11	-8
+Wave+100  1123	Erisis	D679000-0		Ni Da 	-	013	Wild	M1 V	{ -3 }	(200-4)	[1124]	B	11	-8
+Wave+300  1123	Erisis	D679000-0		Ni Da 	-	013	Wild	M1 V	{ -3 }	(200-4)	[1124]	B	11	-8
+Wave+600  1123	Erisis	D679000-0		Ni Da 	-	013	Wild	M1 V	{ -3 }	(200-4)	[1124]	B	11	-8
+
+
+Input     1128	Dekha	C100AA9-F	S	Hi In Na Va	A	210	Wild	F3 V M6 V	{ 3 }	(D9F+5)	[CD7H]	BE	10	8,775
+Wave+10   1128	Dekha	C100AEC-D	S	Hi In Na Va Pz 	-	110	Wild	F3 V M6 V	{ 3 }	(395+2)	[CD7H]	BE	10	270
+Wave+100  1128	Dekha	C100ACF-E	S	Hi In Na Va Pz 	-	210	Wild	F3 V M6 V	{ 3 }	(395+1)	[CD7H]	BE	10	135
+Wave+300  1128	Dekha	C100A78-F	S	Hi In Na Va Pz 	-	310	Wild	F3 V M6 V	{ 3 }	(395-2)	[CD7H]	BE	10	-270
+Wave+600  1128	Dekha	C100ACB-G	S	Hi In Na Va Pz 	-	410	Wild	F3 V M6 V	{ 4 }	(396-2)	[CD7H]	BE	10	-324
+
+
+Input     1133	Keirei	C310303-B	S	Lo	A	734	Wild	M7 V	{ 0 }	(C20-4)	[1316]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   1133	Keirei	D310000-0	S	Lo Da 	-	034	Wild	M7 V	{ -3 }	(200-4)	[1316]	B	10	-8
+Wave+100  1133	Keirei	D310000-0	S	Lo Da 	-	034	Wild	M7 V	{ -3 }	(200-4)	[1316]	B	10	-8
+Wave+300  1133	Keirei	D310000-0	S	Lo Da 	-	034	Wild	M7 V	{ -3 }	(200-4)	[1316]	B	10	-8
+Wave+600  1133	Keirei	D310000-0	S	Lo Da 	-	034	Wild	M7 V	{ -3 }	(200-4)	[1316]	B	10	-8
+
+
+Input     1135	Lilad	C547AEA-C		Hi In Pz	A	824	Wild	K6 V	{ 3 }	(J9E+5)	[ED9G]	BE	14	11,340
+Wave+10   1135	Lilad	C547ABD-A		Hi In Pz 	-	424	Wild	K6 V	{ 3 }	(895-2)	[ED9G]	BE	14	-720
+Wave+100  1135	Lilad	C547A84-B		Hi In Pz 	-	524	Wild	K6 V	{ 3 }	(895+1)	[ED9G]	BE	14	360
+Wave+300  1135	Lilad	C547ABD-C		Hi In Pz 	-	624	Wild	K6 V	{ 3 }	(895+1)	[ED9G]	BE	14	360
+Wave+600  1135	Lilad	C547A9C-D		Hi In Pz 	-	724	Wild	K6 V	{ 3 }	(895+2)	[ED9G]	BE	14	720
+
+
+Input     1137	Third Mu	BA7A201-C		Lo Oc	A	225	Wild	K3 V	{ 1 }	(B11-3)	[1317]	B	10	-33
+DIEBACK:
+Check Lo
+Wave+10   1137	Third Mu	DA7A000-0		Lo Oc Da 	-	025	Wild	K3 V	{ -3 }	(200+1)	[1317]	B	10	2
+Wave+100  1137	Third Mu	DA7A000-0		Lo Oc Da 	-	025	Wild	K3 V	{ -3 }	(200+1)	[1317]	B	10	2
+Wave+300  1137	Third Mu	DA7A000-0		Lo Oc Da 	-	025	Wild	K3 V	{ -3 }	(200+1)	[1317]	B	10	2
+Wave+600  1137	Third Mu	DA7A000-0		Lo Oc Da 	-	025	Wild	K3 V	{ -3 }	(200+1)	[1317]	B	10	2
+
+
+Input     1138	Ushashin	EA9A201-7		Lo Oc	A	734	Wild	G7 V	{ -3 }	(410-5)	[1112]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   1138	Ushashin	EA9A000-0	  	Lo Oc Da 	-	034	Wild	G7 V	{ -3 }	(200-3)	[1112]	B	11	-6
+Wave+100  1138	Ushashin	EA9A000-0	  	Lo Oc Da 	-	034	Wild	G7 V	{ -3 }	(200-3)	[1112]	B	11	-6
+Wave+300  1138	Ushashin	EA9A000-0	  	Lo Oc Da 	-	034	Wild	G7 V	{ -3 }	(200-3)	[1112]	B	11	-6
+Wave+600  1138	Ushashin	EA9A000-0	  	Lo Oc Da 	-	034	Wild	G7 V	{ -3 }	(200-3)	[1112]	B	11	-6
+
+
+Input     1140	Oriryu	B536543-9		Ni	A	901	Wild	M3 V M4 V	{ 0 }	(844-2)	[3537]	B	8	-256
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1140	Oriryu	D536000-0		Ni Da 	-	001	Wild	M3 V M4 V	{ -3 }	(200+2)	[3537]	B	8	4
+Wave+100  1140	Oriryu	D536000-0		Ni Da 	-	001	Wild	M3 V M4 V	{ -3 }	(200+2)	[3537]	B	8	4
+Wave+300  1140	Oriryu	D536000-0		Ni Da 	-	001	Wild	M3 V M4 V	{ -3 }	(200+2)	[3537]	B	8	4
+Wave+600  1140	Oriryu	D536000-0		Ni Da 	-	001	Wild	M3 V M4 V	{ -3 }	(200+2)	[3537]	B	8	4
+
+
+Input     1202	Lengighdzuerz	A300502-B		Ni Va	A	923	Wild	G6 V	{ 1 }	(C45-3)	[1616]		12	-720
+Check Ni
+Wave+10   1202	Lengighdzuerz	D300000-0		Ni Va Da 	-	023	Wild	G6 V	{ -3 }	(200+3)	[1616]		12	6
+Wave+100  1202	Lengighdzuerz	D300000-0		Ni Va Da 	-	023	Wild	G6 V	{ -3 }	(200+3)	[1616]		12	6
+Wave+300  1202	Lengighdzuerz	D300000-0		Ni Va Da 	-	023	Wild	G6 V	{ -3 }	(200+3)	[1616]		12	6
+Wave+600  1202	Lengighdzuerz	D300000-0		Ni Va Da 	-	023	Wild	G6 V	{ -3 }	(200+3)	[1616]		12	6
+
+
+Input     1203	Naimar Station	B000374-A	N	As Lo Va	A	912	Wild	M5 V M7 V	{ 1 }	(821+1)	[345A]		7	16
+DIEBACK:
+Check Lo
+Wave+10   1203	Naimar Station	D000000-0	 	As Lo Va Da 	-	012	Wild	M5 V M7 V	{ -3 }	(200+4)	[345A]		7	8
+Wave+100  1203	Naimar Station	D000000-0	 	As Lo Va Da 	-	012	Wild	M5 V M7 V	{ -3 }	(200+4)	[345A]		7	8
+Wave+300  1203	Naimar Station	D000000-0	 	As Lo Va Da 	-	012	Wild	M5 V M7 V	{ -3 }	(200+4)	[345A]		7	8
+Wave+600  1203	Naimar Station	D000000-0	 	As Lo Va Da 	-	012	Wild	M5 V M7 V	{ -3 }	(200+4)	[345A]		7	8
+
+
+Input     1208	Haniiwa	XA9A634-5		Ni Oc Fo	A	210	Wild	F4 V	{ -3 }	(851-5)	[3322]		6	-200
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1208	Haniiwa	XA9A000-0	  	Ni Oc Da 	-	010	Wild	F4 V	{ -3 }	(200-3)	[3322]		6	-6
+Wave+100  1208	Haniiwa	XA9A000-0	  	Ni Oc Da 	-	010	Wild	F4 V	{ -3 }	(200-3)	[3322]		6	-6
+Wave+300  1208	Haniiwa	XA9A000-0	  	Ni Oc Da 	-	010	Wild	F4 V	{ -3 }	(200-3)	[3322]		6	-6
+Wave+600  1208	Haniiwa	XA9A000-0	  	Ni Oc Da 	-	010	Wild	F4 V	{ -3 }	(200-3)	[3322]		6	-6
+
+
+Input     1212	Prigojin	E100404-8		Ni Va	A	903	Wild	K4 V	{ -3 }	(931-5)	[1113]	B	7	-135
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1212	Prigojin	E100000-0	  	Ni Va Da 	-	003	Wild	K4 V	{ -3 }	(200-1)	[1113]	B	7	-2
+Wave+100  1212	Prigojin	E100000-0	  	Ni Va Da 	-	003	Wild	K4 V	{ -3 }	(200-1)	[1113]	B	7	-2
+Wave+300  1212	Prigojin	E100000-0	  	Ni Va Da 	-	003	Wild	K4 V	{ -3 }	(200-1)	[1113]	B	7	-2
+Wave+600  1212	Prigojin	E100000-0	  	Ni Va Da 	-	003	Wild	K4 V	{ -3 }	(200-1)	[1113]	B	7	-2
+
+
+Input     1213	Inar	A310763-E	N	Na Cp Pi	A	903	Wild	M7 V	{ 2 }	(C6D+1)	[694D]	BDF	6	936
+Wave+10   1213	Inar	A310777-C	N	Cy Na Pi Pz Cp	-	403	Wild	M7 V	{ 2 }	(564-2)	[694D]	BDF	6	-240
+Wave+100  1213	Inar	A31079B-D	N	Na Pi Pz Cp	-	503	Wild	M7 V	{ 2 }	(564-4)	[694D]	BDF	6	-480
+Wave+300  1213	Inar	A310763-E	N	Na Pi Pz Cp	-	603	Wild	M7 V	{ 2 }	(564-5)	[694D]	BDF	6	-600
+Wave+600  1213	Inar	A310767-F	N	Cy Na Pi Pz Cp	-	703	Wild	M7 V	{ 2 }	(564+2)	[694D]	BDF	6	240
+
+
+Input     1216	Morninglori	B544558-7		Ag Ni	A	113	Wild	M2 V	{ 0 }	(744-2)	[3535]	BC	12	-224
+REDUCED:
+Check Ni
+Wave+10   1216	Morninglori	B544563-4		Ag Ni Da 	-	113	Wild	M2 V	{ 0 }	(241+1)	[3535]	BC	12	8
+Wave+100  1216	Morninglori	B544595-5		Ag Cy Ni Da 	-	213	Wild	M2 V	{ 0 }	(241-2)	[3535]	BC	12	-16
+Wave+300  1216	Morninglori	B544574-6		Ag Ni Da 	-	313	Wild	M2 V	{ 0 }	(241-3)	[3535]	BC	12	-24
+Wave+600  1216	Morninglori	B544558-7		Ag Ni Da 	-	413	Wild	M2 V	{ 0 }	(241+3)	[3535]	BC	12	24
+
+
+Input     1217	Clarissa	C536422-A	S	Ni	A	514	Wild	M4 V	{ 0 }	(B33-4)	[1416]	B	15	-396
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1217	Clarissa	D536000-0	S	Ni Da 	-	014	Wild	M4 V	{ -3 }	(200+5)	[1416]	B	15	10
+Wave+100  1217	Clarissa	D536000-0	S	Ni Da 	-	014	Wild	M4 V	{ -3 }	(200+5)	[1416]	B	15	10
+Wave+300  1217	Clarissa	D536000-0	S	Ni Da 	-	014	Wild	M4 V	{ -3 }	(200+5)	[1416]	B	15	10
+Wave+600  1217	Clarissa	D536000-0	S	Ni Da 	-	014	Wild	M4 V	{ -3 }	(200+5)	[1416]	B	15	10
+
+
+Input     1218	Gaagir	C86A385-A	S	Lo Wa	A	601	Wild	K6 V K9 V	{ 0 }	(620+1)	[335A]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   1218	Gaagir	D86A000-0	S	Lo Wa Da 	-	001	Wild	K6 V K9 V	{ -3 }	(200-1)	[335A]	B	11	-2
+Wave+100  1218	Gaagir	D86A000-0	S	Lo Wa Da 	-	001	Wild	K6 V K9 V	{ -3 }	(200-1)	[335A]	B	11	-2
+Wave+300  1218	Gaagir	D86A000-0	S	Lo Wa Da 	-	001	Wild	K6 V K9 V	{ -3 }	(200-1)	[335A]	B	11	-2
+Wave+600  1218	Gaagir	D86A000-0	S	Lo Wa Da 	-	001	Wild	K6 V K9 V	{ -3 }	(200-1)	[335A]	B	11	-2
+
+
+Input     1220	Minde's Star	D435425-A	S	Ni	A	303	Wild	M4 V	{ -1 }	(932-5)	[1316]	B	9	-270
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1220	Minde's Star	D435000-0	S	Ni Da 	-	003	Wild	M4 V	{ -3 }	(200+1)	[1316]	B	9	2
+Wave+100  1220	Minde's Star	D435000-0	S	Ni Da 	-	003	Wild	M4 V	{ -3 }	(200+1)	[1316]	B	9	2
+Wave+300  1220	Minde's Star	D435000-0	S	Ni Da 	-	003	Wild	M4 V	{ -3 }	(200+1)	[1316]	B	9	2
+Wave+600  1220	Minde's Star	D435000-0	S	Ni Da 	-	003	Wild	M4 V	{ -3 }	(200+1)	[1316]	B	9	2
+
+
+Input     1221	Peres	C536242-6		Lo (Yaitlat)	A	801	Wild	K2 V M6 V	{ -2 }	(410-4)	[1134]	B	10	0
+Wave+10   1221	Peres	C536244-4		Lo Da (Yaitlat)	-	401	Wild	K2 V M6 V	{ -2 }	(210+3)	[1134]	B	10	6
+Wave+100  1221	Peres	C536214-5		Lo Da (Yaitlat)	-	501	Wild	K2 V M6 V	{ -2 }	(210+5)	[1134]	B	10	10
+Wave+300  1221	Peres	C536220-6		Lo Da (Yaitlat)	-	601	Wild	K2 V M6 V	{ -2 }	(210+1)	[1134]	B	10	2
+Wave+600  1221	Peres	C536213-7		Lo Da (Yaitlat)	-	701	Wild	K2 V M6 V	{ -2 }	(210+2)	[1134]	B	10	4
+
+
+Input     1223	Montane	C683140-7		Lo	A	122	Wild	G8 V	{ -2 }	(300-4)	[1135]	B	8	0
+DIEBACK:
+Check Lo
+Wave+10   1223	Montane	D683000-0		Lo Da 	-	022	Wild	G8 V	{ -3 }	(200-2)	[1135]	B	8	-4
+Wave+100  1223	Montane	D683000-0		Lo Da 	-	022	Wild	G8 V	{ -3 }	(200-2)	[1135]	B	8	-4
+Wave+300  1223	Montane	D683000-0		Lo Da 	-	022	Wild	G8 V	{ -3 }	(200-2)	[1135]	B	8	-4
+Wave+600  1223	Montane	D683000-0		Lo Da 	-	022	Wild	G8 V	{ -3 }	(200-2)	[1135]	B	8	-4
+
+
+Input     1224	Achemadon	A5477BB-A		Ag Pi Pz	A	701	Wild	K7 V M3 V	{ 3 }	(A6C+5)	[9A7C]	BCD	5	3,600
+Wave+10   1224	Achemadon	A547767-8		Ag Pi Pz 	-	301	Wild	K7 V M3 V	{ 1 }	(363+1)	[9A7C]	BCD	5	54
+Wave+100  1224	Achemadon	A547764-9		Ag Pi Pz 	-	401	Wild	K7 V M3 V	{ 2 }	(364+5)	[9A7C]	BCD	5	360
+Wave+300  1224	Achemadon	A54779E-A		Ag Pi Pz 	-	501	Wild	K7 V M3 V	{ 3 }	(365+1)	[9A7C]	BCD	5	90
+Wave+600  1224	Achemadon	A547797-B		Ag Pi Pz 	-	601	Wild	K7 V M3 V	{ 3 }	(365+1)	[9A7C]	BCD	5	90
+
+
+Input     1226	Bishop	B201535-E	S	Ic Ni Va	A	524	Wild	M6 III	{ 1 }	(D45-2)	[262B]	B	14	-520
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1226	Bishop	D201000-0	S	Ic Ni Va Da 	-	024	Wild	M6 III	{ -3 }	(200+1)	[262B]	B	14	2
+Wave+100  1226	Bishop	D201000-0	S	Ic Ni Va Da 	-	024	Wild	M6 III	{ -3 }	(200+1)	[262B]	B	14	2
+Wave+300  1226	Bishop	D201000-0	S	Ic Ni Va Da 	-	024	Wild	M6 III	{ -3 }	(200+1)	[262B]	B	14	2
+Wave+600  1226	Bishop	D201000-0	S	Ic Ni Va Da 	-	024	Wild	M6 III	{ -3 }	(200+1)	[262B]	B	14	2
+
+
+Input     1227	Taburi Nen	A5465A8-B		Ag Ni	A	121	Wild	K7 V	{ 2 }	(A46+4)	[777D]	BC	16	960
+REDUCED:
+Check Ni
+Wave+10   1227	Taburi Nen	A546530-9		Ag Ni Da 	-	121	Wild	K7 V	{ 1 }	(542+1)	[777D]	BC	16	40
+Wave+100  1227	Taburi Nen	A54656A-A		Ag Ni Da 	-	221	Wild	K7 V	{ 2 }	(543-4)	[777D]	BC	16	-240
+Wave+300  1227	Taburi Nen	A546554-B		Ag Ni Da 	-	321	Wild	K7 V	{ 2 }	(543+2)	[777D]	BC	16	120
+Wave+600  1227	Taburi Nen	A546554-C		Ag Ni Da 	-	421	Wild	K7 V	{ 2 }	(543+2)	[777D]	BC	16	120
+
+
+Input     1229	Djar	C3008EC-7	S	Na Va Ph Pi Pz	A	102	Wild	F0 V M4 V	{ -1 }	(A77+3)	[C79B]	BDe	6	1,470
+Wave+10   1229	Djar	C300720-5	S	Na Ph Pi Va Pz 	-	502	Wild	F0 V M4 V	{ -1 }	(261-5)	[C79B]	BDe	6	-60
+Wave+100  1229	Djar	C300778-6	S	Na Pi Va Pz 	-	602	Wild	F0 V M4 V	{ -1 }	(261+1)	[C79B]	BDe	6	12
+Wave+300  1229	Djar	C300773-7	S	Na Pi Va Pz 	-	702	Wild	F0 V M4 V	{ -1 }	(261-2)	[C79B]	BDe	6	-24
+Wave+600  1229	Djar	C300754-8	S	Na Pi Va Pz 	-	802	Wild	F0 V M4 V	{ -1 }	(461+1)	[C79B]	BDe	6	24
+
+
+Input     1231	Point Ay	C560542-9	S	De Ni Pr	A	902	Wild	M1 V	{ -1 }	(943-3)	[3437]	Bc	14	-324
+REDUCED:
+Check Ni
+Wave+10   1231	Point Ay	C560489-7	S	De Ni Pr Da 	-	902	Wild	M1 V	{ -2 }	(230-5)	[3437]	Bc	14	-30
+Wave+100  1231	Point Ay	C560525-8	S	De Ni Da 	-	102	Wild	M1 V	{ -2 }	(440+1)	[3437]	Bc	14	16
+Wave+300  1231	Point Ay	C560541-9	S	De Ni Pr Da 	-	202	Wild	M1 V	{ -1 }	(440-4)	[3437]	Bc	14	-64
+Wave+600  1231	Point Ay	C560523-A	S	De Ni Pr Da 	-	302	Wild	M1 V	{ 0 }	(441+5)	[3437]	Bc	14	80
+
+
+Input     1235	Veldt	C567745-8	S	Ag Ri	A	514	Wild	F6 V	{ 1 }	(E69-1)	[5836]	BC	14	-756
+Wave+10   1235	Veldt	C56777A-6	S	Ag Ri Pz 	-	214	Wild	F6 V	{ 1 }	(263+1)	[5836]	BC	14	36
+Wave+100  1235	Veldt	C5677B8-7	S	Ag Ri Pz 	-	314	Wild	F6 V	{ 1 }	(263-2)	[5836]	BC	14	-72
+Wave+300  1235	Veldt	C567798-8	S	Ag Ri Pz 	-	414	Wild	F6 V	{ 1 }	(763-1)	[5836]	BC	14	-126
+Wave+600  1235	Veldt	C567772-9	S	Ag Ri Pz 	-	514	Wild	F6 V	{ 2 }	(764-3)	[5836]	BC	14	-504
+
+
+Input     1238	Muntgumree	B553666-8	NS	Ni Po O:1340	A	303	Wild	K1 V	{ 0 }	(B54-1)	[5647]	B	7	-220
+REDUCED:
+Check Ni
+Wave+10   1238	Muntgumree	B553579-7	NS	Ni Po Da O:1340	-	303	Wild	K1 V	{ -1 }	(240-2)	[5647]	B	7	-16
+Wave+100  1238	Muntgumree	B553573-8	NS	Ni Po Da O:1340	-	403	Wild	K1 V	{ -1 }	(540+1)	[5647]	B	7	20
+Wave+300  1238	Muntgumree	B553516-9	NS	Ni Po Da O:1340	-	503	Wild	K1 V	{ 0 }	(541-2)	[5647]	B	7	-40
+Wave+600  1238	Muntgumree	B553579-A	NS	Ni Po Da O:1340	-	603	Wild	K1 V	{ 1 }	(542+1)	[5647]	B	7	40
+
+
+Input     1301	Latros	B688272-B		Lo	A	501	Wild	K3 V M8 V	{ 1 }	(511+1)	[235B]		5	5
+DIEBACK:
+Check Lo
+Wave+10   1301	Latros	D688000-0		Lo Da 	-	001	Wild	K3 V M8 V	{ -3 }	(200+1)	[235B]		5	2
+Wave+100  1301	Latros	D688000-0		Lo Da 	-	001	Wild	K3 V M8 V	{ -3 }	(200+1)	[235B]		5	2
+Wave+300  1301	Latros	D688000-0		Lo Da 	-	001	Wild	K3 V M8 V	{ -3 }	(200+1)	[235B]		5	2
+Wave+600  1301	Latros	D688000-0		Lo Da 	-	001	Wild	K3 V M8 V	{ -3 }	(200+1)	[235B]		5	2
+
+
+Input     1302	Kantra	C301689-9		Ic Na Ni Va	A	622	Wild	M7 V	{ -1 }	(C53-1)	[6559]		14	-180
+REDUCED:
+Check Ni
+Wave+10   1302	Kantra	C301445-8		Ic Na Ni Va Da 	-	622	Wild	M7 V	{ -2 }	(630-4)	[6559]		14	-72
+Wave+100  1302	Kantra	C301420-9		Ic Ni Va Da 	-	722	Wild	M7 V	{ -1 }	(630+1)	[6559]		14	18
+Wave+300  1302	Kantra	C301466-A		Ic Ni Va Da 	-	822	Wild	M7 V	{ 0 }	(631-4)	[6559]		14	-72
+Wave+600  1302	Kantra	C301420-B		Ic Ni Va Da 	-	922	Wild	M7 V	{ 0 }	(631+2)	[6559]		14	36
+
+
+Input     1303	Qi'iri	E554332-7	C	Lo	A	410	Wild	M0 V	{ -3 }	(520-5)	[1124]		7	0
+DIEBACK:
+Check Lo
+Wave+10   1303	Qi'iri	E554000-0	  	Lo Da 	-	010	Wild	M0 V	{ -3 }	(200-2)	[1124]		7	-4
+Wave+100  1303	Qi'iri	E554000-0	  	Lo Da 	-	010	Wild	M0 V	{ -3 }	(200-2)	[1124]		7	-4
+Wave+300  1303	Qi'iri	E554000-0	  	Lo Da 	-	010	Wild	M0 V	{ -3 }	(200-2)	[1124]		7	-4
+Wave+600  1303	Qi'iri	E554000-0	  	Lo Da 	-	010	Wild	M0 V	{ -3 }	(200-2)	[1124]		7	-4
+
+
+Input     1306	Lome	E4248B7-8		Ph Pi	A	101	Wild	M0 V M2 V M7 V	{ -2 }	(B76+1)	[A67A]	BDe	11	462
+Wave+10   1306	Lome	E424774-6	  	Ph Pi Pz 	-	501	Wild	M0 V M2 V M7 V	{ -2 }	(260-2)	[A67A]	BDe	11	-24
+Wave+100  1306	Lome	E424745-7	  	Pi Pz 	-	601	Wild	M0 V M2 V M7 V	{ -2 }	(260-1)	[A67A]	BDe	11	-12
+Wave+300  1306	Lome	E424756-8	  	Pi Pz 	-	701	Wild	M0 V M2 V M7 V	{ -2 }	(360+2)	[A67A]	BDe	11	36
+Wave+600  1306	Lome	E4247AA-9	  	Pi Pz 	-	801	Wild	M0 V M2 V M7 V	{ -1 }	(361-2)	[A67A]	BDe	11	-36
+
+
+Input     1309	Lamas	B7A8558-C	N	Fl Ni	A	701	Wild	M5 V	{ 1 }	(845-1)	[363A]	B	6	-160
+REDUCED:
+Check Ni
+Wave+10   1309	Lamas	B7A8578-9	N	Fl Ni Da 	-	701	Wild	M5 V	{ 0 }	(341+2)	[363A]	B	6	24
+Wave+100  1309	Lamas	B7A8552-A	N	Fl Ni Da 	-	801	Wild	M5 V	{ 1 }	(342+1)	[363A]	B	6	24
+Wave+300  1309	Lamas	B7A8577-B	N	Fl Ni Da 	-	901	Wild	M5 V	{ 1 }	(342+3)	[363A]	B	6	72
+Wave+600  1309	Lamas	B7A86AD-C	N	Fl Ni Da 	-	101	Wild	M5 V	{ 1 }	(352+3)	[363A]	B	6	90
+
+
+Input     1311	Quanah	C567447-6		Ni Pa	A	123	Wild	K4 V	{ -2 }	(631-4)	[2234]	Bc	11	-72
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1311	Quanah	D567000-0		Ni Pa Da 	-	023	Wild	K4 V	{ -3 }	(200-2)	[2234]	Bc	11	-4
+Wave+100  1311	Quanah	D567000-0		Ni Pa Da 	-	023	Wild	K4 V	{ -3 }	(200-2)	[2234]	Bc	11	-4
+Wave+300  1311	Quanah	D567000-0		Ni Pa Da 	-	023	Wild	K4 V	{ -3 }	(200-2)	[2234]	Bc	11	-4
+Wave+600  1311	Quanah	D567000-0		Ni Pa Da 	-	023	Wild	K4 V	{ -3 }	(200-2)	[2234]	Bc	11	-4
+
+
+Input     1313	Rayel	B693623-8		Ni	A	410	Wild	G3 V	{ -1 }	(953-5)	[2514]	B	14	-675
+REDUCED:
+Check Ni
+Wave+10   1313	Rayel	B693679-6		Ni Da 	-	410	Wild	G3 V	{ -1 }	(250+1)	[2514]	B	14	10
+Wave+100  1313	Rayel	B693642-7		Ni Da 	-	510	Wild	G3 V	{ -1 }	(250+2)	[2514]	B	14	20
+Wave+300  1313	Rayel	B69369A-8		Ni Da 	-	610	Wild	G3 V	{ -1 }	(350-4)	[2514]	B	14	-60
+Wave+600  1313	Rayel	B693646-9		Ni Da 	-	710	Wild	G3 V	{ 0 }	(351-1)	[2514]	B	14	-15
+
+
+Input     1314	Modika	B550431-8	S	De Ni Po Jonk0	A	503	Wild	F5 V M3 V	{ -1 }	(932-4)	[1325]	B	13	-216
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1314	Modika	D550000-0	S	De Ni Po Da Jonk0	-	003	Wild	F5 V M3 V	{ -3 }	(200-1)	[1325]	B	13	-2
+Wave+100  1314	Modika	D550000-0	S	De Ni Po Da Jonk0	-	003	Wild	F5 V M3 V	{ -3 }	(200-1)	[1325]	B	13	-2
+Wave+300  1314	Modika	D550000-0	S	De Ni Po Da Jonk0	-	003	Wild	F5 V M3 V	{ -3 }	(200-1)	[1325]	B	13	-2
+Wave+600  1314	Modika	D550000-0	S	De Ni Po Da Jonk0	-	003	Wild	F5 V M3 V	{ -3 }	(200-1)	[1325]	B	13	-2
+
+
+Input     1318	Ciprien	C553301-7		Lo Po	A	821	Wild	F5 V	{ -2 }	(520-5)	[1112]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   1318	Ciprien	D553000-0		Lo Po Da 	-	021	Wild	F5 V	{ -3 }	(200+1)	[1112]	B	10	2
+Wave+100  1318	Ciprien	D553000-0		Lo Po Da 	-	021	Wild	F5 V	{ -3 }	(200+1)	[1112]	B	10	2
+Wave+300  1318	Ciprien	D553000-0		Lo Po Da 	-	021	Wild	F5 V	{ -3 }	(200+1)	[1112]	B	10	2
+Wave+600  1318	Ciprien	D553000-0		Lo Po Da 	-	021	Wild	F5 V	{ -3 }	(200+1)	[1112]	B	10	2
+
+
+Input     1319	Thane	D585403-7	S	Ni Pa	A	421	Wild	K3 V	{ -3 }	(631-5)	[1112]	Bc	6	-90
+REDUCED:
+Check Ni
+Wave+10   1319	Thane	D585456-5	S	Ni Pa Da 	-	421	Wild	K3 V	{ -3 }	(230+2)	[1112]	Bc	6	12
+Wave+100  1319	Thane	D585433-6	S	Ni Pa Da 	-	521	Wild	K3 V	{ -3 }	(230-4)	[1112]	Bc	6	-24
+Wave+300  1319	Thane	D585400-7	S	Ni Pa Da 	-	621	Wild	K3 V	{ -3 }	(230-2)	[1112]	Bc	6	-12
+Wave+600  1319	Thane	D585444-8	S	Ni Pa Da 	-	721	Wild	K3 V	{ -3 }	(530+4)	[1112]	Bc	6	60
+
+
+Input     1323	Al-Uqayr	E567295-5		Lo	A	513	Wild	M2 V	{ -3 }	(410-2)	[3166]	B	13	0
+DIEBACK:
+Check Lo
+Wave+10   1323	Al-Uqayr	E567000-0	  	Lo Da 	-	013	Wild	M2 V	{ -3 }	(200+3)	[3166]	B	13	6
+Wave+100  1323	Al-Uqayr	E567000-0	  	Lo Da 	-	013	Wild	M2 V	{ -3 }	(200+3)	[3166]	B	13	6
+Wave+300  1323	Al-Uqayr	E567000-0	  	Lo Da 	-	013	Wild	M2 V	{ -3 }	(200+3)	[3166]	B	13	6
+Wave+600  1323	Al-Uqayr	E567000-0	  	Lo Da 	-	013	Wild	M2 V	{ -3 }	(200+3)	[3166]	B	13	6
+
+
+Input     1324	Jonkeer	C59089C-8	S	De He Ph Pi Pz (Jonkeereen)	A	401	Wild	G1 V M1 V	{ -1 }	(B77+1)	[9769]	BDe	14	539
+Wave+10   1324	Jonkeer	C590885-6	S	De He Ph Pi Pz (Jonkeereen)	-	201	Wild	G1 V M1 V	{ -1 }	(271-2)	[9769]	BDe	14	-28
+Wave+100  1324	Jonkeer	C59087A-7	S	De He Ph Pi Pz (Jonkeereen)	-	301	Wild	G1 V M1 V	{ -1 }	(271+1)	[9769]	BDe	14	14
+Wave+300  1324	Jonkeer	C5908CE-8	S	De He Ph Pi Pz (Jonkeereen)	-	401	Wild	G1 V M1 V	{ -1 }	(371+1)	[9769]	BDe	14	21
+Wave+600  1324	Jonkeer	C5908A9-9	S	De He Ph Pi Pz (Jonkeereen)	-	501	Wild	G1 V M1 V	{ 0 }	(372+1)	[9769]	BDe	14	42
+
+
+Input     1327	Medard	B421452-C		He Ni Po	A	701	Wild	K9 V M9 V M7 V	{ 1 }	(734-1)	[253A]	B	14	-84
+REDUCED:
+DIEBACK:
+Check Ni
+Check He
+Wave+10   1327	Medard	D421000-0		He Ni Po Da 	-	001	Wild	K9 V M9 V M7 V	{ -3 }	(200+1)	[253A]	B	14	2
+Wave+100  1327	Medard	D421000-0		He Ni Po Da 	-	001	Wild	K9 V M9 V M7 V	{ -3 }	(200+1)	[253A]	B	14	2
+Wave+300  1327	Medard	D421000-0		He Ni Po Da 	-	001	Wild	K9 V M9 V M7 V	{ -3 }	(200+1)	[253A]	B	14	2
+Wave+600  1327	Medard	D421000-0		He Ni Po Da 	-	001	Wild	K9 V M9 V M7 V	{ -3 }	(200+1)	[253A]	B	14	2
+
+
+Input     1332	Giffert	B7A8575-D		Fl Ni	A	220	Wild	F5 V K8 V	{ 1 }	(945+1)	[565D]	B	8	180
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1332	Giffert	D7A8000-0		Fl Ni Da 	-	020	Wild	F5 V K8 V	{ -3 }	(200+4)	[565D]	B	8	8
+Wave+100  1332	Giffert	D7A8000-0		Fl Ni Da 	-	020	Wild	F5 V K8 V	{ -3 }	(200+4)	[565D]	B	8	8
+Wave+300  1332	Giffert	D7A8000-0		Fl Ni Da 	-	020	Wild	F5 V K8 V	{ -3 }	(200+4)	[565D]	B	8	8
+Wave+600  1332	Giffert	D7A8000-0		Fl Ni Da 	-	020	Wild	F5 V K8 V	{ -3 }	(200+4)	[565D]	B	8	8
+
+
+Input     1333	Shiiku	D6517FB-6	S	Po Pz	A	522	Wild	M0 V	{ -2 }	(965+3)	[C5AB]	B	17	810
+Wave+10   1333	Shiiku	D651745-4	S	Po Pz 	-	222	Wild	M0 V	{ -2 }	(260+1)	[C5AB]	B	17	12
+Wave+100  1333	Shiiku	D651786-5	S	Po Pz 	-	322	Wild	M0 V	{ -2 }	(260-4)	[C5AB]	B	17	-48
+Wave+300  1333	Shiiku	D6517AA-6	S	Po Pz 	-	422	Wild	M0 V	{ -2 }	(260+1)	[C5AB]	B	17	12
+Wave+600  1333	Shiiku	D6517B9-7	S	Po Pz 	-	522	Wild	M0 V	{ -2 }	(260-1)	[C5AB]	B	17	-12
+
+
+Input     1334	Giranima	D79798C-8	S	Hi In Pz (Khethss)	A	313	Wild	K9 V M1 V	{ 0 }	(F89+1)	[9958]	BE	13	1,080
+Wave+10   1334	Giranima	D797968-6	S	Hi In Pz (Khethss)	-	113	Wild	K9 V M1 V	{ 0 }	(282+1)	[9958]	BE	13	32
+Wave+100  1334	Giranima	D7979BF-7	S	Hi In Pz (Khethss)	-	213	Wild	K9 V M1 V	{ 0 }	(282+1)	[9958]	BE	13	32
+Wave+300  1334	Giranima	D797978-8	S	Hi In Pz (Khethss)	-	313	Wild	K9 V M1 V	{ 0 }	(682-2)	[9958]	BE	13	-192
+Wave+600  1334	Giranima	D797995-9	S	Hi In Pz (Khethss)	-	413	Wild	K9 V M1 V	{ 1 }	(683+2)	[9958]	BE	13	288
+
+
+Input     1336	Dawn	AA9A513-C	N	Ni Oc	A	403	Wild	F9 V	{ 1 }	(A45-3)	[1618]	B	7	-600
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1336	Dawn	DA9A000-0	 	Ni Oc Da 	-	003	Wild	F9 V	{ -3 }	(200-1)	[1618]	B	7	-2
+Wave+100  1336	Dawn	DA9A000-0	 	Ni Oc Da 	-	003	Wild	F9 V	{ -3 }	(200-1)	[1618]	B	7	-2
+Wave+300  1336	Dawn	DA9A000-0	 	Ni Oc Da 	-	003	Wild	F9 V	{ -3 }	(200-1)	[1618]	B	7	-2
+Wave+600  1336	Dawn	DA9A000-0	 	Ni Oc Da 	-	003	Wild	F9 V	{ -3 }	(200-1)	[1618]	B	7	-2
+
+
+Input     1337	Unxava	B677672-7		Ag Ni	A	723	Wild	G3 IV	{ 0 }	(854+1)	[6657]	BC	13	160
+REDUCED:
+Check Ni
+Wave+10   1337	Unxava	B677565-6		Ag Ni Da 	-	723	Wild	G3 IV	{ 0 }	(241+1)	[6657]	BC	13	8
+Wave+100  1337	Unxava	B677553-7		Ag Ni Da 	-	823	Wild	G3 IV	{ 0 }	(241+1)	[6657]	BC	13	8
+Wave+300  1337	Unxava	B67757A-8		Ag Ni Da 	-	923	Wild	G3 IV	{ 0 }	(741+1)	[6657]	BC	13	28
+Wave+600  1337	Unxava	B677654-9		Ag Ni Da 	-	123	Wild	G3 IV	{ 1 }	(752-4)	[6657]	BC	13	-280
+
+
+Input     1338	Sorel	B539131-C	N	Lo	A	601	Wild	K1 V K6 V	{ 1 }	(401-2)	[1229]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   1338	Sorel	D539000-0	 	Lo Da 	-	001	Wild	K1 V K6 V	{ -3 }	(200+4)	[1229]	B	10	8
+Wave+100  1338	Sorel	D539000-0	 	Lo Da 	-	001	Wild	K1 V K6 V	{ -3 }	(200+4)	[1229]	B	10	8
+Wave+300  1338	Sorel	D539000-0	 	Lo Da 	-	001	Wild	K1 V K6 V	{ -3 }	(200+4)	[1229]	B	10	8
+Wave+600  1338	Sorel	D539000-0	 	Lo Da 	-	001	Wild	K1 V K6 V	{ -3 }	(200+4)	[1229]	B	10	8
+
+
+Input     1339	Zeng	A426464-C	NS	Ni Cp	A	411	Wild	M3 V	{ 2 }	(835+1)	[364B]	BF	15	120
+REDUCED:
+Check Ni
+Wave+10   1339	Zeng	A426402-B	NS	Ni Re Da Cp	-	411	Wild	M3 V	{ 1 }	(432+1)	[364B]	BF	15	24
+Wave+100  1339	Zeng	A426476-C	NS	Ni Da Cp	-	511	Wild	M3 V	{ 1 }	(432+1)	[364B]	BF	15	24
+Wave+300  1339	Zeng	A426434-D	NS	Ni Da Cp	-	611	Wild	M3 V	{ 1 }	(432+1)	[364B]	BF	15	24
+Wave+600  1339	Zeng	A426435-E	NS	Ni Da Cp	-	711	Wild	M3 V	{ 1 }	(432-1)	[364B]	BF	15	-24
+
+
+Input     1340	Agdarmi	B566799-A		Ag Ri	A	724	Wild	M2 V	{ 4 }	(F6D+5)	[8B6B]	BCf	10	5,850
+Wave+10   1340	Agdarmi	B566768-8		Ag Ri Pz 	-	324	Wild	M2 V	{ 2 }	(864-2)	[8B6B]	BCf	10	-384
+Wave+100  1340	Agdarmi	B566753-9		Ag Ri Pz 	-	424	Wild	M2 V	{ 3 }	(865-1)	[8B6B]	BCf	10	-240
+Wave+300  1340	Agdarmi	B56676A-A		Ag Ri Pz 	-	524	Wild	M2 V	{ 4 }	(866-1)	[8B6B]	BCf	10	-288
+Wave+600  1340	Agdarmi	B566788-B		Ag Ri Pz 	-	624	Wild	M2 V	{ 4 }	(866-1)	[8B6B]	BCf	10	-288
+
+
+Input     1403	Qi'ire	A657377-A		Lo Ga	A	402	Wild	K8 V	{ 1 }	(721+1)	[345A]		10	14
+DIEBACK:
+Check Lo
+Wave+10   1403	Qi'ire	D657000-0		Ga Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-3)	[345A]		10	-6
+Wave+100  1403	Qi'ire	D657000-0		Ga Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-3)	[345A]		10	-6
+Wave+300  1403	Qi'ire	D657000-0		Ga Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-3)	[345A]		10	-6
+Wave+600  1403	Qi'ire	D657000-0		Ga Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-3)	[345A]		10	-6
+
+
+Input     1405	Anatre	D57887A-6		Pa Ph Pi	A	401	Wild	G3 V	{ -2 }	(A75-2)	[8656]	BcDe	5	-700
+Wave+10   1405	Anatre	D578855-5		Pa Ph Pi Pz 	-	201	Wild	G3 V	{ -2 }	(270+1)	[8656]	BcDe	5	14
+Wave+100  1405	Anatre	D5788B8-6		Pa Ph Pi Pz 	-	301	Wild	G3 V	{ -2 }	(270+1)	[8656]	BcDe	5	14
+Wave+300  1405	Anatre	D5788AC-7		Pa Ph Pi Pz 	-	401	Wild	G3 V	{ -2 }	(270+3)	[8656]	BcDe	5	42
+Wave+600  1405	Anatre	D578865-8		Pa Ph Pi Pz 	-	501	Wild	G3 V	{ -2 }	(370-2)	[8656]	BcDe	5	-42
+
+
+Input     1406	Borlund	E554AAA-9		Hi Pz (Lurent)	A	701	Wild	K8 V M9 V	{ 0 }	(D9A+2)	[CA7B]	BE	13	2,340
+Wave+10   1406	Borlund	E554A99-7	  	Hi Pz (Lurent)	-	301	Wild	K8 V M9 V	{ -1 }	(291+1)	[CA7B]	BE	13	18
+Wave+100  1406	Borlund	E554A9B-8	  	Hi Pz (Lurent)	-	401	Wild	K8 V M9 V	{ -1 }	(391-4)	[CA7B]	BE	13	-108
+Wave+300  1406	Borlund	E554A85-9	  	Hi Pz (Lurent)	-	501	Wild	K8 V M9 V	{ 0 }	(392-2)	[CA7B]	BE	13	-108
+Wave+600  1406	Borlund	E554AA9-A	  	Hi Pz (Lurent)	-	601	Wild	K8 V M9 V	{ 1 }	(393-3)	[CA7B]	BE	13	-243
+
+
+Input     1409	Krisna	C84A615-A		Ni Wa	A	812	Wild	F8 V	{ 0 }	(B54-4)	[2616]	B	7	-880
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1409	Krisna	D84A000-0		Ni Wa Da 	-	012	Wild	F8 V	{ -3 }	(200+1)	[2616]	B	7	2
+Wave+100  1409	Krisna	D84A000-0		Ni Wa Da 	-	012	Wild	F8 V	{ -3 }	(200+1)	[2616]	B	7	2
+Wave+300  1409	Krisna	D84A000-0		Ni Wa Da 	-	012	Wild	F8 V	{ -3 }	(200+1)	[2616]	B	7	2
+Wave+600  1409	Krisna	D84A000-0		Ni Wa Da 	-	012	Wild	F8 V	{ -3 }	(200+1)	[2616]	B	7	2
+
+
+Input     1415	Taillon	C78A686-9	S	Ni Ri Wa O:1417	A	701	Wild	G6 V M6 V	{ 0 }	(954+1)	[6659]	BC	8	180
+REDUCED:
+Check Ni
+Wave+10   1415	Taillon	C78A644-7	S	Ni Ri Wa Da O:1417	-	701	Wild	G6 V M6 V	{ -1 }	(250+2)	[6659]	BC	8	20
+Wave+100  1415	Taillon	C78A6B7-8	S	Ni Ri Wa Da O:1417	-	801	Wild	G6 V M6 V	{ -1 }	(350+5)	[6659]	BC	8	75
+Wave+300  1415	Taillon	C78A623-9	S	Ni Ri Wa Da O:1417	-	901	Wild	G6 V M6 V	{ 0 }	(351-2)	[6659]	BC	8	-30
+Wave+600  1415	Taillon	C78A776-A	S	Ni Ri Wa Da O:1417	-	101	Wild	G6 V M6 V	{ 2 }	(364-1)	[6659]	BC	8	-72
+
+
+Input     1417	Starn	B000969-F	S	As Hi In Na Va RsB	A	722	Wild	K0 V	{ 4 }	(F8G+3)	[8D4E]	BEf	12	5,760
+Wave+10   1417	Starn	B0009BC-D	S	As Hi In Na Va Pz RsB	-	322	Wild	K0 V	{ 4 }	(686-4)	[8D4E]	BEf	12	-1152
+Wave+100  1417	Starn	B00096A-E	S	As Hi In Na Va Pz RsB	-	422	Wild	K0 V	{ 4 }	(686+2)	[8D4E]	BEf	12	576
+Wave+300  1417	Starn	B0009AD-F	S	As Hi In Na Va Pz RsB	-	522	Wild	K0 V	{ 4 }	(686+5)	[8D4E]	BEf	12	1440
+Wave+600  1417	Starn	B0009AB-G	S	As Hi In Na Va Pz RsB	-	622	Wild	K0 V	{ 5 }	(687+4)	[8D4E]	BEf	12	1344
+
+
+Input     1419	Montcolm	D675221-7		Lo	A	122	Wild	K4 V	{ -3 }	(410-5)	[1113]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   1419	Montcolm	D675000-0		Lo Da 	-	022	Wild	K4 V	{ -3 }	(200-2)	[1113]	B	9	-4
+Wave+100  1419	Montcolm	D675000-0		Lo Da 	-	022	Wild	K4 V	{ -3 }	(200-2)	[1113]	B	9	-4
+Wave+300  1419	Montcolm	D675000-0		Lo Da 	-	022	Wild	K4 V	{ -3 }	(200-2)	[1113]	B	9	-4
+Wave+600  1419	Montcolm	D675000-0		Lo Da 	-	022	Wild	K4 V	{ -3 }	(200-2)	[1113]	B	9	-4
+
+
+Input     1420	Quebraco	E78A586-5		Ni Wa Pr O:1417	A	824	Wild	K3 V M1 V	{ -3 }	(741-3)	[5255]	Bc	11	-84
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1420	Quebraco	E78A000-0	  	Ni Pr Wa Da O:1417	-	024	Wild	K3 V M1 V	{ -3 }	(200-2)	[5255]	Bc	11	-4
+Wave+100  1420	Quebraco	E78A000-0	  	Ni Pr Wa Da O:1417	-	024	Wild	K3 V M1 V	{ -3 }	(200-2)	[5255]	Bc	11	-4
+Wave+300  1420	Quebraco	E78A000-0	  	Ni Pr Wa Da O:1417	-	024	Wild	K3 V M1 V	{ -3 }	(200-2)	[5255]	Bc	11	-4
+Wave+600  1420	Quebraco	E78A000-0	  	Ni Pr Wa Da O:1417	-	024	Wild	K3 V M1 V	{ -3 }	(200-2)	[5255]	Bc	11	-4
+
+
+Input     1424	Sarden	E552625-7		Ni Po	A	501	Wild	M2 V	{ -3 }	(851-5)	[2313]	B	13	-200
+REDUCED:
+Check Ni
+Wave+10   1424	Sarden	E552674-5	  	Ni Po Da 	-	501	Wild	M2 V	{ -3 }	(250+2)	[2313]	B	13	20
+Wave+100  1424	Sarden	E552655-6	  	Ni Po Da 	-	601	Wild	M2 V	{ -3 }	(250+2)	[2313]	B	13	20
+Wave+300  1424	Sarden	E552644-7	  	Ni Po Da 	-	701	Wild	M2 V	{ -3 }	(250-2)	[2313]	B	13	-20
+Wave+600  1424	Sarden	E55269A-8	  	Ni Po Da 	-	801	Wild	M2 V	{ -3 }	(350-1)	[2313]	B	13	-15
+
+
+Input     1426	Kew	C512130-B		Ic Lo	A	313	Wild	M3 V	{ 0 }	(700-3)	[1128]	B	13	0
+DIEBACK:
+Check Lo
+Wave+10   1426	Kew	D512000-0		Ic Lo Da 	-	013	Wild	M3 V	{ -3 }	(200+3)	[1128]	B	13	6
+Wave+100  1426	Kew	D512000-0		Ic Lo Da 	-	013	Wild	M3 V	{ -3 }	(200+3)	[1128]	B	13	6
+Wave+300  1426	Kew	D512000-0		Ic Lo Da 	-	013	Wild	M3 V	{ -3 }	(200+3)	[1128]	B	13	6
+Wave+600  1426	Kew	D512000-0		Ic Lo Da 	-	013	Wild	M3 V	{ -3 }	(200+3)	[1128]	B	13	6
+
+
+Input     1428	Condamine	C665587-7		Ag Ni Ga Pr	A	921	Wild	F9 V M0 V	{ -1 }	(743-1)	[5457]	BcC	9	-84
+Check Ni
+Wave+10   1428	Condamine	D665000-0		Ag Ga Ni Pr Da 	-	021	Wild	F9 V M0 V	{ -2 }	(200+1)	[5457]	BcC	9	2
+Wave+100  1428	Condamine	D665000-0		Ag Ga Ni Pr Da 	-	021	Wild	F9 V M0 V	{ -2 }	(200+1)	[5457]	BcC	9	2
+Wave+300  1428	Condamine	D665000-0		Ag Ga Ni Pr Da 	-	021	Wild	F9 V M0 V	{ -2 }	(200+1)	[5457]	BcC	9	2
+Wave+600  1428	Condamine	D665000-0		Ag Ga Ni Pr Da 	-	021	Wild	F9 V M0 V	{ -2 }	(200+1)	[5457]	BcC	9	2
+
+
+Input     1429	Ishiri	E5659A8-7		Hi Pr	A	521	Wild	F7 V M0 V K0 V	{ -1 }	(B88+1)	[B879]	BcE	9	704
+Wave+10   1429	Ishiri	E565998-5	  	Hi Pr Pz 	-	221	Wild	F7 V M0 V K0 V	{ -1 }	(281-1)	[B879]	BcE	9	-16
+Wave+100  1429	Ishiri	E5659C9-6	  	Hi Pr Pz 	-	321	Wild	F7 V M0 V K0 V	{ -1 }	(281+1)	[B879]	BcE	9	16
+Wave+300  1429	Ishiri	E5659CB-7	  	Hi Pr Pz 	-	421	Wild	F7 V M0 V K0 V	{ -1 }	(281-3)	[B879]	BcE	9	-48
+Wave+600  1429	Ishiri	E565989-8	  	Hi Pr Pz 	-	521	Wild	F7 V M0 V K0 V	{ -1 }	(581+1)	[B879]	BcE	9	40
+
+
+Input     1430	Eretaro	C9C4100-B		Fl Lo	A	901	Wild	M2 V M3 V	{ 0 }	(400-4)	[1116]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   1430	Eretaro	D9C4000-0		Fl Lo Da 	-	001	Wild	M2 V M3 V	{ -3 }	(200+3)	[1116]	B	9	6
+Wave+100  1430	Eretaro	D9C4000-0		Fl Lo Da 	-	001	Wild	M2 V M3 V	{ -3 }	(200+3)	[1116]	B	9	6
+Wave+300  1430	Eretaro	D9C4000-0		Fl Lo Da 	-	001	Wild	M2 V M3 V	{ -3 }	(200+3)	[1116]	B	9	6
+Wave+600  1430	Eretaro	D9C4000-0		Fl Lo Da 	-	001	Wild	M2 V M3 V	{ -3 }	(200+3)	[1116]	B	9	6
+
+
+Input     1432	Pashus	A432455-G	S	Ni Po RsZ	A	812	Wild	F9 V	{ 2 }	(934-1)	[263E]	B	14	-108
+Check Ni
+Wave+10   1432	Pashus	D432000-0	S	Ni Po Da RsZ	-	012	Wild	F9 V	{ -3 }	(200-2)	[263E]	B	14	-4
+Wave+100  1432	Pashus	D432000-0	S	Ni Po Da RsZ	-	012	Wild	F9 V	{ -3 }	(200-2)	[263E]	B	14	-4
+Wave+300  1432	Pashus	D432000-0	S	Ni Po Da RsZ	-	012	Wild	F9 V	{ -3 }	(200-2)	[263E]	B	14	-4
+Wave+600  1432	Pashus	D432000-0	S	Ni Po Da RsZ	-	012	Wild	F9 V	{ -3 }	(200-2)	[263E]	B	14	-4
+
+
+Input     1433	Atab	C540899-8	S	De He Po Ph Pi JonkW	A	303	Wild	G7 V M7 V	{ -1 }	(D77+1)	[9769]	BDe	12	637
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   1433	Atab	D540000-0	S	De He Ph Pi Po Pz JonkW	-	003	Wild	G7 V M7 V	{ -3 }	(200-5)	[9769]	BDe	12	-10
+Wave+100  1433	Atab	D540000-0	S	De He Ph Pi Po Pz JonkW	-	003	Wild	G7 V M7 V	{ -3 }	(200-5)	[9769]	BDe	12	-10
+Wave+300  1433	Atab	D540000-0	S	De He Ph Pi Po Pz JonkW	-	003	Wild	G7 V M7 V	{ -3 }	(200-5)	[9769]	BDe	12	-10
+Wave+600  1433	Atab	D540000-0	S	De He Ph Pi Po Pz JonkW	-	003	Wild	G7 V M7 V	{ -3 }	(200-5)	[9769]	BDe	12	-10
+
+
+Input     1435	Quirinal	C651745-9		Po	A	101	Wild	G2 V M9 V M9 V	{ 0 }	(A69-2)	[5737]	B	8	-1,080
+Wave+10   1435	Quirinal	C651676-7		Po Pz 	-	501	Wild	G2 V M9 V M9 V	{ -2 }	(250-1)	[5737]	B	8	-10
+Wave+100  1435	Quirinal	C651697-8		Ni Po Da 	-	601	Wild	G2 V M9 V M9 V	{ -2 }	(350+1)	[5737]	B	8	15
+Wave+300  1435	Quirinal	C651644-9		Ni Po Da 	-	701	Wild	G2 V M9 V M9 V	{ -1 }	(350+2)	[5737]	B	8	30
+Wave+600  1435	Quirinal	C651630-A		Ni Po Da 	-	801	Wild	G2 V M9 V M9 V	{ 0 }	(351-3)	[5737]	B	8	-45
+
+
+Input     1436	Isidor	C571556-8		He Ni O:1636	A	623	Wild	M0 V	{ -2 }	(C42-4)	[3336]	B	13	-384
+REDUCED:
+DIEBACK:
+Check Ni
+Check He
+Wave+10   1436	Isidor	D571000-0		He Ni Da O:1636	-	023	Wild	M0 V	{ -3 }	(200+2)	[3336]	B	13	4
+Wave+100  1436	Isidor	D571000-0		He Ni Da O:1636	-	023	Wild	M0 V	{ -3 }	(200+2)	[3336]	B	13	4
+Wave+300  1436	Isidor	D571000-0		He Ni Da O:1636	-	023	Wild	M0 V	{ -3 }	(200+2)	[3336]	B	13	4
+Wave+600  1436	Isidor	D571000-0		He Ni Da O:1636	-	023	Wild	M0 V	{ -3 }	(200+2)	[3336]	B	13	4
+
+
+Input     1439	Breit-Tuve	C425547-B		Ni	A	811	Wild	M1 V	{ 0 }	(944-2)	[3539]	B	12	-288
+REDUCED:
+Check Ni
+Wave+10   1439	Breit-Tuve	C425450-A		Ni Px Da 	-	811	Wild	M1 V	{ 0 }	(431+1)	[3539]	B	12	12
+Wave+100  1439	Breit-Tuve	C425489-B		Ni Da 	-	911	Wild	M1 V	{ 0 }	(431+1)	[3539]	B	12	12
+Wave+300  1439	Breit-Tuve	C425541-C		Ni Px Da 	-	111	Wild	M1 V	{ 0 }	(441-5)	[3539]	B	12	-80
+Wave+600  1439	Breit-Tuve	C425530-D		Ni Da 	-	211	Wild	M1 V	{ 0 }	(441+2)	[3539]	B	12	32
+
+
+Input     1440	Fessenden	C4357CC-6		Pz	A	401	Wild	M1 V	{ -1 }	(966+2)	[A689]	B	9	648
+Wave+10   1440	Fessenden	C43577A-4		Pz 	-	201	Wild	M1 V	{ -1 }	(261+2)	[A689]	B	9	24
+Wave+100  1440	Fessenden	C4357CB-5		Pz 	-	301	Wild	M1 V	{ -1 }	(261+1)	[A689]	B	9	12
+Wave+300  1440	Fessenden	C435797-6		Pz 	-	401	Wild	M1 V	{ -1 }	(261+1)	[A689]	B	9	12
+Wave+600  1440	Fessenden	C435785-7		Pz 	-	501	Wild	M1 V	{ -1 }	(261-3)	[A689]	B	9	-36
+
+
+Input     1502	Mur	C100733-A		Na Va Pi	A	120	Wild	F1 V K1 V	{ 1 }	(B6A-2)	[4827]		10	-1,320
+Wave+10   1502	Mur	C100687-8		Na Pi Va Pz 	-	520	Wild	F1 V K1 V	{ -2 }	(450-3)	[4827]		10	-60
+Wave+100  1502	Mur	C10069B-9		Na Ni Va Da 	-	620	Wild	F1 V K1 V	{ -1 }	(450-4)	[4827]		10	-80
+Wave+300  1502	Mur	C100641-A		Na Ni Va Da 	-	720	Wild	F1 V K1 V	{ 0 }	(451+4)	[4827]		10	80
+Wave+600  1502	Mur	C100623-B		Na Ni Va Da 	-	820	Wild	F1 V K1 V	{ 0 }	(451-4)	[4827]		10	-80
+
+
+Input     1504	Gila	E663647-6		Ni Ri	A	201	Wild	K5 V M1 V	{ -2 }	(852-4)	[4434]		7	-320
+REDUCED:
+Check Ni
+Wave+10   1504	Gila	E663642-4	  	Ni Ri Da 	-	201	Wild	K5 V M1 V	{ -2 }	(250-2)	[4434]		7	-20
+Wave+100  1504	Gila	E663657-5	  	Ni Ri Da 	-	301	Wild	K5 V M1 V	{ -2 }	(250+1)	[4434]		7	10
+Wave+300  1504	Gila	E66367B-6	  	Ni Ri Da 	-	401	Wild	K5 V M1 V	{ -2 }	(250+3)	[4434]		7	30
+Wave+600  1504	Gila	E663655-7	  	Ni Ri Da 	-	501	Wild	K5 V M1 V	{ -2 }	(250+1)	[4434]		7	10
+
+
+Input     1505	Lagut	C312555-B		Ic Ni	A	932	Wild	F9 V	{ 0 }	(C44-2)	[3539]	B	10	-384
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1505	Lagut	D312000-0		Ic Ni Da 	-	032	Wild	F9 V	{ -3 }	(200+1)	[3539]	B	10	2
+Wave+100  1505	Lagut	D312000-0		Ic Ni Da 	-	032	Wild	F9 V	{ -3 }	(200+1)	[3539]	B	10	2
+Wave+300  1505	Lagut	D312000-0		Ic Ni Da 	-	032	Wild	F9 V	{ -3 }	(200+1)	[3539]	B	10	2
+Wave+600  1505	Lagut	D312000-0		Ic Ni Da 	-	032	Wild	F9 V	{ -3 }	(200+1)	[3539]	B	10	2
+
+
+Input     1508	Pek'e	C541352-7	S	He Lo Po	A	412	Wild	M3 V	{ -2 }	(520-4)	[1135]	B	6	0
+Check He
+Check Lo
+Wave+10   1508	Pek'e	D541000-0	S	He Lo Po Da 	-	012	Wild	M3 V	{ -3 }	(200+1)	[1135]	B	6	2
+Wave+100  1508	Pek'e	D541000-0	S	He Lo Po Da 	-	012	Wild	M3 V	{ -3 }	(200+1)	[1135]	B	6	2
+Wave+300  1508	Pek'e	D541000-0	S	He Lo Po Da 	-	012	Wild	M3 V	{ -3 }	(200+1)	[1135]	B	6	2
+Wave+600  1508	Pek'e	D541000-0	S	He Lo Po Da 	-	012	Wild	M3 V	{ -3 }	(200+1)	[1135]	B	6	2
+
+
+Input     1509	Prolam	B769463-A	N	Ni	A	223	Wild	K7 V	{ 1 }	(B34+1)	[3549]	B	8	132
+REDUCED:
+Check Ni
+Wave+10   1509	Prolam	B769464-8	N	Ni Da 	-	223	Wild	K7 V	{ -1 }	(730+2)	[3549]	B	8	42
+Wave+100  1509	Prolam	B769434-9	N	Ni Re Da 	-	323	Wild	K7 V	{ 0 }	(731+1)	[3549]	B	8	21
+Wave+300  1509	Prolam	B769463-A	N	Ni Da 	-	423	Wild	K7 V	{ 1 }	(732-2)	[3549]	B	8	-84
+Wave+600  1509	Prolam	B76948A-B	N	Ni Da 	-	523	Wild	K7 V	{ 1 }	(732+1)	[3549]	B	8	42
+
+
+Input     1518	Trevith	E673374-5		Lo	A	422	Wild	G0 V M2 V	{ -3 }	(520-3)	[3155]	B	7	0
+DIEBACK:
+Check Lo
+Wave+10   1518	Trevith	E673000-0	  	Lo Da 	-	022	Wild	G0 V M2 V	{ -3 }	(200+1)	[3155]	B	7	2
+Wave+100  1518	Trevith	E673000-0	  	Lo Da 	-	022	Wild	G0 V M2 V	{ -3 }	(200+1)	[3155]	B	7	2
+Wave+300  1518	Trevith	E673000-0	  	Lo Da 	-	022	Wild	G0 V M2 V	{ -3 }	(200+1)	[3155]	B	7	2
+Wave+600  1518	Trevith	E673000-0	  	Lo Da 	-	022	Wild	G0 V M2 V	{ -3 }	(200+1)	[3155]	B	7	2
+
+
+Input     1520	Kauai	BA89573-B	NS	Ni Pr	A	924	Wild	F8 V K5 V	{ 2 }	(D46+2)	[575B]	Bc	9	624
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1520	Kauai	DA89000-0	 S	Ni Pr Da 	-	024	Wild	F8 V K5 V	{ -3 }	(200+1)	[575B]	Bc	9	2
+Wave+100  1520	Kauai	DA89000-0	 S	Ni Pr Da 	-	024	Wild	F8 V K5 V	{ -3 }	(200+1)	[575B]	Bc	9	2
+Wave+300  1520	Kauai	DA89000-0	 S	Ni Pr Da 	-	024	Wild	F8 V K5 V	{ -3 }	(200+1)	[575B]	Bc	9	2
+Wave+600  1520	Kauai	DA89000-0	 S	Ni Pr Da 	-	024	Wild	F8 V K5 V	{ -3 }	(200+1)	[575B]	Bc	9	2
+
+
+Input     1522	Bumushe	C68A675-7	S	Ni Ri Wa	A	324	Wild	F9 V	{ -1 }	(853-1)	[6557]	BC	14	-120
+REDUCED:
+Check Ni
+Wave+10   1522	Bumushe	C68A613-5	S	Ni Ri Wa Da 	-	324	Wild	F9 V	{ -1 }	(250-2)	[6557]	BC	14	-20
+Wave+100  1522	Bumushe	C68A698-6	S	Ni Ri Wa Da 	-	424	Wild	F9 V	{ -1 }	(250-2)	[6557]	BC	14	-20
+Wave+300  1522	Bumushe	C68A624-7	S	Ni Ri Wa Da 	-	524	Wild	F9 V	{ -1 }	(250+4)	[6557]	BC	14	40
+Wave+600  1522	Bumushe	C68A674-8	S	Ni Ri Wa Da 	-	624	Wild	F9 V	{ -1 }	(850+1)	[6557]	BC	14	40
+
+
+Input     1524	Verd	E550433-6		De Ni Po JonkW	A	102	Wild	G2 V M7 V	{ -3 }	(631-5)	[1123]	B	15	-90
+Check Ni
+Wave+10   1524	Verd	E550000-0	  	De Ni Po Da JonkW	-	002	Wild	G2 V M7 V	{ -3 }	(200-1)	[1123]	B	15	-2
+Wave+100  1524	Verd	E550000-0	  	De Ni Po Da JonkW	-	002	Wild	G2 V M7 V	{ -3 }	(200-1)	[1123]	B	15	-2
+Wave+300  1524	Verd	E550000-0	  	De Ni Po Da JonkW	-	002	Wild	G2 V M7 V	{ -3 }	(200-1)	[1123]	B	15	-2
+Wave+600  1524	Verd	E550000-0	  	De Ni Po Da JonkW	-	002	Wild	G2 V M7 V	{ -3 }	(200-1)	[1123]	B	15	-2
+
+
+Input     1532	Rajan	C87A121-B		Lo Wa SullW	A	821	Wild	M2 V M5 V	{ 0 }	(600-4)	[1117]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   1532	Rajan	D87A000-0		Lo Wa Da SullW	-	021	Wild	M2 V M5 V	{ -3 }	(200+3)	[1117]	B	11	6
+Wave+100  1532	Rajan	D87A000-0		Lo Wa Da SullW	-	021	Wild	M2 V M5 V	{ -3 }	(200+3)	[1117]	B	11	6
+Wave+300  1532	Rajan	D87A000-0		Lo Wa Da SullW	-	021	Wild	M2 V M5 V	{ -3 }	(200+3)	[1117]	B	11	6
+Wave+600  1532	Rajan	D87A000-0		Lo Wa Da SullW	-	021	Wild	M2 V M5 V	{ -3 }	(200+3)	[1117]	B	11	6
+
+
+Input     1601	Gzigorlloe	A311677-A		Ic Na Ni Da	A	801	Wild	M1 V	{ 1 }	(955+1)	[675A]		8	225
+REDUCED:
+Check Ni
+Wave+10   1601	Gzigorlloe	A311478-9		Ic Na Ni Da 	-	801	Wild	M1 V	{ 0 }	(331+5)	[675A]		8	45
+Wave+100  1601	Gzigorlloe	A31146B-A		Ic Ni Da 	-	901	Wild	M1 V	{ 1 }	(332+3)	[675A]		8	54
+Wave+300  1601	Gzigorlloe	A311500-B		Ic Ni Da 	-	101	Wild	M1 V	{ 1 }	(342+5)	[675A]		8	120
+Wave+600  1601	Gzigorlloe	A311576-C		Ic Ni Da 	-	201	Wild	M1 V	{ 1 }	(342+1)	[675A]		8	24
+
+
+Input     1603	Gzonksoeg	D567200-7	C	Lo	A	401	Wild	G9 V	{ -3 }	(410-5)	[1112]		12	0
+DIEBACK:
+Check Lo
+Wave+10   1603	Gzonksoeg	D567000-0	C	Lo Da 	-	001	Wild	G9 V	{ -3 }	(200-3)	[1112]		12	-6
+Wave+100  1603	Gzonksoeg	D567000-0	C	Lo Da 	-	001	Wild	G9 V	{ -3 }	(200-3)	[1112]		12	-6
+Wave+300  1603	Gzonksoeg	D567000-0	C	Lo Da 	-	001	Wild	G9 V	{ -3 }	(200-3)	[1112]		12	-6
+Wave+600  1603	Gzonksoeg	D567000-0	C	Lo Da 	-	001	Wild	G9 V	{ -3 }	(200-3)	[1112]		12	-6
+
+
+Input     1606	Yef	E543324-5		Lo Po	A	202	Wild	M2 V	{ -3 }	(520-5)	[1111]	B	14	0
+DIEBACK:
+Check Lo
+Wave+10   1606	Yef	E543000-0	  	Lo Po Da 	-	002	Wild	M2 V	{ -3 }	(200-2)	[1111]	B	14	-4
+Wave+100  1606	Yef	E543000-0	  	Lo Po Da 	-	002	Wild	M2 V	{ -3 }	(200-2)	[1111]	B	14	-4
+Wave+300  1606	Yef	E543000-0	  	Lo Po Da 	-	002	Wild	M2 V	{ -3 }	(200-2)	[1111]	B	14	-4
+Wave+600  1606	Yef	E543000-0	  	Lo Po Da 	-	002	Wild	M2 V	{ -3 }	(200-2)	[1111]	B	14	-4
+
+
+Input     1608	Gaashushnu Li	X744255-5		Lo Fo	A	404	Wild	F4 V	{ -3 }	(410-5)	[1133]		13	0
+DIEBACK:
+Check Lo
+Wave+10   1608	Gaashushnu Li	X744000-0	  	Lo Da 	-	004	Wild	F4 V	{ -3 }	(200-1)	[1133]		13	-2
+Wave+100  1608	Gaashushnu Li	X744000-0	  	Lo Da 	-	004	Wild	F4 V	{ -3 }	(200-1)	[1133]		13	-2
+Wave+300  1608	Gaashushnu Li	X744000-0	  	Lo Da 	-	004	Wild	F4 V	{ -3 }	(200-1)	[1133]		13	-2
+Wave+600  1608	Gaashushnu Li	X744000-0	  	Lo Da 	-	004	Wild	F4 V	{ -3 }	(200-1)	[1133]		13	-2
+
+
+Input     1609	Ansirk	A100100-F	N	Lo Va	A	522	Wild	F2 V	{ 1 }	(701-3)	[121A]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   1609	Ansirk	D100000-0	 	Lo Va Da 	-	022	Wild	F2 V	{ -3 }	(200-1)	[121A]	B	11	-2
+Wave+100  1609	Ansirk	D100000-0	 	Lo Va Da 	-	022	Wild	F2 V	{ -3 }	(200-1)	[121A]	B	11	-2
+Wave+300  1609	Ansirk	D100000-0	 	Lo Va Da 	-	022	Wild	F2 V	{ -3 }	(200-1)	[121A]	B	11	-2
+Wave+600  1609	Ansirk	D100000-0	 	Lo Va Da 	-	022	Wild	F2 V	{ -3 }	(200-1)	[121A]	B	11	-2
+
+
+Input     1613	Depot	A1006A6-F	D	Na Ni Va Da Mr	A	220	Wild	F9 V	{ 2 }	(A56+4)	[887H]	B	11	1,200
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1613	Depot	D100000-0	 	Na Ni Va Da Mr	-	020	Wild	F9 V	{ -3 }	(200-1)	[887H]	B	11	-2
+Wave+100  1613	Depot	D100000-0	 	Na Ni Va Da Mr	-	020	Wild	F9 V	{ -3 }	(200-1)	[887H]	B	11	-2
+Wave+300  1613	Depot	D100000-0	 	Na Ni Va Da Mr	-	020	Wild	F9 V	{ -3 }	(200-1)	[887H]	B	11	-2
+Wave+600  1613	Depot	D100000-0	 	Na Ni Va Da Mr	-	020	Wild	F9 V	{ -3 }	(200-1)	[887H]	B	11	-2
+
+
+Input     1614	Springarn	E564302-5		Lo	A	510	Wild	G9 V K3 V	{ -3 }	(520-5)	[1111]	B	14	0
+DIEBACK:
+Check Lo
+Wave+10   1614	Springarn	E564000-0	  	Lo Da 	-	010	Wild	G9 V K3 V	{ -3 }	(200+1)	[1111]	B	14	2
+Wave+100  1614	Springarn	E564000-0	  	Lo Da 	-	010	Wild	G9 V K3 V	{ -3 }	(200+1)	[1111]	B	14	2
+Wave+300  1614	Springarn	E564000-0	  	Lo Da 	-	010	Wild	G9 V K3 V	{ -3 }	(200+1)	[1111]	B	14	2
+Wave+600  1614	Springarn	E564000-0	  	Lo Da 	-	010	Wild	G9 V K3 V	{ -3 }	(200+1)	[1111]	B	14	2
+
+
+Input     1615	Gaza	B430665-B	W	De Na Ni Po	A	723	Wild	G1 V K5 V	{ 2 }	(D56+1)	[584A]	B	11	390
+REDUCED:
+Check Ni
+Wave+10   1615	Gaza	B430577-A	 	De Na Ni Po Da 	-	723	Wild	G1 V K5 V	{ 1 }	(742-2)	[584A]	B	11	-112
+Wave+100  1615	Gaza	B430523-B	 	De Ni Po Da 	-	823	Wild	G1 V K5 V	{ 1 }	(742-3)	[584A]	B	11	-168
+Wave+300  1615	Gaza	B430537-C	 	De Ni Po Da 	-	923	Wild	G1 V K5 V	{ 1 }	(742+1)	[584A]	B	11	56
+Wave+600  1615	Gaza	B430668-D	 	De Ni Po Da 	-	123	Wild	G1 V K5 V	{ 1 }	(752+1)	[584A]	B	11	70
+
+
+Input     1618	Ashasi	E9D5A8A-B		Hi	A	621	Wild	M3 V	{ 1 }	(F9C+1)	[AB5B]	BE	7	1,620
+Wave+10   1618	Ashasi	E9D5A75-9	  	Hi Pz 	-	321	Wild	M3 V	{ 0 }	(592-1)	[AB5B]	BE	7	-90
+Wave+100  1618	Ashasi	E9D5A88-A	  	Hi Pz 	-	421	Wild	M3 V	{ 1 }	(593+1)	[AB5B]	BE	7	135
+Wave+300  1618	Ashasi	E9D5ABC-B	  	Hi Pz 	-	521	Wild	M3 V	{ 1 }	(593+2)	[AB5B]	BE	7	270
+Wave+600  1618	Ashasi	E9D5ACC-C	  	Hi Pz 	-	621	Wild	M3 V	{ 1 }	(593-5)	[AB5B]	BE	7	-675
+
+
+Input     1619	Neopidan	BA9A574-9	N	Ni Oc	A	724	Wild	K3 V	{ 0 }	(D44+1)	[5559]	B	11	208
+REDUCED:
+Check Ni
+Wave+10   1619	Neopidan	BA9A477-7	N	Ni Oc Da 	-	724	Wild	K3 V	{ -1 }	(230+1)	[5559]	B	11	6
+Wave+100  1619	Neopidan	BA9A474-8	N	Ni Oc Da 	-	824	Wild	K3 V	{ -1 }	(830-3)	[5559]	B	11	-72
+Wave+300  1619	Neopidan	BA9A437-9	N	Ni Oc Da 	-	924	Wild	K3 V	{ 0 }	(831+1)	[5559]	B	11	24
+Wave+600  1619	Neopidan	BA9A588-A	N	Ni Oc Da 	-	124	Wild	K3 V	{ 1 }	(842-1)	[5559]	B	11	-64
+
+
+Input     1620	Surisha	D682223-3		Lo	A	201	Wild	M1 V M4 V	{ -3 }	(410-5)	[1111]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   1620	Surisha	D682000-0		Lo Da 	-	001	Wild	M1 V M4 V	{ -3 }	(200-1)	[1111]	B	10	-2
+Wave+100  1620	Surisha	D682000-0		Lo Da 	-	001	Wild	M1 V M4 V	{ -3 }	(200-1)	[1111]	B	10	-2
+Wave+300  1620	Surisha	D682000-0		Lo Da 	-	001	Wild	M1 V M4 V	{ -3 }	(200-1)	[1111]	B	10	-2
+Wave+600  1620	Surisha	D682000-0		Lo Da 	-	001	Wild	M1 V M4 V	{ -3 }	(200-1)	[1111]	B	10	-2
+
+
+Input     1623	HRD	A401645-F	N	Ic Na Ni Va	A	810	Wild	M5 III	{ 1 }	(955-1)	[473D]	B	9	-225
+REDUCED:
+Check Ni
+Wave+10   1623	HRD	A401431-E	N	Ic Na Ni Va Da 	-	810	Wild	M5 III	{ 1 }	(332-1)	[473D]	B	9	-18
+Wave+100  1623	HRD	A401464-F	N	Ic Ni Va Da 	-	910	Wild	M5 III	{ 1 }	(332-2)	[473D]	B	9	-36
+Wave+300  1623	HRD	A401547-G	N	Ic Ni Re Va Da 	-	110	Wild	M5 III	{ 2 }	(343-5)	[473D]	B	9	-180
+Wave+600  1623	HRD	A401578-H	N	Ic Ni Va Da 	-	210	Wild	M5 III	{ 2 }	(343+2)	[473D]	B	9	72
+
+
+Input     1626	Risir	C430252-9		De Lo Po	A	310	Wild	K1 V M3 V	{ -1 }	(510-3)	[1137]	B	5	0
+DIEBACK:
+Check Lo
+Wave+10   1626	Risir	D430000-0		De Lo Po Da 	-	010	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	5	-6
+Wave+100  1626	Risir	D430000-0		De Lo Po Da 	-	010	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	5	-6
+Wave+300  1626	Risir	D430000-0		De Lo Po Da 	-	010	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	5	-6
+Wave+600  1626	Risir	D430000-0		De Lo Po Da 	-	010	Wild	K1 V M3 V	{ -3 }	(200-3)	[1137]	B	5	-6
+
+
+Input     1628	Alaungpaya	C540749-8	S	De He Po Pi	A	601	Wild	M4 V	{ -1 }	(A67-3)	[5636]	BD	12	-1,260
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   1628	Alaungpaya	D540000-0	S	De He Pi Po Pz 	-	001	Wild	M4 V	{ -3 }	(200-1)	[5636]	BD	12	-2
+Wave+100  1628	Alaungpaya	D540000-0	S	De He Pi Po Pz 	-	001	Wild	M4 V	{ -3 }	(200-1)	[5636]	BD	12	-2
+Wave+300  1628	Alaungpaya	D540000-0	S	De He Pi Po Pz 	-	001	Wild	M4 V	{ -3 }	(200-1)	[5636]	BD	12	-2
+Wave+600  1628	Alaungpaya	D540000-0	S	De He Pi Po Pz 	-	001	Wild	M4 V	{ -3 }	(200-1)	[5636]	BD	12	-2
+
+
+Input     1630	Brontitor	B9C4201-9		Fl Lo	A	904	Wild	K0 IV	{ 0 }	(810-4)	[1214]	B	7	0
+DIEBACK:
+Check Lo
+Wave+10   1630	Brontitor	D9C4000-0		Fl Lo Da 	-	004	Wild	K0 IV	{ -3 }	(200-5)	[1214]	B	7	-10
+Wave+100  1630	Brontitor	D9C4000-0		Fl Lo Da 	-	004	Wild	K0 IV	{ -3 }	(200-5)	[1214]	B	7	-10
+Wave+300  1630	Brontitor	D9C4000-0		Fl Lo Da 	-	004	Wild	K0 IV	{ -3 }	(200-5)	[1214]	B	7	-10
+Wave+600  1630	Brontitor	D9C4000-0		Fl Lo Da 	-	004	Wild	K0 IV	{ -3 }	(200-5)	[1214]	B	7	-10
+
+
+Input     1633	Pikha	B738A68-C		Hi	A	612	Wild	K7 V	{ 3 }	(F9E+2)	[9D4B]	BE	12	3,780
+Wave+10   1633	Pikha	B738A62-A		Hi Pz 	-	312	Wild	K7 V	{ 3 }	(595-1)	[9D4B]	BE	12	-225
+Wave+100  1633	Pikha	B738A78-B		Cy Hi Pz 	-	412	Wild	K7 V	{ 3 }	(595-3)	[9D4B]	BE	12	-675
+Wave+300  1633	Pikha	B738AFA-C		Hi Pz 	-	512	Wild	K7 V	{ 3 }	(595-3)	[9D4B]	BE	12	-675
+Wave+600  1633	Pikha	B738A75-D		Hi Pz 	-	612	Wild	K7 V	{ 3 }	(595+1)	[9D4B]	BE	12	225
+
+
+Input     1635	Ibsen	D4346CA-6		Ni Da	A	110	Wild	K8 V M2 V	{ -3 }	(851+1)	[9389]	B	12	40
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1635	Ibsen	D434000-0		Ni Da 	-	010	Wild	K8 V M2 V	{ -3 }	(200+1)	[9389]	B	12	2
+Wave+100  1635	Ibsen	D434000-0		Ni Da 	-	010	Wild	K8 V M2 V	{ -3 }	(200+1)	[9389]	B	12	2
+Wave+300  1635	Ibsen	D434000-0		Ni Da 	-	010	Wild	K8 V M2 V	{ -3 }	(200+1)	[9389]	B	12	2
+Wave+600  1635	Ibsen	D434000-0		Ni Da 	-	010	Wild	K8 V M2 V	{ -3 }	(200+1)	[9389]	B	12	2
+
+
+Input     1636	Balzac	A552897-C	N	Po Ph Di(Crocodiles) Sull4	A	513	Wild	G1 IV M3 V	{ 2 }	(E7C+3)	[9A6D]	Be	14	3,528
+Wave+10   1636	Balzac	A552876-A	N	Ph Po Pz (Crocodiles) Sull4	-	213	Wild	G1 IV M3 V	{ 2 }	(674+1)	[9A6D]	Be	14	168
+Wave+100  1636	Balzac	A552844-B	N	Ph Po Pz (Crocodiles) Sull4	-	313	Wild	G1 IV M3 V	{ 2 }	(674+1)	[9A6D]	Be	14	168
+Wave+300  1636	Balzac	A552878-C	N	Ph Po Pz (Crocodiles) Sull4	-	413	Wild	G1 IV M3 V	{ 2 }	(674-2)	[9A6D]	Be	14	-336
+Wave+600  1636	Balzac	A552846-D	N	Ph Po Pz (Crocodiles) Sull4	-	513	Wild	G1 IV M3 V	{ 2 }	(674+1)	[9A6D]	Be	14	168
+
+
+Input     1639	Uushadiiru	A551454-A	N	Ni Po	A	521	Wild	G0 V	{ 1 }	(934-1)	[2538]	B	6	-108
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1639	Uushadiiru	D551000-0	 	Ni Po Da 	-	021	Wild	G0 V	{ -3 }	(200+3)	[2538]	B	6	6
+Wave+100  1639	Uushadiiru	D551000-0	 	Ni Po Da 	-	021	Wild	G0 V	{ -3 }	(200+3)	[2538]	B	6	6
+Wave+300  1639	Uushadiiru	D551000-0	 	Ni Po Da 	-	021	Wild	G0 V	{ -3 }	(200+3)	[2538]	B	6	6
+Wave+600  1639	Uushadiiru	D551000-0	 	Ni Po Da 	-	021	Wild	G0 V	{ -3 }	(200+3)	[2538]	B	6	6
+
+
+Input     1640	Jecife	A439676-F	N	Ni Mr	A	123	Wild	F6 V	{ 1 }	(D55+1)	[675F]	B	8	325
+REDUCED:
+Check Ni
+Wave+10   1640	Jecife	A439553-F	N	Ni Da Mr	-	123	Wild	F6 V	{ 1 }	(742+1)	[675F]	B	8	56
+Wave+100  1640	Jecife	A439555-G	N	Ni Da Mr	-	223	Wild	F6 V	{ 2 }	(743-1)	[675F]	B	8	-84
+Wave+300  1640	Jecife	A439586-H	N	Ni Da Mr	-	323	Wild	F6 V	{ 2 }	(743-2)	[675F]	B	8	-168
+Wave+600  1640	Jecife	A439577-J	N	Ni Da Mr	-	423	Wild	F6 V	{ 2 }	(743-4)	[675F]	B	8	-336
+
+
+Input     1704	Graek	D78797C-4		Hi Ga Pr Pz VargW	A	101	Wild	K4 V	{ -1 }	(B86-1)	[9854]		11	-528
+Wave+10   1704	Graek	D78788B-0		Ga Hi Pr Pz VargW	-	501	Wild	K4 V	{ -1 }	(271+2)	[9854]		11	28
+Wave+100  1704	Graek	D7878CB-1		Ga Pa Ph Ri Pz VargW	-	601	Wild	K4 V	{ -1 }	(271+1)	[9854]		11	14
+Wave+300  1704	Graek	D7878CC-2		Ga Pa Ph Ri Pz VargW	-	701	Wild	K4 V	{ -1 }	(271+2)	[9854]		11	28
+Wave+600  1704	Graek	D7878C9-3		Ga Pa Ph Ri Pz VargW	-	801	Wild	K4 V	{ -1 }	(271-3)	[9854]		11	-42
+
+
+Input     1706	Dunant	B311302-D	S	Ic Lo Da	A	523	Wild	G2 V M4 V	{ 1 }	(A21-3)	[1418]	B	8	-60
+DIEBACK:
+Check Lo
+Wave+10   1706	Dunant	D311000-0	S	Ic Lo Da 	-	023	Wild	G2 V M4 V	{ -3 }	(200-1)	[1418]	B	8	-2
+Wave+100  1706	Dunant	D311000-0	S	Ic Lo Da 	-	023	Wild	G2 V M4 V	{ -3 }	(200-1)	[1418]	B	8	-2
+Wave+300  1706	Dunant	D311000-0	S	Ic Lo Da 	-	023	Wild	G2 V M4 V	{ -3 }	(200-1)	[1418]	B	8	-2
+Wave+600  1706	Dunant	D311000-0	S	Ic Lo Da 	-	023	Wild	G2 V M4 V	{ -3 }	(200-1)	[1418]	B	8	-2
+
+
+Input     1708	Remsen	B788667-9	S	Ag Ni Ri	A	524	Wild	F9 V K0 V	{ 2 }	(E56+1)	[5848]	BC	14	420
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1708	Remsen	D788000-0	S	Ag Ni Ri Da 	-	024	Wild	F9 V K0 V	{ -1 }	(200-4)	[5848]	BC	14	-8
+Wave+100  1708	Remsen	D788000-0	S	Ag Ni Ri Da 	-	024	Wild	F9 V K0 V	{ -1 }	(200-4)	[5848]	BC	14	-8
+Wave+300  1708	Remsen	D788000-0	S	Ag Ni Ri Da 	-	024	Wild	F9 V K0 V	{ -1 }	(200-4)	[5848]	BC	14	-8
+Wave+600  1708	Remsen	D788000-0	S	Ag Ni Ri Da 	-	024	Wild	F9 V K0 V	{ -1 }	(200-4)	[5848]	BC	14	-8
+
+
+Input     1710	Uakari	C5348AA-6		Ph Pz	A	912	Wild	K6 V	{ -1 }	(A76+1)	[A778]	Be	8	420
+Wave+10   1710	Uakari	C5348A9-4		Ph Pz 	-	412	Wild	K6 V	{ -1 }	(271+2)	[A778]	Be	8	28
+Wave+100  1710	Uakari	C534868-5		Ph Pz 	-	512	Wild	K6 V	{ -1 }	(271+5)	[A778]	Be	8	70
+Wave+300  1710	Uakari	C53488D-6		Ph Pz 	-	612	Wild	K6 V	{ -1 }	(271+1)	[A778]	Be	8	14
+Wave+600  1710	Uakari	C534857-7		Ph Pz 	-	712	Wild	K6 V	{ -1 }	(271+3)	[A778]	Be	8	42
+
+
+Input     1712	Petrarch	B554835-8	NS	Pa Ph	A	210	Wild	K6 V	{ 1 }	(B79-2)	[5925]	Bce	11	-1,386
+Wave+10   1712	Petrarch	B55489B-6	NS	Pa Ph Pz 	-	110	Wild	K6 V	{ 0 }	(272+2)	[5925]	Bce	11	56
+Wave+100  1712	Petrarch	B55489B-7	NS	Pa Ph Pz 	-	210	Wild	K6 V	{ 0 }	(272+1)	[5925]	Bce	11	28
+Wave+300  1712	Petrarch	B554898-8	NS	Pa Ph Pz 	-	310	Wild	K6 V	{ 0 }	(372+3)	[5925]	Bce	11	126
+Wave+600  1712	Petrarch	B554854-9	NS	Pa Ph Pz 	-	410	Wild	K6 V	{ 1 }	(373+1)	[5925]	Bce	11	63
+
+
+Input     1713	Stoyben	D3135A6-8	S	Ic Ni O:1615	A	211	Wild	M3 V	{ -3 }	(941-1)	[727A]	B	9	-36
+REDUCED:
+Check Ni
+Wave+10   1713	Stoyben	D313400-7	S	Ic Ni Da O:1615	-	211	Wild	M3 V	{ -3 }	(230+1)	[727A]	B	9	6
+Wave+100  1713	Stoyben	D313425-8	S	Ic Ni Da O:1615	-	311	Wild	M3 V	{ -3 }	(430-1)	[727A]	B	9	-12
+Wave+300  1713	Stoyben	D313453-9	S	Ic Ni Da O:1615	-	411	Wild	M3 V	{ -2 }	(430+1)	[727A]	B	9	12
+Wave+600  1713	Stoyben	D313499-A	S	Ic Ni Da O:1615	-	511	Wild	M3 V	{ -1 }	(430-3)	[727A]	B	9	-36
+
+
+Input     1714	Andalia	C87A474-7		Ni Wa Da	A	903	Wild	G7 V M5 V	{ -2 }	(631-2)	[4257]	B	7	-36
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1714	Andalia	D87A000-0		Ni Wa Da 	-	003	Wild	G7 V M5 V	{ -3 }	(200-2)	[4257]	B	7	-4
+Wave+100  1714	Andalia	D87A000-0		Ni Wa Da 	-	003	Wild	G7 V M5 V	{ -3 }	(200-2)	[4257]	B	7	-4
+Wave+300  1714	Andalia	D87A000-0		Ni Wa Da 	-	003	Wild	G7 V M5 V	{ -3 }	(200-2)	[4257]	B	7	-4
+Wave+600  1714	Andalia	D87A000-0		Ni Wa Da 	-	003	Wild	G7 V M5 V	{ -3 }	(200-2)	[4257]	B	7	-4
+
+
+Input     1716	Reims	C624797-7		Pi	A	601	Wild	M0 V M9 V	{ -1 }	(967+1)	[8668]	BD	11	378
+Wave+10   1716	Reims	C624756-6		Pi Pz 	-	301	Wild	M0 V M9 V	{ -1 }	(261+1)	[8668]	BD	11	12
+Wave+100  1716	Reims	C6247B7-7		Pi Pz 	-	401	Wild	M0 V M9 V	{ -1 }	(261+1)	[8668]	BD	11	12
+Wave+300  1716	Reims	C624763-8		Pi Pz 	-	501	Wild	M0 V M9 V	{ -1 }	(361+1)	[8668]	BD	11	18
+Wave+600  1716	Reims	C6247B9-9		Cy Pi Pz 	-	601	Wild	M0 V M9 V	{ 0 }	(362+2)	[8668]	BD	11	72
+
+
+Input     1717	Kennebec	E978525-6		Ag Ni	A	523	Wild	F7 V	{ -2 }	(742-5)	[1312]	BC	9	-280
+REDUCED:
+Check Ni
+Wave+10   1717	Kennebec	E978443-4	  	Ag Ni Da 	-	523	Wild	F7 V	{ -2 }	(230-2)	[1312]	BC	9	-12
+Wave+100  1717	Kennebec	E978421-5	  	Ni Pa Da 	-	623	Wild	F7 V	{ -3 }	(230+1)	[1312]	BC	9	6
+Wave+300  1717	Kennebec	E978400-6	  	Ni Pa Da 	-	723	Wild	F7 V	{ -3 }	(230+3)	[1312]	BC	9	18
+Wave+600  1717	Kennebec	E978412-7	  	Ni Pa Da 	-	823	Wild	F7 V	{ -3 }	(230+1)	[1312]	BC	9	6
+
+
+Input     1719	Polizzi	B402523-D		Ic Ni Va	A	823	Wild	K9 V	{ 1 }	(C45-3)	[1619]	B	10	-720
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1719	Polizzi	D402000-0		Ic Ni Va Da 	-	023	Wild	K9 V	{ -3 }	(200-3)	[1619]	B	10	-6
+Wave+100  1719	Polizzi	D402000-0		Ic Ni Va Da 	-	023	Wild	K9 V	{ -3 }	(200-3)	[1619]	B	10	-6
+Wave+300  1719	Polizzi	D402000-0		Ic Ni Va Da 	-	023	Wild	K9 V	{ -3 }	(200-3)	[1619]	B	10	-6
+Wave+600  1719	Polizzi	D402000-0		Ic Ni Va Da 	-	023	Wild	K9 V	{ -3 }	(200-3)	[1619]	B	10	-6
+
+
+Input     1722	Redemption	E540643-5		De He Ni Po Da JonkW	A	633	Wild	G0 V	{ -3 }	(851-5)	[4333]	B	15	-200
+REDUCED:
+Check Ni
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   1722	Redemption	E540000-0	  	De He Ni Po Da JonkW	-	033	Wild	G0 V	{ -3 }	(200+1)	[4333]	B	15	2
+Wave+100  1722	Redemption	E540000-0	  	De He Ni Po Da JonkW	-	033	Wild	G0 V	{ -3 }	(200+1)	[4333]	B	15	2
+Wave+300  1722	Redemption	E540000-0	  	De He Ni Po Da JonkW	-	033	Wild	G0 V	{ -3 }	(200+1)	[4333]	B	15	2
+Wave+600  1722	Redemption	E540000-0	  	De He Ni Po Da JonkW	-	033	Wild	G0 V	{ -3 }	(200+1)	[4333]	B	15	2
+
+
+Input     1726	Woaros	X747687-5		Ag Ni Fo	A	214	Wild	K4 V	{ -2 }	(852-2)	[6455]		12	-160
+REDUCED:
+Check Ni
+Wave+10   1726	Woaros	X747436-0	  	Ag Ni Da 	-	214	Wild	K4 V	{ -2 }	(230+4)	[6455]		12	24
+Wave+100  1726	Woaros	X747426-1	  	Ni Pa Da 	-	314	Wild	K4 V	{ -3 }	(230+1)	[6455]		12	6
+Wave+300  1726	Woaros	X747485-2	  	Ni Pa Da 	-	414	Wild	K4 V	{ -3 }	(230-3)	[6455]		12	-18
+Wave+600  1726	Woaros	X747457-3	  	Ni Pa Da 	-	514	Wild	K4 V	{ -3 }	(230-1)	[6455]		12	-6
+
+
+Input     1728	Monogan	E1005A6-8		Ni Va O:1925	A	902	Wild	K2 V M9 V	{ -3 }	(941-1)	[727A]	B	11	-36
+REDUCED:
+Check Ni
+Wave+10   1728	Monogan	E100400-7	  	Ni Va Da O:1925	-	902	Wild	K2 V M9 V	{ -3 }	(230-1)	[727A]	B	11	-6
+Wave+100  1728	Monogan	E100567-8	  	Ni Va Da O:1925	-	102	Wild	K2 V M9 V	{ -3 }	(440-2)	[727A]	B	11	-32
+Wave+300  1728	Monogan	E100530-9	  	Ni Va Da O:1925	-	202	Wild	K2 V M9 V	{ -2 }	(440+4)	[727A]	B	11	64
+Wave+600  1728	Monogan	E100559-A	  	Ni Va Da O:1925	-	302	Wild	K2 V M9 V	{ -1 }	(440+3)	[727A]	B	11	48
+
+
+Input     1730	Gatooma	E100566-7		Ni Va O:1930	A	424	Wild	M8 III	{ -3 }	(741-4)	[4246]	B	9	-112
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1730	Gatooma	E100000-0	  	Ni Va Da O:1930	-	024	Wild	M8 III	{ -3 }	(200-3)	[4246]	B	9	-6
+Wave+100  1730	Gatooma	E100000-0	  	Ni Va Da O:1930	-	024	Wild	M8 III	{ -3 }	(200-3)	[4246]	B	9	-6
+Wave+300  1730	Gatooma	E100000-0	  	Ni Va Da O:1930	-	024	Wild	M8 III	{ -3 }	(200-3)	[4246]	B	9	-6
+Wave+600  1730	Gatooma	E100000-0	  	Ni Va Da O:1930	-	024	Wild	M8 III	{ -3 }	(200-3)	[4246]	B	9	-6
+
+
+Input     1732	Rif	C687200-6		Lo Ga	A	702	Wild	G4 IV F4 V	{ -2 }	(410-5)	[1111]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   1732	Rif	D687000-0		Ga Lo Da 	-	002	Wild	G4 IV F4 V	{ -3 }	(200-4)	[1111]	B	11	-8
+Wave+100  1732	Rif	D687000-0		Ga Lo Da 	-	002	Wild	G4 IV F4 V	{ -3 }	(200-4)	[1111]	B	11	-8
+Wave+300  1732	Rif	D687000-0		Ga Lo Da 	-	002	Wild	G4 IV F4 V	{ -3 }	(200-4)	[1111]	B	11	-8
+Wave+600  1732	Rif	D687000-0		Ga Lo Da 	-	002	Wild	G4 IV F4 V	{ -3 }	(200-4)	[1111]	B	11	-8
+
+
+Input     1733	Imazura	C555555-9	S	Ag Ni	A	203	Wild	K8 V	{ 0 }	(A44-2)	[3537]	BC	11	-320
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1733	Imazura	D555000-0	S	Ag Ni Da 	-	003	Wild	K8 V	{ -2 }	(200-2)	[3537]	BC	11	-4
+Wave+100  1733	Imazura	D555000-0	S	Ag Ni Da 	-	003	Wild	K8 V	{ -2 }	(200-2)	[3537]	BC	11	-4
+Wave+300  1733	Imazura	D555000-0	S	Ag Ni Da 	-	003	Wild	K8 V	{ -2 }	(200-2)	[3537]	BC	11	-4
+Wave+600  1733	Imazura	D555000-0	S	Ag Ni Da 	-	003	Wild	K8 V	{ -2 }	(200-2)	[3537]	BC	11	-4
+
+
+Input     1802	Dzoungdzi	A557335-E		Lo	A	624	Wild	K7 V	{ 1 }	(B21-2)	[142B]		14	-44
+DIEBACK:
+Check Lo
+Wave+10   1802	Dzoungdzi	D557000-0		Lo Da 	-	024	Wild	K7 V	{ -3 }	(200-1)	[142B]		14	-2
+Wave+100  1802	Dzoungdzi	D557000-0		Lo Da 	-	024	Wild	K7 V	{ -3 }	(200-1)	[142B]		14	-2
+Wave+300  1802	Dzoungdzi	D557000-0		Lo Da 	-	024	Wild	K7 V	{ -3 }	(200-1)	[142B]		14	-2
+Wave+600  1802	Dzoungdzi	D557000-0		Lo Da 	-	024	Wild	K7 V	{ -3 }	(200-1)	[142B]		14	-2
+
+
+Input     1805	Cilnodan	B542212-9		He Lo Po	A	632	Wild	M3 V M9 V	{ 0 }	(910-4)	[1215]	B	12	0
+Check He
+Check Lo
+Wave+10   1805	Cilnodan	D542000-0		He Lo Po Da 	-	032	Wild	M3 V M9 V	{ -3 }	(200+2)	[1215]	B	12	4
+Wave+100  1805	Cilnodan	D542000-0		He Lo Po Da 	-	032	Wild	M3 V M9 V	{ -3 }	(200+2)	[1215]	B	12	4
+Wave+300  1805	Cilnodan	D542000-0		He Lo Po Da 	-	032	Wild	M3 V M9 V	{ -3 }	(200+2)	[1215]	B	12	4
+Wave+600  1805	Cilnodan	D542000-0		He Lo Po Da 	-	032	Wild	M3 V M9 V	{ -3 }	(200+2)	[1215]	B	12	4
+
+
+Input     1808	Antra	A5378C9-D		Ph Cp Pz	A	501	Wild	M0 V M3 V	{ 2 }	(B7D+5)	[BA8G]	BeF	12	5,005
+Wave+10   1808	Antra	A537885-B		Ph Pz Cp	-	201	Wild	M0 V M3 V	{ 2 }	(374-3)	[BA8G]	BeF	12	-252
+Wave+100  1808	Antra	A5378CB-C		Ph Pz Cp	-	301	Wild	M0 V M3 V	{ 2 }	(374+1)	[BA8G]	BeF	12	84
+Wave+300  1808	Antra	A537887-D		Ph Pz Cp	-	401	Wild	M0 V M3 V	{ 2 }	(374-1)	[BA8G]	BeF	12	-84
+Wave+600  1808	Antra	A5378AA-E		Ph Pz Cp	-	501	Wild	M0 V M3 V	{ 2 }	(374+1)	[BA8G]	BeF	12	84
+
+
+Input     1810	Syr Darya	E5576C9-5		Ag Ni Da	A	922	Wild	G3 V K4 V	{ -2 }	(852+1)	[9488]	BC	11	80
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1810	Syr Darya	E557000-0	  	Ag Ni Da 	-	022	Wild	G3 V K4 V	{ -2 }	(200-3)	[9488]	BC	11	-6
+Wave+100  1810	Syr Darya	E557000-0	  	Ag Ni Da 	-	022	Wild	G3 V K4 V	{ -2 }	(200-3)	[9488]	BC	11	-6
+Wave+300  1810	Syr Darya	E557000-0	  	Ag Ni Da 	-	022	Wild	G3 V K4 V	{ -2 }	(200-3)	[9488]	BC	11	-6
+Wave+600  1810	Syr Darya	E557000-0	  	Ag Ni Da 	-	022	Wild	G3 V K4 V	{ -2 }	(200-3)	[9488]	BC	11	-6
+
+
+Input     1814	Karst	B8767B9-6		Ag Pi Pz	A	133	Wild	F8 V	{ 1 }	(968+3)	[9878]	BCD	13	1,296
+Wave+10   1814	Karst	B876653-5		Ag Pi Pz 	-	533	Wild	F8 V	{ 0 }	(251-4)	[9878]	BCD	13	-40
+Wave+100  1814	Karst	B876687-6		Ag Ni Da 	-	633	Wild	F8 V	{ 0 }	(251+1)	[9878]	BCD	13	10
+Wave+300  1814	Karst	B876653-7		Ag Ni Da 	-	733	Wild	F8 V	{ 0 }	(251-2)	[9878]	BCD	13	-20
+Wave+600  1814	Karst	B876651-8		Ag Ni Da 	-	833	Wild	F8 V	{ 0 }	(851+1)	[9878]	BCD	13	40
+
+
+Input     1821	Rolvaag	E580354-7		De Lo	A	804	Wild	F6 V K0 V	{ -3 }	(520-5)	[1135]	B	11	0
+DIEBACK:
+Check Lo
+Wave+10   1821	Rolvaag	E580000-0	  	De Lo Da 	-	004	Wild	F6 V K0 V	{ -3 }	(200+2)	[1135]	B	11	4
+Wave+100  1821	Rolvaag	E580000-0	  	De Lo Da 	-	004	Wild	F6 V K0 V	{ -3 }	(200+2)	[1135]	B	11	4
+Wave+300  1821	Rolvaag	E580000-0	  	De Lo Da 	-	004	Wild	F6 V K0 V	{ -3 }	(200+2)	[1135]	B	11	4
+Wave+600  1821	Rolvaag	E580000-0	  	De Lo Da 	-	004	Wild	F6 V K0 V	{ -3 }	(200+2)	[1135]	B	11	4
+
+
+Input     1823	Tetzel	B643223-B	N	Lo Po An Da	A	301	Wild	F3 V K2 V	{ 1 }	(511-3)	[1317]	B	7	-15
+DIEBACK:
+Check Lo
+Wave+10   1823	Tetzel	D643000-0	 	Lo Po Da An	-	001	Wild	F3 V K2 V	{ -3 }	(200-1)	[1317]	B	7	-2
+Wave+100  1823	Tetzel	D643000-0	 	Lo Po Da An	-	001	Wild	F3 V K2 V	{ -3 }	(200-1)	[1317]	B	7	-2
+Wave+300  1823	Tetzel	D643000-0	 	Lo Po Da An	-	001	Wild	F3 V K2 V	{ -3 }	(200-1)	[1317]	B	7	-2
+Wave+600  1823	Tetzel	D643000-0	 	Lo Po Da An	-	001	Wild	F3 V K2 V	{ -3 }	(200-1)	[1317]	B	7	-2
+
+
+Input     1824	Farraco	E200487-9		Ni Va	A	112	Wild	K7 V	{ -2 }	(931-2)	[4259]	B	13	-54
+REDUCED:
+Check Ni
+Wave+10   1824	Farraco	E200453-8	  	Ni Va Da 	-	112	Wild	K7 V	{ -3 }	(530-2)	[4259]	B	13	-30
+Wave+100  1824	Farraco	E200455-9	  	Ni Va Da 	-	212	Wild	K7 V	{ -2 }	(530+1)	[4259]	B	13	15
+Wave+300  1824	Farraco	E200456-A	  	Ni Va Da 	-	312	Wild	K7 V	{ -1 }	(530-1)	[4259]	B	13	-15
+Wave+600  1824	Farraco	E200452-B	  	Ni Va Da 	-	412	Wild	K7 V	{ -1 }	(530+3)	[4259]	B	13	45
+
+
+Input     1826	Eshamlii	A434334-B	S	Lo	A	323	Wild	K2 IV	{ 1 }	(A21-2)	[1428]	B	8	-40
+DIEBACK:
+Check Lo
+Wave+10   1826	Eshamlii	D434000-0	S	Lo Da 	-	023	Wild	K2 IV	{ -3 }	(200-1)	[1428]	B	8	-2
+Wave+100  1826	Eshamlii	D434000-0	S	Lo Da 	-	023	Wild	K2 IV	{ -3 }	(200-1)	[1428]	B	8	-2
+Wave+300  1826	Eshamlii	D434000-0	S	Lo Da 	-	023	Wild	K2 IV	{ -3 }	(200-1)	[1428]	B	8	-2
+Wave+600  1826	Eshamlii	D434000-0	S	Lo Da 	-	023	Wild	K2 IV	{ -3 }	(200-1)	[1428]	B	8	-2
+
+
+Input     1827	Prefecture	E43076B-8		De Na Po	A	724	Wild	G1 V	{ -2 }	(F66-3)	[6547]	B	9	-1,620
+Wave+10   1827	Prefecture	E430765-6	  	De Na Po Pz 	-	324	Wild	G1 V	{ -2 }	(260-4)	[6547]	B	9	-48
+Wave+100  1827	Prefecture	E4307CD-7	  	De Na Po Pz 	-	424	Wild	G1 V	{ -2 }	(260-4)	[6547]	B	9	-48
+Wave+300  1827	Prefecture	E430754-8	  	De Na Po Pz 	-	524	Wild	G1 V	{ -2 }	(860+1)	[6547]	B	9	48
+Wave+600  1827	Prefecture	E430766-9	  	De Na Po Pz 	-	624	Wild	G1 V	{ -1 }	(861+1)	[6547]	B	9	48
+
+
+Input     1829	Bisistra	B557597-B	N	Ag Ni	A	802	Wild	M0 V	{ 2 }	(946+3)	[676C]	BC	8	648
+Check Ni
+Wave+10   1829	Bisistra	D557000-0	 	Ag Ni Da 	-	002	Wild	M0 V	{ -2 }	(200-1)	[676C]	BC	8	-2
+Wave+100  1829	Bisistra	D557000-0	 	Ag Ni Da 	-	002	Wild	M0 V	{ -2 }	(200-1)	[676C]	BC	8	-2
+Wave+300  1829	Bisistra	D557000-0	 	Ag Ni Da 	-	002	Wild	M0 V	{ -2 }	(200-1)	[676C]	BC	8	-2
+Wave+600  1829	Bisistra	D557000-0	 	Ag Ni Da 	-	002	Wild	M0 V	{ -2 }	(200-1)	[676C]	BC	8	-2
+
+
+Input     1830	Ronsard	DA89645-8	S	Ni Ri Sull8	A	225	Wild	G5 V K3 V	{ -2 }	(F52-4)	[4436]	BC	14	-600
+REDUCED:
+Check Ni
+Wave+10   1830	Ronsard	DA895A7-7	S	Ni Ri Da Sull8	-	225	Wild	G5 V K3 V	{ -2 }	(240+4)	[4436]	BC	14	32
+Wave+100  1830	Ronsard	DA89532-8	S	Ni Pr Da Sull8	-	325	Wild	G5 V K3 V	{ -3 }	(940-1)	[4436]	BC	14	-36
+Wave+300  1830	Ronsard	DA89578-9	S	Ni Pr Da Sull8	-	425	Wild	G5 V K3 V	{ -2 }	(940-4)	[4436]	BC	14	-144
+Wave+600  1830	Ronsard	DA89544-A	S	Ni Pr Da Sull8	-	525	Wild	G5 V K3 V	{ -1 }	(940+1)	[4436]	BC	14	36
+
+
+Input     1831	Takahira	B9C5232-9	NS	Fl Lo	A	722	Wild	M2 V	{ 1 }	(811-2)	[1326]	B	12	-16
+DIEBACK:
+Check Lo
+Wave+10   1831	Takahira	D9C5000-0	 S	Fl Lo Da 	-	022	Wild	M2 V	{ -3 }	(200+1)	[1326]	B	12	2
+Wave+100  1831	Takahira	D9C5000-0	 S	Fl Lo Da 	-	022	Wild	M2 V	{ -3 }	(200+1)	[1326]	B	12	2
+Wave+300  1831	Takahira	D9C5000-0	 S	Fl Lo Da 	-	022	Wild	M2 V	{ -3 }	(200+1)	[1326]	B	12	2
+Wave+600  1831	Takahira	D9C5000-0	 S	Fl Lo Da 	-	022	Wild	M2 V	{ -3 }	(200+1)	[1326]	B	12	2
+
+
+Input     1832	Kamlar	B587426-B	N	Ni Pa O:1633	A	810	Wild	M2 V	{ 1 }	(734-3)	[1517]	Bc	10	-252
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1832	Kamlar	D587000-0	 	Ni Pa Da O:1633	-	010	Wild	M2 V	{ -3 }	(200+3)	[1517]	Bc	10	6
+Wave+100  1832	Kamlar	D587000-0	 	Ni Pa Da O:1633	-	010	Wild	M2 V	{ -3 }	(200+3)	[1517]	Bc	10	6
+Wave+300  1832	Kamlar	D587000-0	 	Ni Pa Da O:1633	-	010	Wild	M2 V	{ -3 }	(200+3)	[1517]	Bc	10	6
+Wave+600  1832	Kamlar	D587000-0	 	Ni Pa Da O:1633	-	010	Wild	M2 V	{ -3 }	(200+3)	[1517]	Bc	10	6
+
+
+Input     1902	Noscius	C422210-8		He Lo Po Da	A	511	Wild	G3 V M8 V	{ -2 }	(610-5)	[1114]		12	0
+REDUCED:
+DIEBACK:
+Check He
+Check Lo
+Wave+10   1902	Noscius	D422000-0		He Lo Po Da 	-	011	Wild	G3 V M8 V	{ -3 }	(200-1)	[1114]		12	-2
+Wave+100  1902	Noscius	D422000-0		He Lo Po Da 	-	011	Wild	G3 V M8 V	{ -3 }	(200-1)	[1114]		12	-2
+Wave+300  1902	Noscius	D422000-0		He Lo Po Da 	-	011	Wild	G3 V M8 V	{ -3 }	(200-1)	[1114]		12	-2
+Wave+600  1902	Noscius	D422000-0		He Lo Po Da 	-	011	Wild	G3 V M8 V	{ -3 }	(200-1)	[1114]		12	-2
+
+
+Input     1903	Fursuelgigz	B200778-8		Na Va Pi	A	901	Wild	M1 V	{ 0 }	(A68+1)	[7758]		5	480
+Wave+10   1903	Fursuelgigz	B200752-7		Na Pi Va Pz 	-	401	Wild	M1 V	{ 0 }	(262-4)	[7758]		5	-96
+Wave+100  1903	Fursuelgigz	B200763-8		Na Pi Va Pz 	-	501	Wild	M1 V	{ 0 }	(362+3)	[7758]		5	108
+Wave+300  1903	Fursuelgigz	B2007C9-9		Cy Na Pi Va Pz 	-	601	Wild	M1 V	{ 1 }	(363+2)	[7758]		5	108
+Wave+600  1903	Fursuelgigz	B2007BB-A		Na Pi Va Pz 	-	701	Wild	M1 V	{ 2 }	(364+4)	[7758]		5	288
+
+
+Input     1904	Marnig	E541110-5		He Lo Po VargW	A	301	Wild	K7 V M8 V	{ -3 }	(300-5)	[1111]		14	0
+REDUCED:
+DIEBACK:
+Check He
+Check Lo
+Wave+10   1904	Marnig	E541000-0	  	He Lo Po Da VargW	-	001	Wild	K7 V M8 V	{ -3 }	(200+4)	[1111]		14	8
+Wave+100  1904	Marnig	E541000-0	  	He Lo Po Da VargW	-	001	Wild	K7 V M8 V	{ -3 }	(200+4)	[1111]		14	8
+Wave+300  1904	Marnig	E541000-0	  	He Lo Po Da VargW	-	001	Wild	K7 V M8 V	{ -3 }	(200+4)	[1111]		14	8
+Wave+600  1904	Marnig	E541000-0	  	He Lo Po Da VargW	-	001	Wild	K7 V M8 V	{ -3 }	(200+4)	[1111]		14	8
+
+
+Input     1905	Ostov	C768523-6		Ag Ni Pr	A	422	Wild	F7 V K6 V	{ -1 }	(743-5)	[1412]	BcC	17	-420
+REDUCED:
+Check Ni
+Wave+10   1905	Ostov	C768554-5		Ag Ni Pr Da 	-	422	Wild	F7 V K6 V	{ -1 }	(240+1)	[1412]	BcC	17	8
+Wave+100  1905	Ostov	C76858B-6		Ag Ni Pr Da 	-	522	Wild	F7 V K6 V	{ -1 }	(240+1)	[1412]	BcC	17	8
+Wave+300  1905	Ostov	C768546-7		Ag Ni Pr Da 	-	622	Wild	F7 V K6 V	{ -1 }	(240+3)	[1412]	BcC	17	24
+Wave+600  1905	Ostov	C768532-8		Ag Ni Pr Da 	-	722	Wild	F7 V K6 V	{ -1 }	(640+1)	[1412]	BcC	17	24
+
+
+Input     1910	Uramid	B545586-A	NS	Ag Ni O:1808	A	621	Wild	M2 V	{ 3 }	(A47+3)	[585A]	BC	12	840
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   1910	Uramid	D545000-0	 S	Ag Ni Da O:1808	-	021	Wild	M2 V	{ -2 }	(200+1)	[585A]	BC	12	2
+Wave+100  1910	Uramid	D545000-0	 S	Ag Ni Da O:1808	-	021	Wild	M2 V	{ -2 }	(200+1)	[585A]	BC	12	2
+Wave+300  1910	Uramid	D545000-0	 S	Ag Ni Da O:1808	-	021	Wild	M2 V	{ -2 }	(200+1)	[585A]	BC	12	2
+Wave+600  1910	Uramid	D545000-0	 S	Ag Ni Da O:1808	-	021	Wild	M2 V	{ -2 }	(200+1)	[585A]	BC	12	2
+
+
+Input     1917	Donu-na	C560805-9		De Ri Ph	A	525	Wild	F6 V M6 V	{ 1 }	(H7A-3)	[3914]	BCe	13	-3,570
+Wave+10   1917	Donu-na	C56089A-6		De Ph Ri Pz 	-	225	Wild	F6 V M6 V	{ 0 }	(272-1)	[3914]	BCe	13	-28
+Wave+100  1917	Donu-na	C56088C-7		De Ph Ri Pz 	-	325	Wild	F6 V M6 V	{ 0 }	(272-1)	[3914]	BCe	13	-28
+Wave+300  1917	Donu-na	C560879-8		De Ph Ri Pz 	-	425	Wild	F6 V M6 V	{ 0 }	(972+1)	[3914]	BCe	13	126
+Wave+600  1917	Donu-na	C560896-9		De Ph Ri Pz 	-	525	Wild	F6 V M6 V	{ 1 }	(973+1)	[3914]	BCe	13	189
+
+
+Input     1918	Shinorasus	A410200-E		Lo	A	203	Wild	F8 V K6 V	{ 1 }	(711-3)	[1319]	B	7	-21
+DIEBACK:
+Check Lo
+Wave+10   1918	Shinorasus	D410000-0		Lo Da 	-	003	Wild	F8 V K6 V	{ -3 }	(200+1)	[1319]	B	7	2
+Wave+100  1918	Shinorasus	D410000-0		Lo Da 	-	003	Wild	F8 V K6 V	{ -3 }	(200+1)	[1319]	B	7	2
+Wave+300  1918	Shinorasus	D410000-0		Lo Da 	-	003	Wild	F8 V K6 V	{ -3 }	(200+1)	[1319]	B	7	2
+Wave+600  1918	Shinorasus	D410000-0		Lo Da 	-	003	Wild	F8 V K6 V	{ -3 }	(200+1)	[1319]	B	7	2
+
+
+Input     1923	Liran	B00088B-A		As Na Va Ph Pi	A	811	Wild	M0 V M1 V M5 V	{ 2 }	(C7B+2)	[8A5A]	BDe	14	1,848
+Wave+10   1923	Liran	B00089A-8		As Na Ph Pi Va Pz 	-	411	Wild	M0 V M1 V M5 V	{ 0 }	(472+1)	[8A5A]	BDe	14	56
+Wave+100  1923	Liran	B000869-9		As Na Ph Pi Va Pz 	-	511	Wild	M0 V M1 V M5 V	{ 1 }	(473-3)	[8A5A]	BDe	14	-252
+Wave+300  1923	Liran	B000866-A		As Na Ph Pi Va Pz 	-	611	Wild	M0 V M1 V M5 V	{ 2 }	(474-5)	[8A5A]	BDe	14	-560
+Wave+600  1923	Liran	B0008AD-B		As Na Ph Pi Va Pz 	-	711	Wild	M0 V M1 V M5 V	{ 2 }	(474-3)	[8A5A]	BDe	14	-336
+
+
+Input     1925	Deneb	B537ADD-C	N	Hi An Cs Pz (Nenlat)4	A	610	Wild	A2 Ia	{ 3 }	(D9E+5)	[ED9G]	BEF	4	8,190
+Wave+10   1925	Deneb	B537A99-C	N	Hi Pz An Cs  (Nenlat)4	-	310	Wild	A2 Ia	{ 3 }	(395+1)	[ED9G]	BEF	4	135
+Wave+100  1925	Deneb	B537AC7-D	N	Hi Pz An Cs  (Nenlat)4	-	410	Wild	A2 Ia	{ 3 }	(395-1)	[ED9G]	BEF	4	-135
+Wave+300  1925	Deneb	B537A9B-E	N	Hi Pz An Cs  (Nenlat)4	-	510	Wild	A2 Ia	{ 3 }	(395+2)	[ED9G]	BEF	4	270
+Wave+600  1925	Deneb	B537AA9-F	N	Hi Pz An Cs  (Nenlat)4	-	610	Wild	A2 Ia	{ 3 }	(395+2)	[ED9G]	BEF	4	270
+
+
+Input     1926	Amshal	B687356-9	N	Lo Ga O:1925	A	622	Wild	M0 V	{ 0 }	(920-2)	[1337]	B	7	0
+DIEBACK:
+Check Lo
+Wave+10   1926	Amshal	D687000-0	 	Ga Lo Da O:1925	-	022	Wild	M0 V	{ -3 }	(200+1)	[1337]	B	7	2
+Wave+100  1926	Amshal	D687000-0	 	Ga Lo Da O:1925	-	022	Wild	M0 V	{ -3 }	(200+1)	[1337]	B	7	2
+Wave+300  1926	Amshal	D687000-0	 	Ga Lo Da O:1925	-	022	Wild	M0 V	{ -3 }	(200+1)	[1337]	B	7	2
+Wave+600  1926	Amshal	D687000-0	 	Ga Lo Da O:1925	-	022	Wild	M0 V	{ -3 }	(200+1)	[1337]	B	7	2
+
+
+Input     1927	Thussar Ozoam	X545110-5		Lo Fo	A	615	Wild	G3 V M1 V	{ -3 }	(300-5)	[1111]		11	0
+DIEBACK:
+Check Lo
+Wave+10   1927	Thussar Ozoam	X545000-0	  	Lo Da 	-	015	Wild	G3 V M1 V	{ -3 }	(200-4)	[1111]		11	-8
+Wave+100  1927	Thussar Ozoam	X545000-0	  	Lo Da 	-	015	Wild	G3 V M1 V	{ -3 }	(200-4)	[1111]		11	-8
+Wave+300  1927	Thussar Ozoam	X545000-0	  	Lo Da 	-	015	Wild	G3 V M1 V	{ -3 }	(200-4)	[1111]		11	-8
+Wave+600  1927	Thussar Ozoam	X545000-0	  	Lo Da 	-	015	Wild	G3 V M1 V	{ -3 }	(200-4)	[1111]		11	-8
+
+
+Input     1928	Exile	X799221-5		Lo Fo Px	A	810	Wild	F8 V	{ -3 }	(410-5)	[1111]		14	0
+DIEBACK:
+Check Lo
+Wave+10   1928	Exile	X799000-0	  	Lo Da 	-	010	Wild	F8 V	{ -3 }	(200-4)	[1111]		14	-8
+Wave+100  1928	Exile	X799000-0	  	Lo Da 	-	010	Wild	F8 V	{ -3 }	(200-4)	[1111]		14	-8
+Wave+300  1928	Exile	X799000-0	  	Lo Da 	-	010	Wild	F8 V	{ -3 }	(200-4)	[1111]		14	-8
+Wave+600  1928	Exile	X799000-0	  	Lo Da 	-	010	Wild	F8 V	{ -3 }	(200-4)	[1111]		14	-8
+
+
+Input     1930	Turkoman	B9C67BC-9		Fl Pz	A	220	Wild	A4 V	{ 1 }	(B6A+3)	[987B]	B	5	1,980
+Wave+10   1930	Turkoman	B9C6766-7		Fl Pz 	-	120	Wild	A4 V	{ 0 }	(262+1)	[987B]	B	5	24
+Wave+100  1930	Turkoman	B9C679C-8		Fl Pz 	-	220	Wild	A4 V	{ 0 }	(462+3)	[987B]	B	5	144
+Wave+300  1930	Turkoman	B9C67A9-9		Fl Pz 	-	320	Wild	A4 V	{ 1 }	(463-1)	[987B]	B	5	-72
+Wave+600  1930	Turkoman	B9C6751-A		Fl Pz 	-	420	Wild	A4 V	{ 2 }	(464+2)	[987B]	B	5	192
+
+
+Input     2001	Filangger	A76A645-C		Ni Ri Wa	A	823	Wild	G1 V G6 V	{ 2 }	(D56+1)	[483A]		13	390
+REDUCED:
+Check Ni
+Wave+10   2001	Filangger	A76A445-B		Ni Ri Wa Da 	-	823	Wild	G1 V G6 V	{ 2 }	(733-3)	[483A]		13	-189
+Wave+100  2001	Filangger	A76A444-C		Ni Wa Da 	-	923	Wild	G1 V G6 V	{ 1 }	(732+4)	[483A]		13	168
+Wave+300  2001	Filangger	A76A500-D		Ni Wa Da 	-	123	Wild	G1 V G6 V	{ 1 }	(742+2)	[483A]		13	112
+Wave+600  2001	Filangger	A76A584-E		Ni Pr Wa Da 	-	223	Wild	G1 V G6 V	{ 1 }	(742-4)	[483A]		13	-224
+
+
+Input     2011	Orenberg	B430687-C		De Na Ni Po Jonk8	A	201	Wild	M1 V M5 V	{ 1 }	(955+1)	[675C]	B	10	225
+REDUCED:
+Check Ni
+Wave+10   2011	Orenberg	B430520-B		De Na Ni Po Da Jonk8	-	201	Wild	M1 V M5 V	{ 1 }	(342+3)	[675C]	B	10	72
+Wave+100  2011	Orenberg	B430577-C		De Ni Po Da Jonk8	-	301	Wild	M1 V M5 V	{ 1 }	(342+3)	[675C]	B	10	72
+Wave+300  2011	Orenberg	B430522-D		De Ni Po Da Jonk8	-	401	Wild	M1 V M5 V	{ 1 }	(342-2)	[675C]	B	10	-48
+Wave+600  2011	Orenberg	B430559-E		De Ni Po Da Jonk8	-	501	Wild	M1 V M5 V	{ 1 }	(342-1)	[675C]	B	10	-24
+
+
+Input     2013	Twinian	C4044B7-7	S	Ic Ni Va	A	702	Wild	M5 V	{ -2 }	(631+1)	[6279]	B	7	18
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2013	Twinian	D404000-0	S	Ic Ni Va Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[6279]	B	7	2
+Wave+100  2013	Twinian	D404000-0	S	Ic Ni Va Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[6279]	B	7	2
+Wave+300  2013	Twinian	D404000-0	S	Ic Ni Va Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[6279]	B	7	2
+Wave+600  2013	Twinian	D404000-0	S	Ic Ni Va Da 	-	002	Wild	M5 V	{ -3 }	(200+1)	[6279]	B	7	2
+
+
+Input     2014	Zinuun	E4367AB-6		Pz	A	911	Wild	M8 V	{ -2 }	(965+1)	[9578]	B	14	270
+Wave+10   2014	Zinuun	E436767-4	  	Pz 	-	411	Wild	M8 V	{ -2 }	(260+2)	[9578]	B	14	24
+Wave+100  2014	Zinuun	E436742-5	  	Pz 	-	511	Wild	M8 V	{ -2 }	(260+1)	[9578]	B	14	12
+Wave+300  2014	Zinuun	E436762-6	  	Pz 	-	611	Wild	M8 V	{ -2 }	(260+3)	[9578]	B	14	36
+Wave+600  2014	Zinuun	E436767-7	  	Cy Pz 	-	711	Wild	M8 V	{ -2 }	(260-3)	[9578]	B	14	-36
+
+
+Input     2016	Ugrik	E300000-0		Ba Va	A	021	Wild	F7 V	{ -3 }	(200-5)	[0000]		13	0
+Wave+10   2016	Ugrik	E300000-0	  	Ba Va Da 	-	021	Wild	F7 V	{ -3 }	(200-3)	[0000]		13	-6
+Wave+100  2016	Ugrik	E300000-0	  	Ba Va Da 	-	021	Wild	F7 V	{ -3 }	(200-3)	[0000]		13	-6
+Wave+300  2016	Ugrik	E300000-0	  	Ba Va Da 	-	021	Wild	F7 V	{ -3 }	(200-3)	[0000]		13	-6
+Wave+600  2016	Ugrik	E300000-0	  	Ba Va Da 	-	021	Wild	F7 V	{ -3 }	(200-3)	[0000]		13	-6
+
+
+Input     2017	Ruwenzori	E749442-7		Ni	A	303	Wild	K8 V	{ -3 }	(631-5)	[2135]	B	8	-90
+REDUCED:
+Check Ni
+Wave+10   2017	Ruwenzori	E749445-5	  	Ni Da 	-	303	Wild	K8 V	{ -3 }	(230-1)	[2135]	B	8	-6
+Wave+100  2017	Ruwenzori	E749433-6	  	Ni Da 	-	403	Wild	K8 V	{ -3 }	(230-3)	[2135]	B	8	-18
+Wave+300  2017	Ruwenzori	E749410-7	  	Ni Da 	-	503	Wild	K8 V	{ -3 }	(230+1)	[2135]	B	8	6
+Wave+600  2017	Ruwenzori	E749468-8	  	Ni Da 	-	603	Wild	K8 V	{ -3 }	(530+1)	[2135]	B	8	15
+
+
+Input     2019	Namidshur	B31069A-C	S	Na Ni	A	215	Wild	G9 V	{ 1 }	(E55+2)	[776D]	B	10	700
+REDUCED:
+Check Ni
+Wave+10   2019	Namidshur	B31059C-B	S	Na Ni Da 	-	215	Wild	G9 V	{ 1 }	(842-3)	[776D]	B	10	-192
+Wave+100  2019	Namidshur	B310501-C	S	Ni Da 	-	315	Wild	G9 V	{ 1 }	(842+4)	[776D]	B	10	256
+Wave+300  2019	Namidshur	B310586-D	S	Ni Da 	-	415	Wild	G9 V	{ 1 }	(842+1)	[776D]	B	10	64
+Wave+600  2019	Namidshur	B310530-E	S	Ni Da 	-	515	Wild	G9 V	{ 1 }	(842-1)	[776D]	B	10	-64
+
+
+Input     2023	Bruyere	C544776-5	S	Ag Pi Chir9 O:1923	A	422	Wild	F4 V	{ 0 }	(967+1)	[7755]	BCD	7	378
+Wave+10   2023	Bruyere	C544799-3	S	Ag Pi Pz Chir9 O:1923	-	222	Wild	F4 V	{ 0 }	(262-3)	[7755]	BCD	7	-72
+Wave+100  2023	Bruyere	C5447CC-4	S	Ag Pi Pz Chir9 O:1923	-	322	Wild	F4 V	{ 0 }	(262-1)	[7755]	BCD	7	-24
+Wave+300  2023	Bruyere	C544734-5	S	Ag Pi Pz Chir9 O:1923	-	422	Wild	F4 V	{ 0 }	(262+1)	[7755]	BCD	7	24
+Wave+600  2023	Bruyere	C544785-6	S	Ag Pi Pz Chir9 O:1923	-	522	Wild	F4 V	{ 0 }	(262+5)	[7755]	BCD	7	120
+
+
+Input     2024	Minocoy	B422550-D	N	He Ni Po	A	620	Wild	G4 V K5 V	{ 1 }	(945-1)	[363B]	B	9	-180
+Check Ni
+Check He
+Wave+10   2024	Minocoy	D422000-0	 	He Ni Po Da 	-	020	Wild	G4 V K5 V	{ -3 }	(200-2)	[363B]	B	9	-4
+Wave+100  2024	Minocoy	D422000-0	 	He Ni Po Da 	-	020	Wild	G4 V K5 V	{ -3 }	(200-2)	[363B]	B	9	-4
+Wave+300  2024	Minocoy	D422000-0	 	He Ni Po Da 	-	020	Wild	G4 V K5 V	{ -3 }	(200-2)	[363B]	B	9	-4
+Wave+600  2024	Minocoy	D422000-0	 	He Ni Po Da 	-	020	Wild	G4 V K5 V	{ -3 }	(200-2)	[363B]	B	9	-4
+
+
+Input     2027	Avernus	E88656A-4		Ag Ni Ga Pr	A	602	Wild	G3 V M9 V	{ -2 }	(742-3)	[4343]	BcC	9	-168
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2027	Avernus	E886000-0	  	Ag Ga Ni Pr Da 	-	002	Wild	G3 V M9 V	{ -2 }	(200-2)	[4343]	BcC	9	-4
+Wave+100  2027	Avernus	E886000-0	  	Ag Ga Ni Pr Da 	-	002	Wild	G3 V M9 V	{ -2 }	(200-2)	[4343]	BcC	9	-4
+Wave+300  2027	Avernus	E886000-0	  	Ag Ga Ni Pr Da 	-	002	Wild	G3 V M9 V	{ -2 }	(200-2)	[4343]	BcC	9	-4
+Wave+600  2027	Avernus	E886000-0	  	Ag Ga Ni Pr Da 	-	002	Wild	G3 V M9 V	{ -2 }	(200-2)	[4343]	BcC	9	-4
+
+
+Input     2028	Nyassl	B300635-D	N	Na Ni Va	A	324	Wild	F0 V M2 V	{ 1 }	(E55-2)	[372A]	B	15	-700
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2028	Nyassl	D300000-0	 	Na Ni Va Da 	-	024	Wild	F0 V M2 V	{ -3 }	(200-3)	[372A]	B	15	-6
+Wave+100  2028	Nyassl	D300000-0	 	Na Ni Va Da 	-	024	Wild	F0 V M2 V	{ -3 }	(200-3)	[372A]	B	15	-6
+Wave+300  2028	Nyassl	D300000-0	 	Na Ni Va Da 	-	024	Wild	F0 V M2 V	{ -3 }	(200-3)	[372A]	B	15	-6
+Wave+600  2028	Nyassl	D300000-0	 	Na Ni Va Da 	-	024	Wild	F0 V M2 V	{ -3 }	(200-3)	[372A]	B	15	-6
+
+
+Input     2105	Torrens	C100283-C		Lo Va	A	104	Wild	M4 V	{ 0 }	(810+1)	[225C]	B	13	0
+DIEBACK:
+Check Lo
+Wave+10   2105	Torrens	D100000-0		Lo Va Da 	-	004	Wild	M4 V	{ -3 }	(200+5)	[225C]	B	13	10
+Wave+100  2105	Torrens	D100000-0		Lo Va Da 	-	004	Wild	M4 V	{ -3 }	(200+5)	[225C]	B	13	10
+Wave+300  2105	Torrens	D100000-0		Lo Va Da 	-	004	Wild	M4 V	{ -3 }	(200+5)	[225C]	B	13	10
+Wave+600  2105	Torrens	D100000-0		Lo Va Da 	-	004	Wild	M4 V	{ -3 }	(200+5)	[225C]	B	13	10
+
+
+Input     2109	Bangwe	D78A320-A		Lo Wa	A	112	Wild	F5 V	{ -1 }	(820-5)	[1216]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   2109	Bangwe	D78A000-0		Lo Wa Da 	-	012	Wild	F5 V	{ -3 }	(200-4)	[1216]	B	10	-8
+Wave+100  2109	Bangwe	D78A000-0		Lo Wa Da 	-	012	Wild	F5 V	{ -3 }	(200-4)	[1216]	B	10	-8
+Wave+300  2109	Bangwe	D78A000-0		Lo Wa Da 	-	012	Wild	F5 V	{ -3 }	(200-4)	[1216]	B	10	-8
+Wave+600  2109	Bangwe	D78A000-0		Lo Wa Da 	-	012	Wild	F5 V	{ -3 }	(200-4)	[1216]	B	10	-8
+
+
+Input     2111	Diiski	C66A200-8		Lo Wa	A	812	Wild	K7 V	{ -2 }	(710-5)	[1113]	B	6	0
+DIEBACK:
+Check Lo
+Wave+10   2111	Diiski	D66A000-0		Lo Wa Da 	-	012	Wild	K7 V	{ -3 }	(200+1)	[1113]	B	6	2
+Wave+100  2111	Diiski	D66A000-0		Lo Wa Da 	-	012	Wild	K7 V	{ -3 }	(200+1)	[1113]	B	6	2
+Wave+300  2111	Diiski	D66A000-0		Lo Wa Da 	-	012	Wild	K7 V	{ -3 }	(200+1)	[1113]	B	6	2
+Wave+600  2111	Diiski	D66A000-0		Lo Wa Da 	-	012	Wild	K7 V	{ -3 }	(200+1)	[1113]	B	6	2
+
+
+Input     2114	Kadidun	D5A2130-9	S	Fl He Lo	A	220	Wild	K1 IV K0 V	{ -2 }	(500-5)	[1126]	B	7	0
+Check He
+Check Lo
+Wave+10   2114	Kadidun	D5A2000-0	S	Fl He Lo Da 	-	020	Wild	K1 IV K0 V	{ -3 }	(200+1)	[1126]	B	7	2
+Wave+100  2114	Kadidun	D5A2000-0	S	Fl He Lo Da 	-	020	Wild	K1 IV K0 V	{ -3 }	(200+1)	[1126]	B	7	2
+Wave+300  2114	Kadidun	D5A2000-0	S	Fl He Lo Da 	-	020	Wild	K1 IV K0 V	{ -3 }	(200+1)	[1126]	B	7	2
+Wave+600  2114	Kadidun	D5A2000-0	S	Fl He Lo Da 	-	020	Wild	K1 IV K0 V	{ -3 }	(200+1)	[1126]	B	7	2
+
+
+Input     2116	Piram	E311777-7		Ic Na Pi	A	611	Wild	G2 V	{ -2 }	(966-2)	[7557]	BD	11	-648
+Wave+10   2116	Piram	E311741-5	  	Ic Na Pi Pz 	-	311	Wild	G2 V	{ -2 }	(260+1)	[7557]	BD	11	12
+Wave+100  2116	Piram	E311773-6	  	Ic Na Pi Pz 	-	411	Wild	G2 V	{ -2 }	(260-1)	[7557]	BD	11	-12
+Wave+300  2116	Piram	E311755-7	  	Ic Na Pi Pz 	-	511	Wild	G2 V	{ -2 }	(260+5)	[7557]	BD	11	60
+Wave+600  2116	Piram	E311778-8	  	Ic Na Pi Pz 	-	611	Wild	G2 V	{ -2 }	(460+3)	[7557]	BD	11	72
+
+
+Input     2117	Cunha	C6267C7-7		Pi	A	324	Wild	M3 V	{ -1 }	(967+2)	[A68A]	BD	9	756
+Wave+10   2117	Cunha	C626720-5		Pi Pz 	-	124	Wild	M3 V	{ -1 }	(261-2)	[A68A]	BD	9	-24
+Wave+100  2117	Cunha	C626799-6		Pi Pz 	-	224	Wild	M3 V	{ -1 }	(261+3)	[A68A]	BD	9	36
+Wave+300  2117	Cunha	C626721-7		Pi Pz 	-	324	Wild	M3 V	{ -1 }	(261+2)	[A68A]	BD	9	24
+Wave+600  2117	Cunha	C626742-8		Pi Pz 	-	424	Wild	M3 V	{ -1 }	(861+1)	[A68A]	BD	9	48
+
+
+Input     2120	Teatro	C8A78AC-8		Fl Ph Pz	A	903	Wild	F8 V M7 V	{ -1 }	(D77+1)	[A77A]	Be	11	637
+Wave+10   2120	Teatro	C8A7899-6		Fl Ph Pz 	-	403	Wild	F8 V M7 V	{ -1 }	(271+1)	[A77A]	Be	11	14
+Wave+100  2120	Teatro	C8A7865-7		Fl Ph Pz 	-	503	Wild	F8 V M7 V	{ -1 }	(271-4)	[A77A]	Be	11	-56
+Wave+300  2120	Teatro	C8A7884-8		Fl Ph Pz 	-	603	Wild	F8 V M7 V	{ -1 }	(571-1)	[A77A]	Be	11	-35
+Wave+600  2120	Teatro	C8A78CH-9		Fl Ph Pz 	-	703	Wild	F8 V M7 V	{ 0 }	(572+1)	[A77A]	Be	11	70
+
+
+Input     2126	Arcanum	X434886-6		Ph Fo O:2225 RsA	A	810	Wild	M6 V	{ -2 }	(A75-2)	[8656]		10	-700
+Wave+10   2126	Arcanum	X43486A-2	  	Ph Pz O:2225 RsA	-	410	Wild	M6 V	{ -2 }	(270-4)	[8656]		10	-56
+Wave+100  2126	Arcanum	X4348A6-3	  	Ph Pz O:2225 RsA	-	510	Wild	M6 V	{ -2 }	(270+3)	[8656]		10	42
+Wave+300  2126	Arcanum	X434853-4	  	Ph Pz O:2225 RsA	-	610	Wild	M6 V	{ -2 }	(270-1)	[8656]		10	-14
+Wave+600  2126	Arcanum	X43487A-5	  	Ph Pz O:2225 RsA	-	710	Wild	M6 V	{ -2 }	(270+1)	[8656]		10	14
+
+
+Input     2127	Nusukha	E310100-7		Lo	A	215	Wild	G7 V G7 V	{ -3 }	(300-5)	[1112]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   2127	Nusukha	E310000-0	  	Lo Da 	-	015	Wild	G7 V G7 V	{ -3 }	(200+1)	[1112]	B	9	2
+Wave+100  2127	Nusukha	E310000-0	  	Lo Da 	-	015	Wild	G7 V G7 V	{ -3 }	(200+1)	[1112]	B	9	2
+Wave+300  2127	Nusukha	E310000-0	  	Lo Da 	-	015	Wild	G7 V G7 V	{ -3 }	(200+1)	[1112]	B	9	2
+Wave+600  2127	Nusukha	E310000-0	  	Lo Da 	-	015	Wild	G7 V G7 V	{ -3 }	(200+1)	[1112]	B	9	2
+
+
+Input     2131	Javan	C77A153-A	S	Lo Wa	A	510	Wild	M0 V	{ 0 }	(400-2)	[1138]	B	13	0
+DIEBACK:
+Check Lo
+Wave+10   2131	Javan	D77A000-0	S	Lo Wa Da 	-	010	Wild	M0 V	{ -3 }	(200+1)	[1138]	B	13	2
+Wave+100  2131	Javan	D77A000-0	S	Lo Wa Da 	-	010	Wild	M0 V	{ -3 }	(200+1)	[1138]	B	13	2
+Wave+300  2131	Javan	D77A000-0	S	Lo Wa Da 	-	010	Wild	M0 V	{ -3 }	(200+1)	[1138]	B	13	2
+Wave+600  2131	Javan	D77A000-0	S	Lo Wa Da 	-	010	Wild	M0 V	{ -3 }	(200+1)	[1138]	B	13	2
+
+
+Input     2202	Gounuerz	B435303-A	C	Lo	A	510	Wild	G9 V	{ 1 }	(621-3)	[1415]		7	-36
+DIEBACK:
+Check Lo
+Wave+10   2202	Gounuerz	D435000-0	C	Lo Da 	-	010	Wild	G9 V	{ -3 }	(200+1)	[1415]		7	2
+Wave+100  2202	Gounuerz	D435000-0	C	Lo Da 	-	010	Wild	G9 V	{ -3 }	(200+1)	[1415]		7	2
+Wave+300  2202	Gounuerz	D435000-0	C	Lo Da 	-	010	Wild	G9 V	{ -3 }	(200+1)	[1415]		7	2
+Wave+600  2202	Gounuerz	D435000-0	C	Lo Da 	-	010	Wild	G9 V	{ -3 }	(200+1)	[1415]		7	2
+
+
+Input     2204	Dofil	E5936B8-5	C	Ni	A	710	Wild	F3 V M1 V	{ -3 }	(851-1)	[8377]		9	-40
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2204	Dofil	E593000-0	  	Ni Da 	-	010	Wild	F3 V M1 V	{ -3 }	(200-5)	[8377]		9	-10
+Wave+100  2204	Dofil	E593000-0	  	Ni Da 	-	010	Wild	F3 V M1 V	{ -3 }	(200-5)	[8377]		9	-10
+Wave+300  2204	Dofil	E593000-0	  	Ni Da 	-	010	Wild	F3 V M1 V	{ -3 }	(200-5)	[8377]		9	-10
+Wave+600  2204	Dofil	E593000-0	  	Ni Da 	-	010	Wild	F3 V M1 V	{ -3 }	(200-5)	[8377]		9	-10
+
+
+Input     2210	Mazirbe	D55376A-4		Po	A	124	Wild	F6 V K7 V	{ -2 }	(964-3)	[6543]	B	10	-648
+Wave+10   2210	Mazirbe	D553663-2		Po Pz 	-	524	Wild	F6 V K7 V	{ -3 }	(250+2)	[6543]	B	10	20
+Wave+100  2210	Mazirbe	D553664-3		Cy Ni Po Da 	-	624	Wild	F6 V K7 V	{ -3 }	(250+2)	[6543]	B	10	20
+Wave+300  2210	Mazirbe	D553697-4		Ni Po Da 	-	724	Wild	F6 V K7 V	{ -3 }	(250-5)	[6543]	B	10	-50
+Wave+600  2210	Mazirbe	D553656-5		Ni Po Da 	-	824	Wild	F6 V K7 V	{ -3 }	(250+5)	[6543]	B	10	50
+
+
+Input     2212	Imlaar	D677515-6	S	Ag Ni	A	423	Wild	G5 V K5 V	{ -2 }	(742-5)	[1312]	BC	11	-280
+REDUCED:
+Check Ni
+Wave+10   2212	Imlaar	D677567-4	S	Ag Ni Da 	-	423	Wild	G5 V K5 V	{ -2 }	(240-1)	[1312]	BC	11	-8
+Wave+100  2212	Imlaar	D677596-5	S	Ag Ni Da 	-	523	Wild	G5 V K5 V	{ -2 }	(240+4)	[1312]	BC	11	32
+Wave+300  2212	Imlaar	D677568-6	S	Ag Ni Da 	-	623	Wild	G5 V K5 V	{ -2 }	(240+1)	[1312]	BC	11	8
+Wave+600  2212	Imlaar	D677533-7	S	Ag Ni Da 	-	723	Wild	G5 V K5 V	{ -2 }	(240-3)	[1312]	BC	11	-24
+
+
+Input     2220	Torm	C556454-9	S	Ni Pa	A	134	Wild	K5 V	{ -1 }	(D32-3)	[2337]	Bc	13	-234
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2220	Torm	D556000-0	S	Ni Pa Da 	-	034	Wild	K5 V	{ -3 }	(200-2)	[2337]	Bc	13	-4
+Wave+100  2220	Torm	D556000-0	S	Ni Pa Da 	-	034	Wild	K5 V	{ -3 }	(200-2)	[2337]	Bc	13	-4
+Wave+300  2220	Torm	D556000-0	S	Ni Pa Da 	-	034	Wild	K5 V	{ -3 }	(200-2)	[2337]	Bc	13	-4
+Wave+600  2220	Torm	D556000-0	S	Ni Pa Da 	-	034	Wild	K5 V	{ -3 }	(200-2)	[2337]	Bc	13	-4
+
+
+Input     2223	Byblos	C6738DB-7	S	Ph Pi Pz	A	601	Wild	M1 V	{ -1 }	(A77+3)	[C79B]	BDe	10	1,470
+Wave+10   2223	Byblos	C67388B-7	S	Ph Pi Pz 	-	301	Wild	M1 V	{ -1 }	(271+1)	[C79B]	BDe	10	14
+Wave+100  2223	Byblos	C673896-8	S	Ph Pi Pz 	-	401	Wild	M1 V	{ -1 }	(371+1)	[C79B]	BDe	10	21
+Wave+300  2223	Byblos	C673856-9	S	Ph Pi Pz 	-	501	Wild	M1 V	{ 0 }	(372-5)	[C79B]	BDe	10	-210
+Wave+600  2223	Byblos	C67388A-A	S	Ph Pi Pz 	-	601	Wild	M1 V	{ 1 }	(373+4)	[C79B]	BDe	10	252
+
+
+Input     2224	Revoc	C9AA577-A	S	Fl Ni	A	502	Wild	F7 V K5 V	{ 0 }	(944+1)	[555A]	B	10	144
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2224	Revoc	D9AA000-0	S	Fl Ni Da 	-	002	Wild	F7 V K5 V	{ -3 }	(200-2)	[555A]	B	10	-4
+Wave+100  2224	Revoc	D9AA000-0	S	Fl Ni Da 	-	002	Wild	F7 V K5 V	{ -3 }	(200-2)	[555A]	B	10	-4
+Wave+300  2224	Revoc	D9AA000-0	S	Fl Ni Da 	-	002	Wild	F7 V K5 V	{ -3 }	(200-2)	[555A]	B	10	-4
+Wave+600  2224	Revoc	D9AA000-0	S	Fl Ni Da 	-	002	Wild	F7 V K5 V	{ -3 }	(200-2)	[555A]	B	10	-4
+
+
+Input     2225	Usani	A552699-C	NS	Ni Po Cp	A	202	Wild	K0 V	{ 2 }	(A56+3)	[786D]	BF	13	900
+REDUCED:
+Check Ni
+Wave+10   2225	Usani	A55268B-A	NS	Ni Po Da Cp	-	202	Wild	K0 V	{ 1 }	(452+1)	[786D]	BF	13	40
+Wave+100  2225	Usani	A552669-B	NS	Ni Po Da Cp	-	302	Wild	K0 V	{ 1 }	(452+4)	[786D]	BF	13	160
+Wave+300  2225	Usani	A552669-C	NS	Ni Po Da Cp	-	402	Wild	K0 V	{ 1 }	(452-1)	[786D]	BF	13	-40
+Wave+600  2225	Usani	A552623-D	NS	Ni Po Da Cp	-	502	Wild	K0 V	{ 1 }	(452+2)	[786D]	BF	13	80
+
+
+Input     2234	Catacomb	A8A7515-B		Fl Ni (Sulliji)	A	201	Wild	K1 V K6 V	{ 1 }	(845-3)	[1617]		9	-480
+Wave+10   2234	Catacomb	A8A7520-9		Fl Ni Da (Sulliji)	-	101	Wild	K1 V K6 V	{ 0 }	(341+4)	[1617]		9	48
+Wave+100  2234	Catacomb	A8A7523-A		Fl Ni Da (Sulliji)	-	201	Wild	K1 V K6 V	{ 1 }	(342-4)	[1617]		9	-96
+Wave+300  2234	Catacomb	A8A7578-B		Fl Ni Da (Sulliji)	-	301	Wild	K1 V K6 V	{ 1 }	(342+1)	[1617]		9	24
+Wave+600  2234	Catacomb	A8A7531-C		Fl Ni Da (Sulliji)	-	401	Wild	K1 V K6 V	{ 1 }	(342+2)	[1617]		9	48
+
+
+Input     2309	Malory	C420747-7	S	De He Na Po Pi Jonk9	A	223	Wild	K8 V M0 V	{ -1 }	(967-3)	[5635]	BD	11	-1,134
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   2309	Malory	D420000-0	S	De He Na Pi Po Pz Jonk9	-	023	Wild	K8 V M0 V	{ -3 }	(200+2)	[5635]	BD	11	4
+Wave+100  2309	Malory	D420000-0	S	De He Na Pi Po Pz Jonk9	-	023	Wild	K8 V M0 V	{ -3 }	(200+2)	[5635]	BD	11	4
+Wave+300  2309	Malory	D420000-0	S	De He Na Pi Po Pz Jonk9	-	023	Wild	K8 V M0 V	{ -3 }	(200+2)	[5635]	BD	11	4
+Wave+600  2309	Malory	D420000-0	S	De He Na Pi Po Pz Jonk9	-	023	Wild	K8 V M0 V	{ -3 }	(200+2)	[5635]	BD	11	4
+
+
+Input     2316	Giikusu	E647ACB-A		Hi In Pz (Kirissukyoya)	A	105	Wild	K8 V	{ 2 }	(H9C+5)	[DC8D]	BE	10	9,180
+Wave+10   2316	Giikusu	E6479AB-6	  	Hi In Pz (Kirissukyoya)	-	505	Wild	K8 V	{ 0 }	(282+1)	[DC8D]	BE	10	32
+Wave+100  2316	Giikusu	E6479CA-7	  	Hi In Pz (Kirissukyoya)	-	605	Wild	K8 V	{ 0 }	(282-3)	[DC8D]	BE	10	-96
+Wave+300  2316	Giikusu	E647996-8	  	Hi In Pz (Kirissukyoya)	-	705	Wild	K8 V	{ 0 }	(782+1)	[DC8D]	BE	10	112
+Wave+600  2316	Giikusu	E647999-9	  	Hi In Pz (Kirissukyoya)	-	805	Wild	K8 V	{ 1 }	(783+1)	[DC8D]	BE	10	168
+
+
+Input     2317	Lan-chou	D855788-6	S	Ag Ga	A	120	Wild	K5 V K8 V	{ -1 }	(966-1)	[7656]	BC	5	-324
+Wave+10   2317	Lan-chou	D855654-5	S	Ag Ga Pz 	-	520	Wild	K5 V K8 V	{ -2 }	(250+3)	[7656]	BC	5	30
+Wave+100  2317	Lan-chou	D855655-6	S	Ag Ga Ni Da 	-	620	Wild	K5 V K8 V	{ -2 }	(250-2)	[7656]	BC	5	-20
+Wave+300  2317	Lan-chou	D855653-7	S	Ag Ga Ni Da 	-	720	Wild	K5 V K8 V	{ -2 }	(250+1)	[7656]	BC	5	10
+Wave+600  2317	Lan-chou	D855642-8	S	Ag Ga Ni Da 	-	820	Wild	K5 V K8 V	{ -2 }	(450+1)	[7656]	BC	5	20
+
+
+Input     2322	Sage	D563301-7		Lo	A	120	Wild	K5 V M1 V	{ -3 }	(520-5)	[1112]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   2322	Sage	D563000-0		Lo Da 	-	020	Wild	K5 V M1 V	{ -3 }	(200-3)	[1112]	B	10	-6
+Wave+100  2322	Sage	D563000-0		Lo Da 	-	020	Wild	K5 V M1 V	{ -3 }	(200-3)	[1112]	B	10	-6
+Wave+300  2322	Sage	D563000-0		Lo Da 	-	020	Wild	K5 V M1 V	{ -3 }	(200-3)	[1112]	B	10	-6
+Wave+600  2322	Sage	D563000-0		Lo Da 	-	020	Wild	K5 V M1 V	{ -3 }	(200-3)	[1112]	B	10	-6
+
+
+Input     2323	Azed Bek	C766300-A	S	Lo Ga	A	610	Wild	G5 V	{ 0 }	(620-4)	[1315]	B	13	0
+DIEBACK:
+Check Lo
+Wave+10   2323	Azed Bek	D766000-0	S	Ga Lo Da 	-	010	Wild	G5 V	{ -3 }	(200-2)	[1315]	B	13	-4
+Wave+100  2323	Azed Bek	D766000-0	S	Ga Lo Da 	-	010	Wild	G5 V	{ -3 }	(200-2)	[1315]	B	13	-4
+Wave+300  2323	Azed Bek	D766000-0	S	Ga Lo Da 	-	010	Wild	G5 V	{ -3 }	(200-2)	[1315]	B	13	-4
+Wave+600  2323	Azed Bek	D766000-0	S	Ga Lo Da 	-	010	Wild	G5 V	{ -3 }	(200-2)	[1315]	B	13	-4
+
+
+Input     2403	Tchien	B696266-A	N	Lo Mr	A	610	Wild	K5 V	{ 1 }	(511+1)	[1349]		12	5
+DIEBACK:
+Check Lo
+Wave+10   2403	Tchien	D696000-0	 	Lo Da Mr	-	010	Wild	K5 V	{ -3 }	(200-2)	[1349]		12	-4
+Wave+100  2403	Tchien	D696000-0	 	Lo Da Mr	-	010	Wild	K5 V	{ -3 }	(200-2)	[1349]		12	-4
+Wave+300  2403	Tchien	D696000-0	 	Lo Da Mr	-	010	Wild	K5 V	{ -3 }	(200-2)	[1349]		12	-4
+Wave+600  2403	Tchien	D696000-0	 	Lo Da Mr	-	010	Wild	K5 V	{ -3 }	(200-2)	[1349]		12	-4
+
+
+Input     2405	Gagaridir	B420301-A	N	De He Lo Po	A	201	Wild	K2 V M1 V	{ 1 }	(621-3)	[1415]	B	6	-36
+REDUCED:
+DIEBACK:
+Check He
+Check Lo
+Wave+10   2405	Gagaridir	D420000-0	 	De He Lo Po Da 	-	001	Wild	K2 V M1 V	{ -3 }	(200+3)	[1415]	B	6	6
+Wave+100  2405	Gagaridir	D420000-0	 	De He Lo Po Da 	-	001	Wild	K2 V M1 V	{ -3 }	(200+3)	[1415]	B	6	6
+Wave+300  2405	Gagaridir	D420000-0	 	De He Lo Po Da 	-	001	Wild	K2 V M1 V	{ -3 }	(200+3)	[1415]	B	6	6
+Wave+600  2405	Gagaridir	D420000-0	 	De He Lo Po Da 	-	001	Wild	K2 V M1 V	{ -3 }	(200+3)	[1415]	B	6	6
+
+
+Input     2406	Insi Kar	B311445-B		Ic Ni	A	624	Wild	K4 V	{ 1 }	(C34-1)	[2539]	B	14	-144
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2406	Insi Kar	D311000-0		Ic Ni Da 	-	024	Wild	K4 V	{ -3 }	(200+4)	[2539]	B	14	8
+Wave+100  2406	Insi Kar	D311000-0		Ic Ni Da 	-	024	Wild	K4 V	{ -3 }	(200+4)	[2539]	B	14	8
+Wave+300  2406	Insi Kar	D311000-0		Ic Ni Da 	-	024	Wild	K4 V	{ -3 }	(200+4)	[2539]	B	14	8
+Wave+600  2406	Insi Kar	D311000-0		Ic Ni Da 	-	024	Wild	K4 V	{ -3 }	(200+4)	[2539]	B	14	8
+
+
+Input     2407	Syrenaica	C669446-9		Ni O:2807	A	503	Wild	F4 V M6 V	{ -1 }	(932-3)	[2337]	B	13	-162
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2407	Syrenaica	D669000-0		Ni Da O:2807	-	003	Wild	F4 V M6 V	{ -3 }	(200+1)	[2337]	B	13	2
+Wave+100  2407	Syrenaica	D669000-0		Ni Da O:2807	-	003	Wild	F4 V M6 V	{ -3 }	(200+1)	[2337]	B	13	2
+Wave+300  2407	Syrenaica	D669000-0		Ni Da O:2807	-	003	Wild	F4 V M6 V	{ -3 }	(200+1)	[2337]	B	13	2
+Wave+600  2407	Syrenaica	D669000-0		Ni Da O:2807	-	003	Wild	F4 V M6 V	{ -3 }	(200+1)	[2337]	B	13	2
+
+
+Input     2409	Haggard	C777242-6	S	Lo	A	613	Wild	K1 V M9 V	{ -2 }	(410-4)	[1134]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   2409	Haggard	D777000-0	S	Lo Da 	-	013	Wild	K1 V M9 V	{ -3 }	(200-1)	[1134]	B	9	-2
+Wave+100  2409	Haggard	D777000-0	S	Lo Da 	-	013	Wild	K1 V M9 V	{ -3 }	(200-1)	[1134]	B	9	-2
+Wave+300  2409	Haggard	D777000-0	S	Lo Da 	-	013	Wild	K1 V M9 V	{ -3 }	(200-1)	[1134]	B	9	-2
+Wave+600  2409	Haggard	D777000-0	S	Lo Da 	-	013	Wild	K1 V M9 V	{ -3 }	(200-1)	[1134]	B	9	-2
+
+
+Input     2411	Nibel	E688330-4		Lo	A	701	Wild	K5 V M1 V	{ -3 }	(520-5)	[1121]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   2411	Nibel	E688000-0	  	Lo Da 	-	001	Wild	K5 V M1 V	{ -3 }	(200-2)	[1121]	B	9	-4
+Wave+100  2411	Nibel	E688000-0	  	Lo Da 	-	001	Wild	K5 V M1 V	{ -3 }	(200-2)	[1121]	B	9	-4
+Wave+300  2411	Nibel	E688000-0	  	Lo Da 	-	001	Wild	K5 V M1 V	{ -3 }	(200-2)	[1121]	B	9	-4
+Wave+600  2411	Nibel	E688000-0	  	Lo Da 	-	001	Wild	K5 V M1 V	{ -3 }	(200-2)	[1121]	B	9	-4
+
+
+Input     2412	Pagamin	C571141-8		He Lo	A	502	Wild	K7 V	{ -2 }	(500-4)	[1136]	B	10	0
+Check He
+Check Lo
+Wave+10   2412	Pagamin	D571000-0		He Lo Da 	-	002	Wild	K7 V	{ -3 }	(200+2)	[1136]	B	10	4
+Wave+100  2412	Pagamin	D571000-0		He Lo Da 	-	002	Wild	K7 V	{ -3 }	(200+2)	[1136]	B	10	4
+Wave+300  2412	Pagamin	D571000-0		He Lo Da 	-	002	Wild	K7 V	{ -3 }	(200+2)	[1136]	B	10	4
+Wave+600  2412	Pagamin	D571000-0		He Lo Da 	-	002	Wild	K7 V	{ -3 }	(200+2)	[1136]	B	10	4
+
+
+Input     2413	Dunmag	A427183-C	N	Lo	A	201	Wild	F7 V M3 V M7 V	{ 1 }	(401+1)	[125C]	B	14	0
+DIEBACK:
+Check Lo
+Wave+10   2413	Dunmag	D427000-0	 	Lo Da 	-	001	Wild	F7 V M3 V M7 V	{ -3 }	(200-1)	[125C]	B	14	-2
+Wave+100  2413	Dunmag	D427000-0	 	Lo Da 	-	001	Wild	F7 V M3 V M7 V	{ -3 }	(200-1)	[125C]	B	14	-2
+Wave+300  2413	Dunmag	D427000-0	 	Lo Da 	-	001	Wild	F7 V M3 V M7 V	{ -3 }	(200-1)	[125C]	B	14	-2
+Wave+600  2413	Dunmag	D427000-0	 	Lo Da 	-	001	Wild	F7 V M3 V M7 V	{ -3 }	(200-1)	[125C]	B	14	-2
+
+
+Input     2414	Jurburk	B554233-B	N	Lo	A	802	Wild	G9 V K6 V K9 V	{ 1 }	(611-2)	[1328]	B	11	-12
+DIEBACK:
+Check Lo
+Wave+10   2414	Jurburk	D554000-0	 	Lo Da 	-	002	Wild	G9 V K6 V K9 V	{ -3 }	(200+1)	[1328]	B	11	2
+Wave+100  2414	Jurburk	D554000-0	 	Lo Da 	-	002	Wild	G9 V K6 V K9 V	{ -3 }	(200+1)	[1328]	B	11	2
+Wave+300  2414	Jurburk	D554000-0	 	Lo Da 	-	002	Wild	G9 V K6 V K9 V	{ -3 }	(200+1)	[1328]	B	11	2
+Wave+600  2414	Jurburk	D554000-0	 	Lo Da 	-	002	Wild	G9 V K6 V K9 V	{ -3 }	(200+1)	[1328]	B	11	2
+
+
+Input     2424	Ayers	C430686-A	S	De Na Ni Po O:2225	A	323	Wild	F8 V	{ 0 }	(D54+1)	[665A]	B	11	260
+REDUCED:
+Check Ni
+Wave+10   2424	Ayers	C430521-9	S	De Na Ni Po Da O:2225	-	323	Wild	F8 V	{ -1 }	(740-4)	[665A]	B	11	-112
+Wave+100  2424	Ayers	C430500-A	S	De Ni Po Da O:2225	-	423	Wild	F8 V	{ 0 }	(741+1)	[665A]	B	11	28
+Wave+300  2424	Ayers	C430565-B	S	De Ni Po Da O:2225	-	523	Wild	F8 V	{ 0 }	(741+2)	[665A]	B	11	56
+Wave+600  2424	Ayers	C430565-C	S	De Ni Po Da O:2225	-	623	Wild	F8 V	{ 0 }	(741-4)	[665A]	B	11	-112
+
+
+Input     2425	Hysyl	C54079A-7	S	De He Po Pi	A	702	Wild	M3 V	{ -1 }	(967+1)	[8668]	BD	14	378
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   2425	Hysyl	D540000-0	S	De He Pi Po Pz 	-	002	Wild	M3 V	{ -3 }	(200+1)	[8668]	BD	14	2
+Wave+100  2425	Hysyl	D540000-0	S	De He Pi Po Pz 	-	002	Wild	M3 V	{ -3 }	(200+1)	[8668]	BD	14	2
+Wave+300  2425	Hysyl	D540000-0	S	De He Pi Po Pz 	-	002	Wild	M3 V	{ -3 }	(200+1)	[8668]	BD	14	2
+Wave+600  2425	Hysyl	D540000-0	S	De He Pi Po Pz 	-	002	Wild	M3 V	{ -3 }	(200+1)	[8668]	BD	14	2
+
+
+Input     2502	Tubb	C89A799-9		Wa Pi	A	701	Wild	G7 V M6 V	{ 0 }	(A69+1)	[876A]		9	540
+Wave+10   2502	Tubb	C89A797-7		Pi Wa Pz 	-	301	Wild	G7 V M6 V	{ -1 }	(261-1)	[876A]		9	-12
+Wave+100  2502	Tubb	C89A772-8		Pi Wa Pz 	-	401	Wild	G7 V M6 V	{ -1 }	(361-4)	[876A]		9	-72
+Wave+300  2502	Tubb	C89A772-9		Pi Wa Pz 	-	501	Wild	G7 V M6 V	{ 0 }	(362+3)	[876A]		9	108
+Wave+600  2502	Tubb	C89A762-A		Pi Wa Pz 	-	601	Wild	G7 V M6 V	{ 1 }	(363-4)	[876A]		9	-216
+
+
+Input     2506	Moskene	E200110-A		Lo Va	A	603	Wild	F5 V G7 V	{ -1 }	(600-5)	[1116]	B	13	0
+DIEBACK:
+Check Lo
+Wave+10   2506	Moskene	E200000-0	  	Lo Va Da 	-	003	Wild	F5 V G7 V	{ -3 }	(200+1)	[1116]	B	13	2
+Wave+100  2506	Moskene	E200000-0	  	Lo Va Da 	-	003	Wild	F5 V G7 V	{ -3 }	(200+1)	[1116]	B	13	2
+Wave+300  2506	Moskene	E200000-0	  	Lo Va Da 	-	003	Wild	F5 V G7 V	{ -3 }	(200+1)	[1116]	B	13	2
+Wave+600  2506	Moskene	E200000-0	  	Lo Va Da 	-	003	Wild	F5 V G7 V	{ -3 }	(200+1)	[1116]	B	13	2
+
+
+Input     2512	Niven	E9C4273-9		Fl Lo Da	A	534	Wild	F3 V M3 V	{ -2 }	(B10-2)	[2159]	B	14	0
+DIEBACK:
+Check Lo
+Wave+10   2512	Niven	E9C4000-0	  	Fl Lo Da 	-	034	Wild	F3 V M3 V	{ -3 }	(200+2)	[2159]	B	14	4
+Wave+100  2512	Niven	E9C4000-0	  	Fl Lo Da 	-	034	Wild	F3 V M3 V	{ -3 }	(200+2)	[2159]	B	14	4
+Wave+300  2512	Niven	E9C4000-0	  	Fl Lo Da 	-	034	Wild	F3 V M3 V	{ -3 }	(200+2)	[2159]	B	14	4
+Wave+600  2512	Niven	E9C4000-0	  	Fl Lo Da 	-	034	Wild	F3 V M3 V	{ -3 }	(200+2)	[2159]	B	14	4
+
+
+Input     2515	Kasmar	E631745-8		Na Po	A	101	Wild	M0 V M3 V	{ -2 }	(A66-4)	[5536]	B	13	-1,440
+Wave+10   2515	Kasmar	E631668-6	  	Na Po Pz 	-	501	Wild	M0 V M3 V	{ -3 }	(250+3)	[5536]	B	13	30
+Wave+100  2515	Kasmar	E631665-7	  	Na Ni Po Px Da 	-	601	Wild	M0 V M3 V	{ -3 }	(250+3)	[5536]	B	13	30
+Wave+300  2515	Kasmar	E631640-8	  	Na Ni Po Da 	-	701	Wild	M0 V M3 V	{ -3 }	(350+3)	[5536]	B	13	45
+Wave+600  2515	Kasmar	E631633-9	  	Na Ni Po Da 	-	801	Wild	M0 V M3 V	{ -2 }	(350-2)	[5536]	B	13	-30
+
+
+Input     2519	Erita	E99A557-8		Ni Wa	A	113	Wild	G8 V K9 V	{ -3 }	(B41-5)	[3236]	B	7	-220
+Check Ni
+Wave+10   2519	Erita	E99A000-0	  	Ni Wa Da 	-	013	Wild	G8 V K9 V	{ -3 }	(200+5)	[3236]	B	7	10
+Wave+100  2519	Erita	E99A000-0	  	Ni Wa Da 	-	013	Wild	G8 V K9 V	{ -3 }	(200+5)	[3236]	B	7	10
+Wave+300  2519	Erita	E99A000-0	  	Ni Wa Da 	-	013	Wild	G8 V K9 V	{ -3 }	(200+5)	[3236]	B	7	10
+Wave+600  2519	Erita	E99A000-0	  	Ni Wa Da 	-	013	Wild	G8 V K9 V	{ -3 }	(200+5)	[3236]	B	7	10
+
+
+Input     2520	Kiirindor	B546666-A	NS	Ag Ni O:2522	A	310	Wild	G0 V G9 V	{ 3 }	(957+2)	[5949]	BC	14	630
+REDUCED:
+Check Ni
+Wave+10   2520	Kiirindor	B546555-A	NS	Ag Ni Da O:2522	-	310	Wild	G0 V G9 V	{ 2 }	(343-2)	[5949]	BC	14	-72
+Wave+100  2520	Kiirindor	B546586-B	NS	Ag Ni Da O:2522	-	410	Wild	G0 V G9 V	{ 2 }	(343+2)	[5949]	BC	14	72
+Wave+300  2520	Kiirindor	B546547-C	NS	Ag Ni Da O:2522	-	510	Wild	G0 V G9 V	{ 2 }	(343+1)	[5949]	BC	14	36
+Wave+600  2520	Kiirindor	B546534-D	NS	Ag Ni Da O:2522	-	610	Wild	G0 V G9 V	{ 2 }	(343-1)	[5949]	BC	14	-36
+
+
+Input     2521	Geniishir	A310132-D	N	Lo	A	302	Wild	K8 V	{ 1 }	(501-2)	[122A]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   2521	Geniishir	D310000-0	 	Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-4)	[122A]	B	9	-8
+Wave+100  2521	Geniishir	D310000-0	 	Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-4)	[122A]	B	9	-8
+Wave+300  2521	Geniishir	D310000-0	 	Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-4)	[122A]	B	9	-8
+Wave+600  2521	Geniishir	D310000-0	 	Lo Da 	-	002	Wild	K8 V	{ -3 }	(200-4)	[122A]	B	9	-8
+
+
+Input     2522	Maelstrom	B79A855-D		Wa Ph Pi Chir5 RsG	A	702	Wild	G3 V M0 V M3 V	{ 2 }	(C7D+1)	[6A3B]	BDe	12	1,092
+Wave+10   2522	Maelstrom	B79A897-A		Ph Pi Wa Pz Chir5 RsG	-	302	Wild	G3 V M0 V M3 V	{ 2 }	(474+1)	[6A3B]	BDe	12	112
+Wave+100  2522	Maelstrom	B79A8DC-B		Ph Pi Wa Pz Chir5 RsG	-	402	Wild	G3 V M0 V M3 V	{ 2 }	(474+1)	[6A3B]	BDe	12	112
+Wave+300  2522	Maelstrom	B79A8AD-C		Ph Pi Wa Pz Chir5 RsG	-	502	Wild	G3 V M0 V M3 V	{ 2 }	(474+1)	[6A3B]	BDe	12	112
+Wave+600  2522	Maelstrom	B79A888-D		Ph Pi Wa Pz Chir5 RsG	-	602	Wild	G3 V M0 V M3 V	{ 2 }	(474+4)	[6A3B]	BDe	12	448
+
+
+Input     2523	Exotrope	D300647-7	S	Na Ni Va	A	401	Wild	M6 V M6 V	{ -3 }	(851-5)	[4335]	B	11	-200
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2523	Exotrope	D300000-0	S	Na Ni Va Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200-2)	[4335]	B	11	-4
+Wave+100  2523	Exotrope	D300000-0	S	Na Ni Va Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200-2)	[4335]	B	11	-4
+Wave+300  2523	Exotrope	D300000-0	S	Na Ni Va Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200-2)	[4335]	B	11	-4
+Wave+600  2523	Exotrope	D300000-0	S	Na Ni Va Da 	-	001	Wild	M6 V M6 V	{ -3 }	(200-2)	[4335]	B	11	-4
+
+
+Input     2603	Unekh	C2008B8-7		Na Va Ph Pi	A	502	Wild	M1 V	{ -1 }	(A77+1)	[A779]		10	490
+Wave+10   2603	Unekh	C200855-6		Na Ph Pi Va Pz 	-	202	Wild	M1 V	{ -1 }	(271-1)	[A779]		10	-14
+Wave+100  2603	Unekh	C2008CC-7		Na Ph Pi Va Pz 	-	302	Wild	M1 V	{ -1 }	(271+1)	[A779]		10	14
+Wave+300  2603	Unekh	C20089A-8		Na Ph Pi Va Pz 	-	402	Wild	M1 V	{ -1 }	(471+4)	[A779]		10	112
+Wave+600  2603	Unekh	C200877-9		Na Ph Pi Va Pz 	-	502	Wild	M1 V	{ 0 }	(472+1)	[A779]		10	56
+
+
+Input     2615	Berora	B100627-D		Na Ni Va	A	822	Wild	G7 V M8 V	{ 1 }	(C55-3)	[2719]		11	-900
+REDUCED:
+Check Ni
+Wave+10   2615	Berora	B100585-C		Na Ni Va Da 	-	822	Wild	G7 V M8 V	{ 1 }	(642-1)	[2719]		11	-48
+Wave+100  2615	Berora	B100545-D		Ni Va Da 	-	922	Wild	G7 V M8 V	{ 1 }	(642-5)	[2719]		11	-240
+Wave+300  2615	Berora	B100668-E		Ni Va Da 	-	122	Wild	G7 V M8 V	{ 1 }	(652-2)	[2719]		11	-120
+Wave+600  2615	Berora	B100665-F		Na Ni Va Da 	-	222	Wild	G7 V M8 V	{ 1 }	(652-1)	[2719]		11	-60
+
+
+Input     2702	Fosfog	A5755C9-9		Ag Ni Da	A	114	Wild	G5 IV M3 V	{ 1 }	(C45+4)	[868C]		14	960
+REDUCED:
+Check Ni
+Wave+10   2702	Fosfog	A575444-7		Ag Ni Da 	-	114	Wild	G5 IV M3 V	{ 0 }	(231+1)	[868C]		14	6
+Wave+100  2702	Fosfog	A575420-8		Ni Pa Da 	-	214	Wild	G5 IV M3 V	{ -1 }	(730-4)	[868C]		14	-84
+Wave+300  2702	Fosfog	A575463-9		Ni Pa Da 	-	314	Wild	G5 IV M3 V	{ 0 }	(731-1)	[868C]		14	-21
+Wave+600  2702	Fosfog	A575436-A		Ni Pa Da 	-	414	Wild	G5 IV M3 V	{ 1 }	(732-5)	[868C]		14	-210
+
+
+Input     2704	Talon	C543967-A	CK	Hi In Po (Souggvuez)8 Varg2	A	224	Wild	K4 V	{ 4 }	(H8E+3)	[8D49]		18	5,712
+Wave+10   2704	Talon	C5439EG-8	CK	Hi In Po Pz (Souggvuez)8 Varg2	-	124	Wild	K4 V	{ 1 }	(883-3)	[8D49]		18	-576
+Wave+100  2704	Talon	C5439DD-9	CK	Hi In Po Pz (Souggvuez)8 Varg2	-	224	Wild	K4 V	{ 2 }	(884-3)	[8D49]		18	-768
+Wave+300  2704	Talon	C54398D-A	CK	Hi In Po Pz (Souggvuez)8 Varg2	-	324	Wild	K4 V	{ 3 }	(885+1)	[8D49]		18	320
+Wave+600  2704	Talon	C543948-B	CK	Hi In Po Pz (Souggvuez)8 Varg2	-	424	Wild	K4 V	{ 3 }	(885+2)	[8D49]		18	640
+
+
+Input     2713	Wal-ta-ka	C560413-9		De Ni	A	601	Wild	G5 V	{ -1 }	(732-5)	[1315]		12	-210
+Check Ni
+Wave+10   2713	Wal-ta-ka	D560000-0		De Ni Da 	-	001	Wild	G5 V	{ -3 }	(200-2)	[1315]		12	-4
+Wave+100  2713	Wal-ta-ka	D560000-0		De Ni Da 	-	001	Wild	G5 V	{ -3 }	(200-2)	[1315]		12	-4
+Wave+300  2713	Wal-ta-ka	D560000-0		De Ni Da 	-	001	Wild	G5 V	{ -3 }	(200-2)	[1315]		12	-4
+Wave+600  2713	Wal-ta-ka	D560000-0		De Ni Da 	-	001	Wild	G5 V	{ -3 }	(200-2)	[1315]		12	-4
+
+
+Input     2715	Dophkah	B647777-8	N	Ag Pi	A	324	Wild	K9 V	{ 1 }	(F69+1)	[7858]		14	810
+Wave+10   2715	Dophkah	B647787-6	N	Ag Pi Pz 	-	124	Wild	K9 V	{ 1 }	(263+3)	[7858]		14	108
+Wave+100  2715	Dophkah	B647763-7	N	Ag Pi Pz 	-	224	Wild	K9 V	{ 1 }	(263-3)	[7858]		14	-108
+Wave+300  2715	Dophkah	B647757-8	N	Ag Cy Pi Pz 	-	324	Wild	K9 V	{ 1 }	(863+2)	[7858]		14	288
+Wave+600  2715	Dophkah	B647776-9	N	Ag Pi Pz 	-	424	Wild	K9 V	{ 2 }	(864+4)	[7858]		14	768
+
+
+Input     2716	Errogel	B550545-A	N	De Ni Po	A	724	Wild	G9 V	{ 1 }	(D45-1)	[3638]		14	-260
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2716	Errogel	D550000-0	 	De Ni Po Da 	-	024	Wild	G9 V	{ -3 }	(200+2)	[3638]		14	4
+Wave+100  2716	Errogel	D550000-0	 	De Ni Po Da 	-	024	Wild	G9 V	{ -3 }	(200+2)	[3638]		14	4
+Wave+300  2716	Errogel	D550000-0	 	De Ni Po Da 	-	024	Wild	G9 V	{ -3 }	(200+2)	[3638]		14	4
+Wave+600  2716	Errogel	D550000-0	 	De Ni Po Da 	-	024	Wild	G9 V	{ -3 }	(200+2)	[3638]		14	4
+
+
+Input     2717	Segan	B5509BA-C	N	De Hi Po Pz (Segani)	A	504	Wild	F4 V K4 V	{ 3 }	(F8E+5)	[BC7E]		11	8,400
+Wave+10   2717	Segan	B5509AC-A	N	De Hi Po Pz (Segani)	-	204	Wild	F4 V K4 V	{ 3 }	(685+1)	[BC7E]		11	240
+Wave+100  2717	Segan	B5509C9-B	N	De Hi Po Pz (Segani)	-	304	Wild	F4 V K4 V	{ 3 }	(685-3)	[BC7E]		11	-720
+Wave+300  2717	Segan	B550957-C	N	De Hi Po Pz (Segani)	-	404	Wild	F4 V K4 V	{ 3 }	(685-1)	[BC7E]		11	-240
+Wave+600  2717	Segan	B550997-D	N	De Hi Po Pz (Segani)	-	504	Wild	F4 V K4 V	{ 3 }	(685+2)	[BC7E]		11	480
+
+
+Input     2721	Newpenton	C595312-9		Lo Di(Kurakhash)	A	703	Wild	M2 V	{ -1 }	(820-5)	[1215]	B	15	0
+DIEBACK:
+Check Lo
+Wave+10   2721	Newpenton	D595000-0		Lo Da (Kurakhash)	-	003	Wild	M2 V	{ -3 }	(200-4)	[1215]	B	15	-8
+Wave+100  2721	Newpenton	D595000-0		Lo Da (Kurakhash)	-	003	Wild	M2 V	{ -3 }	(200-4)	[1215]	B	15	-8
+Wave+300  2721	Newpenton	D595000-0		Lo Da (Kurakhash)	-	003	Wild	M2 V	{ -3 }	(200-4)	[1215]	B	15	-8
+Wave+600  2721	Newpenton	D595000-0		Lo Da (Kurakhash)	-	003	Wild	M2 V	{ -3 }	(200-4)	[1215]	B	15	-8
+
+
+Input     2734	Lorin Antune	D525877-7		Ph Pi	A	410	Wild	M2 V M2 V	{ -2 }	(A76-2)	[8657]		11	-840
+Wave+10   2734	Lorin Antune	D5258CG-5		Ph Pi Pz 	-	210	Wild	M2 V M2 V	{ -2 }	(270-3)	[8657]		11	-42
+Wave+100  2734	Lorin Antune	D5258B7-6		Ph Pi Pz 	-	310	Wild	M2 V M2 V	{ -2 }	(270-3)	[8657]		11	-42
+Wave+300  2734	Lorin Antune	D525874-7		Ph Pi Pz 	-	410	Wild	M2 V M2 V	{ -2 }	(270+1)	[8657]		11	14
+Wave+600  2734	Lorin Antune	D525889-8		Ph Pi Pz 	-	510	Wild	M2 V M2 V	{ -2 }	(370+1)	[8657]		11	21
+
+
+Input     2802	495-524	D785300-4		Lo Ga An	A	422	Wild	F3 V M6 V	{ -3 }	(520-5)	[1111]		9	0
+DIEBACK:
+Check Lo
+Wave+10   2802	495-524	D785000-0		Ga Lo Da An	-	022	Wild	F3 V M6 V	{ -3 }	(200+1)	[1111]		9	2
+Wave+100  2802	495-524	D785000-0		Ga Lo Da An	-	022	Wild	F3 V M6 V	{ -3 }	(200+1)	[1111]		9	2
+Wave+300  2802	495-524	D785000-0		Ga Lo Da An	-	022	Wild	F3 V M6 V	{ -3 }	(200+1)	[1111]		9	2
+Wave+600  2802	495-524	D785000-0		Ga Lo Da An	-	022	Wild	F3 V M6 V	{ -3 }	(200+1)	[1111]		9	2
+
+
+Input     2804	Akkip	C54267B-8		He Ni Po	A	522	Wild	F8 V	{ -2 }	(C52-2)	[6458]		16	-240
+REDUCED:
+DIEBACK:
+Check Ni
+Check He
+Wave+10   2804	Akkip	D542000-0		He Ni Po Da 	-	022	Wild	F8 V	{ -3 }	(200+1)	[6458]		16	2
+Wave+100  2804	Akkip	D542000-0		He Ni Po Da 	-	022	Wild	F8 V	{ -3 }	(200+1)	[6458]		16	2
+Wave+300  2804	Akkip	D542000-0		He Ni Po Da 	-	022	Wild	F8 V	{ -3 }	(200+1)	[6458]		16	2
+Wave+600  2804	Akkip	D542000-0		He Ni Po Da 	-	022	Wild	F8 V	{ -3 }	(200+1)	[6458]		16	2
+
+
+Input     2807	Gabrael	A573664-C		Ni Varg3	A	424	Wild	K4 V	{ 1 }	(E55+1)	[574B]	B	13	350
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2807	Gabrael	D573000-0		Ni Da Varg3	-	024	Wild	K4 V	{ -3 }	(200+1)	[574B]	B	13	2
+Wave+100  2807	Gabrael	D573000-0		Ni Da Varg3	-	024	Wild	K4 V	{ -3 }	(200+1)	[574B]	B	13	2
+Wave+300  2807	Gabrael	D573000-0		Ni Da Varg3	-	024	Wild	K4 V	{ -3 }	(200+1)	[574B]	B	13	2
+Wave+600  2807	Gabrael	D573000-0		Ni Da Varg3	-	024	Wild	K4 V	{ -3 }	(200+1)	[574B]	B	13	2
+
+
+Input     2810	Tensas	C556505-6		Ag Ni	A	504	Wild	K8 V	{ -1 }	(743-5)	[1411]	BC	10	-420
+Check Ni
+Wave+10   2810	Tensas	D556000-0		Ag Ni Da 	-	004	Wild	K8 V	{ -2 }	(200+1)	[1411]	BC	10	2
+Wave+100  2810	Tensas	D556000-0		Ag Ni Da 	-	004	Wild	K8 V	{ -2 }	(200+1)	[1411]	BC	10	2
+Wave+300  2810	Tensas	D556000-0		Ag Ni Da 	-	004	Wild	K8 V	{ -2 }	(200+1)	[1411]	BC	10	2
+Wave+600  2810	Tensas	D556000-0		Ag Ni Da 	-	004	Wild	K8 V	{ -2 }	(200+1)	[1411]	BC	10	2
+
+
+Input     2812	Og Bere'	B564521-8		Ag Ni Pr	A	223	Wild	G7 V	{ 0 }	(C44-4)	[1514]		9	-768
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2812	Og Bere'	D564000-0		Ag Ni Pr Da 	-	023	Wild	G7 V	{ -2 }	(200+1)	[1514]		9	2
+Wave+100  2812	Og Bere'	D564000-0		Ag Ni Pr Da 	-	023	Wild	G7 V	{ -2 }	(200+1)	[1514]		9	2
+Wave+300  2812	Og Bere'	D564000-0		Ag Ni Pr Da 	-	023	Wild	G7 V	{ -2 }	(200+1)	[1514]		9	2
+Wave+600  2812	Og Bere'	D564000-0		Ag Ni Pr Da 	-	023	Wild	G7 V	{ -2 }	(200+1)	[1514]		9	2
+
+
+Input     2813	Doho	A696444-C		Ni Pa	A	621	Wild	F8 V F8 V	{ 1 }	(934-1)	[253A]		13	-108
+REDUCED:
+Check Ni
+Wave+10   2813	Doho	A696424-A		Ni Pa Da 	-	621	Wild	F8 V F8 V	{ 1 }	(532+1)	[253A]		13	30
+Wave+100  2813	Doho	A696487-B		Ni Pa Da 	-	721	Wild	F8 V F8 V	{ 1 }	(532-4)	[253A]		13	-120
+Wave+300  2813	Doho	A696468-C		Ni Pa Da 	-	821	Wild	F8 V F8 V	{ 1 }	(532+1)	[253A]		13	30
+Wave+600  2813	Doho	A696447-D		Ni Pa Da 	-	921	Wild	F8 V F8 V	{ 1 }	(532-2)	[253A]		13	-60
+
+
+Input     2820	Gampin	D668644-6	S	Ag Ni Ri	A	533	Wild	G2 IV G7 V	{ -1 }	(853-3)	[4534]	BC	9	-360
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2820	Gampin	D668000-0	S	Ag Ni Ri Da 	-	033	Wild	G2 IV G7 V	{ -1 }	(200-2)	[4534]	BC	9	-4
+Wave+100  2820	Gampin	D668000-0	S	Ag Ni Ri Da 	-	033	Wild	G2 IV G7 V	{ -1 }	(200-2)	[4534]	BC	9	-4
+Wave+300  2820	Gampin	D668000-0	S	Ag Ni Ri Da 	-	033	Wild	G2 IV G7 V	{ -1 }	(200-2)	[4534]	BC	9	-4
+Wave+600  2820	Gampin	D668000-0	S	Ag Ni Ri Da 	-	033	Wild	G2 IV G7 V	{ -1 }	(200-2)	[4534]	BC	9	-4
+
+
+Input     2903	Metare	A4246A5-E		Ni	A	801	Wild	M2 V M8 V	{ 1 }	(955+3)	[877G]		9	675
+REDUCED:
+Check Ni
+Wave+10   2903	Metare	A424520-D		Ni Da 	-	801	Wild	M2 V M8 V	{ 1 }	(342-1)	[877G]		9	-24
+Wave+100  2903	Metare	A424516-E		Ni Da 	-	901	Wild	M2 V M8 V	{ 1 }	(342-2)	[877G]		9	-48
+Wave+300  2903	Metare	A424686-F		Ni Px Da 	-	101	Wild	M2 V M8 V	{ 1 }	(352+1)	[877G]		9	30
+Wave+600  2903	Metare	A424654-G		Ni Px Da 	-	201	Wild	M2 V M8 V	{ 2 }	(353+1)	[877G]		9	45
+
+
+Input     2904	Fel	A7A7889-A		Fl Ph	A	622	Wild	M3 V	{ 2 }	(E7B+2)	[8A5A]		10	2,156
+Wave+10   2904	Fel	A7A788A-8		Fl Ph Pz 	-	322	Wild	M3 V	{ 0 }	(672-1)	[8A5A]		10	-84
+Wave+100  2904	Fel	A7A78D9-9		Fl Ph Pz 	-	422	Wild	M3 V	{ 1 }	(673+4)	[8A5A]		10	504
+Wave+300  2904	Fel	A7A7876-A		Fl Ph Pz 	-	522	Wild	M3 V	{ 2 }	(674+3)	[8A5A]		10	504
+Wave+600  2904	Fel	A7A7852-B		Fl Ph Pz 	-	622	Wild	M3 V	{ 2 }	(674+1)	[8A5A]		10	168
+
+
+Input     2905	Ikhaba	C675521-8		Ag Ni Da	A	933	Wild	M4 V	{ -1 }	(D43-5)	[1414]	BC	10	-780
+REDUCED:
+Check Ni
+Wave+10   2905	Ikhaba	C675510-6		Ag Ni Da 	-	933	Wild	M4 V	{ -1 }	(240+1)	[1414]	BC	10	8
+Wave+100  2905	Ikhaba	C675676-7		Ag Ni Da 	-	133	Wild	M4 V	{ -1 }	(250-1)	[1414]	BC	10	-10
+Wave+300  2905	Ikhaba	C675689-8		Ag Ni Da 	-	233	Wild	M4 V	{ -1 }	(850+1)	[1414]	BC	10	40
+Wave+600  2905	Ikhaba	C675668-9		Ag Ni Da 	-	333	Wild	M4 V	{ 0 }	(851+1)	[1414]	BC	10	40
+
+
+Input     2906	Nurara	C5A5422-A	S	Fl Ni	A	604	Wild	M0 V	{ 0 }	(A33-4)	[1416]	B	9	-360
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2906	Nurara	D5A5000-0	S	Fl Ni Da 	-	004	Wild	M0 V	{ -3 }	(200+1)	[1416]	B	9	2
+Wave+100  2906	Nurara	D5A5000-0	S	Fl Ni Da 	-	004	Wild	M0 V	{ -3 }	(200+1)	[1416]	B	9	2
+Wave+300  2906	Nurara	D5A5000-0	S	Fl Ni Da 	-	004	Wild	M0 V	{ -3 }	(200+1)	[1416]	B	9	2
+Wave+600  2906	Nurara	D5A5000-0	S	Fl Ni Da 	-	004	Wild	M0 V	{ -3 }	(200+1)	[1416]	B	9	2
+
+
+Input     2907	Hammand	E736123-6		Lo Da	A	120	Wild	M2 V M9 V	{ -3 }	(300-5)	[1112]	B	13	0
+DIEBACK:
+Check Lo
+Wave+10   2907	Hammand	E736000-0	  	Lo Da 	-	020	Wild	M2 V M9 V	{ -3 }	(200+3)	[1112]	B	13	6
+Wave+100  2907	Hammand	E736000-0	  	Lo Da 	-	020	Wild	M2 V M9 V	{ -3 }	(200+3)	[1112]	B	13	6
+Wave+300  2907	Hammand	E736000-0	  	Lo Da 	-	020	Wild	M2 V M9 V	{ -3 }	(200+3)	[1112]	B	13	6
+Wave+600  2907	Hammand	E736000-0	  	Lo Da 	-	020	Wild	M2 V M9 V	{ -3 }	(200+3)	[1112]	B	13	6
+
+
+Input     2908	Wyn	C546444-5		Ni Pa	A	701	Wild	M2 V	{ -2 }	(631-4)	[2233]	Bc	12	-72
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   2908	Wyn	D546000-0		Ni Pa Da 	-	001	Wild	M2 V	{ -3 }	(200-1)	[2233]	Bc	12	-2
+Wave+100  2908	Wyn	D546000-0		Ni Pa Da 	-	001	Wild	M2 V	{ -3 }	(200-1)	[2233]	Bc	12	-2
+Wave+300  2908	Wyn	D546000-0		Ni Pa Da 	-	001	Wild	M2 V	{ -3 }	(200-1)	[2233]	Bc	12	-2
+Wave+600  2908	Wyn	D546000-0		Ni Pa Da 	-	001	Wild	M2 V	{ -3 }	(200-1)	[2233]	Bc	12	-2
+
+
+Input     2910	Crozat	C410442-7		Ni	A	404	Wild	M4 V M6 V	{ -2 }	(631-4)	[2235]	B	12	-72
+Check Ni
+Wave+10   2910	Crozat	D410000-0		Ni Da 	-	004	Wild	M4 V M6 V	{ -3 }	(200+2)	[2235]	B	12	4
+Wave+100  2910	Crozat	D410000-0		Ni Da 	-	004	Wild	M4 V M6 V	{ -3 }	(200+2)	[2235]	B	12	4
+Wave+300  2910	Crozat	D410000-0		Ni Da 	-	004	Wild	M4 V M6 V	{ -3 }	(200+2)	[2235]	B	12	4
+Wave+600  2910	Crozat	D410000-0		Ni Da 	-	004	Wild	M4 V M6 V	{ -3 }	(200+2)	[2235]	B	12	4
+
+
+Input     2913	Atsah	A656705-D	W	Ag Ga Cp	A	723	Wild	K4 V	{ 4 }	(E6F+1)	[2B18]	BCF	11	1,260
+Wave+10   2913	Atsah	A656733-A	W	Ag Ga Pz Cp	-	323	Wild	K4 V	{ 3 }	(765-2)	[2B18]	BCF	11	-420
+Wave+100  2913	Atsah	A656747-B	W	Ag Ga Pz Cp	-	423	Wild	K4 V	{ 3 }	(765-3)	[2B18]	BCF	11	-630
+Wave+300  2913	Atsah	A656751-C	W	Ag Ga Pz Cp	-	523	Wild	K4 V	{ 3 }	(765+1)	[2B18]	BCF	11	210
+Wave+600  2913	Atsah	A656754-D	W	Ag Ga Pz Cp	-	623	Wild	K4 V	{ 3 }	(765-1)	[2B18]	BCF	11	-210
+
+
+Input     2918	Khishuda	C856304-5		Lo Ga	A	201	Wild	G8 V M1 V	{ -2 }	(520-5)	[1111]		10	0
+DIEBACK:
+Check Lo
+Wave+10   2918	Khishuda	D856000-0		Ga Lo Da 	-	001	Wild	G8 V M1 V	{ -3 }	(200-3)	[1111]		10	-6
+Wave+100  2918	Khishuda	D856000-0		Ga Lo Da 	-	001	Wild	G8 V M1 V	{ -3 }	(200-3)	[1111]		10	-6
+Wave+300  2918	Khishuda	D856000-0		Ga Lo Da 	-	001	Wild	G8 V M1 V	{ -3 }	(200-3)	[1111]		10	-6
+Wave+600  2918	Khishuda	D856000-0		Ga Lo Da 	-	001	Wild	G8 V M1 V	{ -3 }	(200-3)	[1111]		10	-6
+
+
+Input     3004	Oluk Dzas	B563512-7		Ni Pr	A	814	Wild	K8 V	{ -1 }	(743-5)	[1413]		14	-420
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   3004	Oluk Dzas	D563000-0		Ni Pr Da 	-	014	Wild	K8 V	{ -3 }	(200+3)	[1413]		14	6
+Wave+100  3004	Oluk Dzas	D563000-0		Ni Pr Da 	-	014	Wild	K8 V	{ -3 }	(200+3)	[1413]		14	6
+Wave+300  3004	Oluk Dzas	D563000-0		Ni Pr Da 	-	014	Wild	K8 V	{ -3 }	(200+3)	[1413]		14	6
+Wave+600  3004	Oluk Dzas	D563000-0		Ni Pr Da 	-	014	Wild	K8 V	{ -3 }	(200+3)	[1413]		14	6
+
+
+Input     3005	Arleshanu	A562333-D	N	Lo	A	420	Wild	F4 V	{ 1 }	(721-2)	[142A]	B	13	-28
+DIEBACK:
+Check Lo
+Wave+10   3005	Arleshanu	D562000-0	 	Lo Da 	-	020	Wild	F4 V	{ -3 }	(200-2)	[142A]	B	13	-4
+Wave+100  3005	Arleshanu	D562000-0	 	Lo Da 	-	020	Wild	F4 V	{ -3 }	(200-2)	[142A]	B	13	-4
+Wave+300  3005	Arleshanu	D562000-0	 	Lo Da 	-	020	Wild	F4 V	{ -3 }	(200-2)	[142A]	B	13	-4
+Wave+600  3005	Arleshanu	D562000-0	 	Lo Da 	-	020	Wild	F4 V	{ -3 }	(200-2)	[142A]	B	13	-4
+
+
+Input     3008	Taproban	B8A8778-B	N	Fl Pz	A	720	Wild	M2 V	{ 2 }	(B6C+2)	[795B]	B	15	1,584
+Wave+10   3008	Taproban	B8A8752-A	N	Fl Pz 	-	320	Wild	M2 V	{ 2 }	(464+1)	[795B]	B	15	96
+Wave+100  3008	Taproban	B8A8797-B	N	Fl Pz 	-	420	Wild	M2 V	{ 2 }	(464-1)	[795B]	B	15	-96
+Wave+300  3008	Taproban	B8A8795-C	N	Fl Pz 	-	520	Wild	M2 V	{ 2 }	(464+5)	[795B]	B	15	480
+Wave+600  3008	Taproban	B8A87AD-D	N	Fl Pz 	-	620	Wild	M2 V	{ 2 }	(464-4)	[795B]	B	15	-384
+
+
+Input     3011	Corfinium	B543643-8		Ni Po	A	522	Wild	M2 V	{ -1 }	(C53-3)	[4536]	B	10	-540
+REDUCED:
+Check Ni
+Wave+10   3011	Corfinium	B543678-6		Ni Po Da 	-	522	Wild	M2 V	{ -1 }	(250+1)	[4536]	B	10	10
+Wave+100  3011	Corfinium	B5436AC-7		Ni Po Da 	-	622	Wild	M2 V	{ -1 }	(250-2)	[4536]	B	10	-20
+Wave+300  3011	Corfinium	B54367A-8		Ni Po Da 	-	722	Wild	M2 V	{ -1 }	(650-2)	[4536]	B	10	-60
+Wave+600  3011	Corfinium	B543648-9		Ni Po Da 	-	822	Wild	M2 V	{ 0 }	(651+3)	[4536]	B	10	90
+
+
+Input     3013	Ivora	E999533-5		Ni	A	401	Wild	F5 V	{ -3 }	(741-5)	[2222]		9	-140
+Check Ni
+Wave+10   3013	Ivora	E999000-0	  	Ni Da 	-	001	Wild	F5 V	{ -3 }	(200+1)	[2222]		9	2
+Wave+100  3013	Ivora	E999000-0	  	Ni Da 	-	001	Wild	F5 V	{ -3 }	(200+1)	[2222]		9	2
+Wave+300  3013	Ivora	E999000-0	  	Ni Da 	-	001	Wild	F5 V	{ -3 }	(200+1)	[2222]		9	2
+Wave+600  3013	Ivora	E999000-0	  	Ni Da 	-	001	Wild	F5 V	{ -3 }	(200+1)	[2222]		9	2
+
+
+Input     3015	Atadl	B31097C-E		Hi In Na	A	201	Wild	M1 V M1 V	{ 4 }	(C8G+4)	[9D5E]		14	6,144
+Wave+10   3015	Atadl	B310964-C		Hi In Na Pz 	-	101	Wild	M1 V M1 V	{ 4 }	(386-1)	[9D5E]		14	-144
+Wave+100  3015	Atadl	B310973-D		Hi In Na Pz 	-	201	Wild	M1 V M1 V	{ 4 }	(386+2)	[9D5E]		14	288
+Wave+300  3015	Atadl	B3109EG-E		Hi In Na Pz 	-	301	Wild	M1 V M1 V	{ 4 }	(386-1)	[9D5E]		14	-144
+Wave+600  3015	Atadl	B310974-F		Hi In Na Pz 	-	401	Wild	M1 V M1 V	{ 4 }	(386-2)	[9D5E]		14	-288
+
+
+Input     3016	Zerderu	B541658-A		He Ni Po	A	401	Wild	M1 V M1 V	{ 1 }	(955-1)	[4738]		12	-225
+REDUCED:
+Check Ni
+REDUCED:
+DIEBACK:
+Check He
+Wave+10   3016	Zerderu	D541000-0		He Ni Po Da 	-	001	Wild	M1 V M1 V	{ -3 }	(200-3)	[4738]		12	-6
+Wave+100  3016	Zerderu	D541000-0		He Ni Po Da 	-	001	Wild	M1 V M1 V	{ -3 }	(200-3)	[4738]		12	-6
+Wave+300  3016	Zerderu	D541000-0		He Ni Po Da 	-	001	Wild	M1 V M1 V	{ -3 }	(200-3)	[4738]		12	-6
+Wave+600  3016	Zerderu	D541000-0		He Ni Po Da 	-	001	Wild	M1 V M1 V	{ -3 }	(200-3)	[4738]		12	-6
+
+
+Input     3031	Asharam	C7627A9-4		Ri	A	622	Wild	F5 V K4 V	{ 0 }	(966+2)	[9776]		13	648
+Wave+10   3031	Asharam	C762740-2		Ri Pz 	-	322	Wild	F5 V K4 V	{ 0 }	(262+1)	[9776]		13	24
+Wave+100  3031	Asharam	C762753-3		Ri Pz 	-	422	Wild	F5 V K4 V	{ 0 }	(262+1)	[9776]		13	24
+Wave+300  3031	Asharam	C762798-4		Ri Pz 	-	522	Wild	F5 V K4 V	{ 0 }	(262-1)	[9776]		13	-24
+Wave+600  3031	Asharam	C762766-5		Ri Pz 	-	622	Wild	F5 V K4 V	{ 0 }	(262+1)	[9776]		13	24
+
+
+Input     3104	Aerfor	A584502-D		Ag Ni Pr RsD	A	534	Wild	F7 V	{ 2 }	(E46-2)	[1718]		15	-672
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   3104	Aerfor	D584000-0		Ag Ni Pr Da RsD	-	034	Wild	F7 V	{ -2 }	(200+1)	[1718]		15	2
+Wave+100  3104	Aerfor	D584000-0		Ag Ni Pr Da RsD	-	034	Wild	F7 V	{ -2 }	(200+1)	[1718]		15	2
+Wave+300  3104	Aerfor	D584000-0		Ag Ni Pr Da RsD	-	034	Wild	F7 V	{ -2 }	(200+1)	[1718]		15	2
+Wave+600  3104	Aerfor	D584000-0		Ag Ni Pr Da RsD	-	034	Wild	F7 V	{ -2 }	(200+1)	[1718]		15	2
+
+
+Input     3110	Olokono	E6A5211-8		Fl Lo	A	801	Wild	M0 V	{ -3 }	(510-5)	[1114]	B	14	0
+DIEBACK:
+Check Lo
+Wave+10   3110	Olokono	E6A5000-0	  	Fl Lo Da 	-	001	Wild	M0 V	{ -3 }	(200+3)	[1114]	B	14	6
+Wave+100  3110	Olokono	E6A5000-0	  	Fl Lo Da 	-	001	Wild	M0 V	{ -3 }	(200+3)	[1114]	B	14	6
+Wave+300  3110	Olokono	E6A5000-0	  	Fl Lo Da 	-	001	Wild	M0 V	{ -3 }	(200+3)	[1114]	B	14	6
+Wave+600  3110	Olokono	E6A5000-0	  	Fl Lo Da 	-	001	Wild	M0 V	{ -3 }	(200+3)	[1114]	B	14	6
+
+
+Input     3111	Lamar	C410401-7	S	Ni	A	223	Wild	M1 V	{ -2 }	(631-5)	[1212]	B	9	-90
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   3111	Lamar	D410000-0	S	Ni Da 	-	023	Wild	M1 V	{ -3 }	(200-1)	[1212]	B	9	-2
+Wave+100  3111	Lamar	D410000-0	S	Ni Da 	-	023	Wild	M1 V	{ -3 }	(200-1)	[1212]	B	9	-2
+Wave+300  3111	Lamar	D410000-0	S	Ni Da 	-	023	Wild	M1 V	{ -3 }	(200-1)	[1212]	B	9	-2
+Wave+600  3111	Lamar	D410000-0	S	Ni Da 	-	023	Wild	M1 V	{ -3 }	(200-1)	[1212]	B	9	-2
+
+
+Input     3112	Berth	B547354-B	NS	Lo	A	901	Wild	K5 V M5 V	{ 2 }	(622+1)	[1539]	B	11	24
+DIEBACK:
+Check Lo
+Wave+10   3112	Berth	D547000-0	 S	Lo Da 	-	001	Wild	K5 V M5 V	{ -3 }	(200+5)	[1539]	B	11	10
+Wave+100  3112	Berth	D547000-0	 S	Lo Da 	-	001	Wild	K5 V M5 V	{ -3 }	(200+5)	[1539]	B	11	10
+Wave+300  3112	Berth	D547000-0	 S	Lo Da 	-	001	Wild	K5 V M5 V	{ -3 }	(200+5)	[1539]	B	11	10
+Wave+600  3112	Berth	D547000-0	 S	Lo Da 	-	001	Wild	K5 V M5 V	{ -3 }	(200+5)	[1539]	B	11	10
+
+
+Input     3113	Prevsla	D543300-8		Lo Po	A	410	Wild	M4 V M5 V	{ -3 }	(620-5)	[1113]	B	9	0
+DIEBACK:
+Check Lo
+Wave+10   3113	Prevsla	D543000-0		Lo Po Da 	-	010	Wild	M4 V M5 V	{ -3 }	(200-3)	[1113]	B	9	-6
+Wave+100  3113	Prevsla	D543000-0		Lo Po Da 	-	010	Wild	M4 V M5 V	{ -3 }	(200-3)	[1113]	B	9	-6
+Wave+300  3113	Prevsla	D543000-0		Lo Po Da 	-	010	Wild	M4 V M5 V	{ -3 }	(200-3)	[1113]	B	9	-6
+Wave+600  3113	Prevsla	D543000-0		Lo Po Da 	-	010	Wild	M4 V M5 V	{ -3 }	(200-3)	[1113]	B	9	-6
+
+
+Input     3115	Arabah	C877233-5	S	Lo	A	820	Wild	F8 IV	{ -2 }	(410-5)	[1122]	B	12	0
+DIEBACK:
+Check Lo
+Wave+10   3115	Arabah	D877000-0	S	Lo Da 	-	020	Wild	F8 IV	{ -3 }	(200+1)	[1122]	B	12	2
+Wave+100  3115	Arabah	D877000-0	S	Lo Da 	-	020	Wild	F8 IV	{ -3 }	(200+1)	[1122]	B	12	2
+Wave+300  3115	Arabah	D877000-0	S	Lo Da 	-	020	Wild	F8 IV	{ -3 }	(200+1)	[1122]	B	12	2
+Wave+600  3115	Arabah	D877000-0	S	Lo Da 	-	020	Wild	F8 IV	{ -3 }	(200+1)	[1122]	B	12	2
+
+
+Input     3116	Sherad	A000474-E	N	As Ni Va	A	913	Wild	M6 V	{ 1 }	(A34+1)	[455E]	B	8	120
+REDUCED:
+DIEBACK:
+Check Ni
+Wave+10   3116	Sherad	D000000-0	 	As Ni Va Da 	-	013	Wild	M6 V	{ -3 }	(200-4)	[455E]	B	8	-8
+Wave+100  3116	Sherad	D000000-0	 	As Ni Va Da 	-	013	Wild	M6 V	{ -3 }	(200-4)	[455E]	B	8	-8
+Wave+300  3116	Sherad	D000000-0	 	As Ni Va Da 	-	013	Wild	M6 V	{ -3 }	(200-4)	[455E]	B	8	-8
+Wave+600  3116	Sherad	D000000-0	 	As Ni Va Da 	-	013	Wild	M6 V	{ -3 }	(200-4)	[455E]	B	8	-8
+
+
+Input     3201	Goukhsar	C563242-5		Lo	A	310	Wild	K6 V	{ -2 }	(410-4)	[1133]		11	0
+DIEBACK:
+Check Lo
+Wave+10   3201	Goukhsar	D563000-0		Lo Da 	-	010	Wild	K6 V	{ -3 }	(200+1)	[1133]		11	2
+Wave+100  3201	Goukhsar	D563000-0		Lo Da 	-	010	Wild	K6 V	{ -3 }	(200+1)	[1133]		11	2
+Wave+300  3201	Goukhsar	D563000-0		Lo Da 	-	010	Wild	K6 V	{ -3 }	(200+1)	[1133]		11	2
+Wave+600  3201	Goukhsar	D563000-0		Lo Da 	-	010	Wild	K6 V	{ -3 }	(200+1)	[1133]		11	2
+
+
+Input     3213	Salaam	D576300-5	S	Lo	A	222	Wild	M4 V M7 V	{ -3 }	(520-5)	[1111]	B	10	0
+DIEBACK:
+Check Lo
+Wave+10   3213	Salaam	D576000-0	S	Lo Da 	-	022	Wild	M4 V M7 V	{ -3 }	(200-4)	[1111]	B	10	-8
+Wave+100  3213	Salaam	D576000-0	S	Lo Da 	-	022	Wild	M4 V M7 V	{ -3 }	(200-4)	[1111]	B	10	-8
+Wave+300  3213	Salaam	D576000-0	S	Lo Da 	-	022	Wild	M4 V M7 V	{ -3 }	(200-4)	[1111]	B	10	-8
+Wave+600  3213	Salaam	D576000-0	S	Lo Da 	-	022	Wild	M4 V M7 V	{ -3 }	(200-4)	[1111]	B	10	-8
+
+

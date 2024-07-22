@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html ng-app="tas">
+<head>
+   <link rel="stylesheet" type="text/css" href="../../bootstrap-3.1.1-dist/css/bootstrap.min.css" />
+   <link href="../../css/justified-nav.css" rel="stylesheet">
+   <script type="text/javascript" src="../../js/angular.min.js"></script>
+   <script type="text/javascript" src="../../js/app.js"></script>	
+</head>
+
+<body>
+
+<div class="container" ng-controller="PanelController as panel">
+   <div class="masthead">
+      <h3 class="text-muted">World-Building Helper</h3>
+      <ul class="nav nav-justified">
+         <li ng-class="{ active:panel.isSet(1) }"> <a href ng-click="panel.setTab(1)">Map</a></li>
+         <li ng-class="{ active:panel.isSet(2) }"> <a href ng-click="panel.setTab(2)">Worksheet</a></li>
+      </ul>
+   </div>
+
+   <div ng-show="panel.isSet(1)">
+      <iframe src="http://travellermap.com/go/spin/1910?forceui=1" style="width: 700px; height: 600px;"></iframe>
+      <br />
+      Click on a world, then select the "Worksheet" tab and click "Update".
+
+      <script type="text/javascript">
+      window.addEventListener('message', function(e) {
+        if (e.origin === 'http://travellermap.com' && // This window
+            typeof e.data === 'object' && e.data && // Is non-null object
+            e.data.source === 'travellermap') { // From the map itself
+      	
+	      var url = "http://travellermap.com/api/jumpworlds?x=" + e.data.location.x
+	                + "&y=" + e.data.location.y 
+			        + "&jump=0";
+			        
+	      var xhr = new XMLHttpRequest();
+      
+          xhr.onload = function(e) {
+	            handleTravellermapData( this.response );
+          };
+      
+          xhr.open("get", url, true);
+          xhr.send();
+	      }
+      });
+      
+      function handleTravellermapData( dat )
+      {
+         var json = JSON.parse( dat );
+         json = json.Worlds[0];
+         var hashkey = json.Sector + "/" + json.Hex + "-main"; // + json.Name;
+         document.querySelector( "#name" ).value = hashkey || '';
+         document.querySelector( "#worldname" ).value = json.Name;
+         document.querySelector( "#uwp"  ).value = json.UWP || '';
+         document.querySelector( "#star" ).value = json.Stellar || '';
+      }
+      </script>
+   </div>
+
+   <div ng-show="panel.isSet(2)">
+
+      <form method="post" action="../../cgi-bin/processForm.cgi">
+      <textarea id="output" name="output" rows="12" cols="100"></textarea> 
+      <br />
+      Address: <input name="address" length="20" />
+      <input type="hidden" name="builder" value="builder5-world-profile.world" />
+      <input type="submit" value="Email it" />
+      </form>
+      
+      <br />
+      
+      <form>
+      <table>
+      <tr>
+         <td>World ID:</td>
+         <td> <input id="name" name="name" value="Dert" size="40" /> </td>
+         <td> e.g. Spinward Marches/1910-main </td>
+      </tr>
+      <tr>
+         <td>World Name:</td>
+         <td> <input id="worldname" name="worldname" value="Dert" size="40" /> </td>
+         <td> e.g. Regina</td>
+      </tr>
+      <tr>
+         <td>UWP:</td>
+         <td> <input id="uwp" name="uwp" value="D867973-8"/> </td>
+      </tr>
+      <tr>
+         <td>Primary:</td>
+         <td> <input id="star" name="star" value="G2 V"/> </td>
+      </tr>
+      <tr>
+         <td>Orbit:</td>
+         <td> <input id="orbit" name="orbit" value=""/> </td>
+         <td> AU </td>
+      </tr>
+      <tr>
+         <td>Tilt:</td>
+         <td> <input id="tilt" name="tilt" value=""/> </td>
+         <td> degrees </td>
+      </tr>
+      <tr>
+         <td>Eccentricity:</td>
+         <td> <input id="eccentricity" name="eccentricity" value=""/> </td>
+      </tr>
+      <tr>
+         <td>Density:</td>
+         <td> <input id="density" name="density" value=""/> </td>
+         <td> [0.001 .. 2.0] </td>
+      </tr>
+      <tr>
+         <td>Albedo:</td>
+         <td> <input id="albedo" name="albedo" /> </td>
+         <td> [0.0 .. 1.0] </td>
+      </tr>
+      <tr>
+         <td>Greenhouse Effect:</td>
+         <td> <input id="greenhouse" name="greenhouse" value=""/> </td>
+         <td> [0.0 .. 8.0] </td>
+      </tr>
+      </table>
+      
+      <button type="button" onClick="callBuilder(false);">Update</button>
+      <button type="button" onClick="callBuilder(true);">Data Only</button> 
+      <br />
+      </form>
+      
+      <script type="text/javascript">
+      function callBuilder( dataOnly )
+      {
+         var url = "http://traveller5.net/tools/worldbuilder/worldbuilder.cgi?";
+      
+         var name    = document.querySelector( "#name" ).value || '';
+         var world   = document.querySelector( "#worldname" ).value || '';
+         var uwp     = document.querySelector( "#uwp" ).value || '';
+         var star    = document.querySelector( "#star" ).value || '';
+         var density = document.querySelector( "#density" ).value || '';
+         var green   = document.querySelector( "#greenhouse" ).value || '';
+         var orbit   = document.querySelector( "#orbit" ).value || '';
+         var albedo  = document.querySelector( "#albedo" ).value || '';
+         var ecc     = document.querySelector( "#eccentricity" ).value || '';
+         var tilt    = document.querySelector( "#tilt" ).value || '';
+      
+         if ( name ) url += "name=" + name + "&";
+         if ( world ) url += "worldname=" + world + "&";
+         if ( uwp  ) url += "uwp="  + uwp  + "&";
+         if ( star ) url += "star=" + star + "&";
+         if ( albedo ) url += "albedo=" + albedo + "&";
+         if ( density ) url += "density=" + density + "&";
+         if ( green ) url += "greenhouse=" + green + "&";
+         if ( orbit ) url += "orbit=" + orbit + "&";
+         if ( ecc   ) url += "eccentricity=" + ecc + "&";
+         if ( tilt  ) url += "tilt=" + tilt + "&";
+      
+         var xhr = new XMLHttpRequest();
+      
+         xhr.onload = function(e) 
+         {
+            handleWorldBuilderData( this.response, dataOnly );
+         };
+      
+         xhr.open( "get", url, true );
+         xhr.send();
+      }
+      
+      
+      function handleWorldBuilderData( dat, dataOnly )
+      {
+         var json = JSON.parse( dat );
+         if ( json.density ) document.querySelector( "#density" ).value    = json.density;
+         if ( json.greenhouse ) document.querySelector( "#greenhouse" ).value = json.greenhouse;
+         if ( json.orbit ) document.querySelector( "#orbit" ).value      = json.orbit;
+         if ( json.albedo ) document.querySelector( "#albedo" ).value     = json.albedo;
+      
+         if ( dataOnly )
+            document.querySelector( "#output" ).value = dat;
+         else
+         {
+            document.querySelector( "#output" ).value = 
+               "World: " + json.data.worldname + " " + json.data.uwp + " (" + json.data.name + ")\n"
+			 + "Type: " + json.data.type + "\n"
+			 + "Primary: " + json.data.primary + "\n"
+             + "Orbit: " + json.data.orbitalRadius + " AU +/- " + json.data.orbitalEccentricity + " (Orbit " + json.data.orbitalTrack + ")\n"
+             + "Day length: " + json.data.hoursPerDay + " hours\n"
+             + "Year length: " + parseInt(json.data.orbitalPeriod) + " days\n"
+             + "Temp: " + json.data.temperature + " C, night index: " + json.data.nightTempIndex + ", season index: " + json.data.seasonalTempIndex + "\n"
+			 + "Hadley latitude: " + json.data.hadley_latitude + " degrees\n" 
+             + "Tilt: " + json.data.tilt + " degrees\n"
+             + json.data.continental_positions + " continents\n"
+             + json.data.continental_scatter + "\n"
+             + "Albedo: " + json.data.albedo + ", " + "Greenhouse: " + json.data.greenhouse + "\n"
+             + json.data.satellites_stringified + "\n"
+             + "\n"
+             + "Trade codes: " + json.data.trade_codes + "\n"
+             + "\n"
+             + "\n"
+             + json.data.world_desc + "\n"
+             + "\n"
+             + "Starport: " + json.data.starport_desc + "\n"
+             + "World size: " + json.data.siz_desc + " km diameter\n"
+             + "Atmosphere: " + json.data.atm_desc + "\n"
+             + "Hydrographics: " + json.data.hyd_desc + "\n"
+             + "Population: " + json.data.pop_desc + "\n"
+             + "Government: " + json.data.gov_desc + "\n"
+             + "Law level: " + json.data.law_desc + "\n"
+             + "Tech level: " + json.data.tl_desc + "\n"
+             + "\n"
+            ;
+         }
+         
+      }
+      </script>
+   </div>
+</div>
+
+</body>
+</html>
+
+
+
