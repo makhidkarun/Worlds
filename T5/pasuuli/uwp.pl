@@ -1,6 +1,7 @@
 #!/usr/local/bin/perl
 sleep 1; # throttle
 use CGI;
+use lib '.';
 use UWP;
 use Name2;
 use strict;
