@@ -10,3 +10,6 @@ Used to turn world data into text.
 
 Generates a full world-builded world in JSON.
 
+# world-describer.pl
+
+Puts JSON into words.
